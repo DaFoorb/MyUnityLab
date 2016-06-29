@@ -1,0 +1,15 @@
+﻿<Properties>
+  <MonoDevelop.Ide.Workspace />
+  <MonoDevelop.Ide.Workbench ActiveDocument="..\..\..\KDK2\KDK2\Assets\Script\Line.cs">
+    <Files>
+      <File FileName="..\..\..\KDK2\KDK2\Assets\Script\Line.cs" Line="27" Column="19" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore>
+      <Breakpoint file="B:\Developpement\KDK2\KDK2\Assets\Script\Line.cs" line="157" />
+      <Breakpoint file="B:\Developpement\KDK2\KDK2\Assets\Script\Line.cs" line="103" />
+    </BreakpointStore>
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+</Properties>

@@ -1,0 +1,4 @@
+sceneSetups:
+- path: Z:/Developpement/Unity3D/UnityTest/Camera/Camera2.5D/Assets/CameraFollowingCharacter.unity
+  isLoaded: 1
+  isActive: 1

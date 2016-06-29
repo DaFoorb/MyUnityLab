@@ -1,0 +1,4 @@
+sceneSetups:
+- path: Assets/CameraFollowingCharacter.unity
+  isLoaded: 1
+  isActive: 1
