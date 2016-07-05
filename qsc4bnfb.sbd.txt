@@ -1,0 +1,1718 @@
+﻿
+ # Please enter the commit message for your changes. Lines starting
+ #with '' will be ignored, and an empty message aborts the commit.
+ #On branch master
+ #Your branch is up-to-date with 'origin/master'.
+
+ #Changes to be committed:
+	new file:   UnityTest/Camera/Camera2.5D/.vs/Camera2.5D/v14/.suo
+	new file:   UnityTest/Camera/Camera2.5D/Assembly-CSharp.csproj
+	new file:   UnityTest/Camera/Camera2.5D/Assets/CameraFollowingCharacter.unity
+	new file:   UnityTest/Camera/Camera2.5D/Assets/CameraFollowingCharacter.unity.meta
+	new file:   UnityTest/Camera/Camera2.5D/Assets/Material.meta
+	new file:   UnityTest/Camera/Camera2.5D/Assets/Material/Obstacle.mat
+	new file:   UnityTest/Camera/Camera2.5D/Assets/Material/Obstacle.mat.meta
+	new file:   UnityTest/Camera/Camera2.5D/Assets/Material/Player.mat
+	new file:   UnityTest/Camera/Camera2.5D/Assets/Material/Player.mat.meta
+	new file:   UnityTest/Camera/Camera2.5D/Assets/Script.meta
+	new file:   UnityTest/Camera/Camera2.5D/Assets/Script/CameraBehavior.cs
+	new file:   UnityTest/Camera/Camera2.5D/Assets/Script/CameraBehavior.cs.meta
+	new file:   UnityTest/Camera/Camera2.5D/Assets/Script/Controller.cs
+	new file:   UnityTest/Camera/Camera2.5D/Assets/Script/Controller.cs.meta
+	new file:   UnityTest/Camera/Camera2.5D/Assets/Script/Player.cs
+	new file:   UnityTest/Camera/Camera2.5D/Assets/Script/Player.cs.meta
+	new file:   UnityTest/Camera/Camera2.5D/Camera2.5D.CSharp.csproj
+	new file:   UnityTest/Camera/Camera2.5D/Camera2.5D.sln
+	new file:   UnityTest/Camera/Camera2.5D/Camera2.5D.userprefs
+	new file:   UnityTest/Camera/Camera2.5D/Library/AnnotationManager
+	new file:   UnityTest/Camera/Camera2.5D/Library/AssetImportState
+	new file:   UnityTest/Camera/Camera2.5D/Library/AssetServerCacheV3
+	new file:   UnityTest/Camera/Camera2.5D/Library/BuildPlayer.prefs
+	new file:   UnityTest/Camera/Camera2.5D/Library/BuildSettings.asset
+	new file:   UnityTest/Camera/Camera2.5D/Library/CurrentLayout.dwlt
+	new file:   UnityTest/Camera/Camera2.5D/Library/EditorUserBuildSettings.asset
+	new file:   UnityTest/Camera/Camera2.5D/Library/EditorUserSettings.asset
+	new file:   UnityTest/Camera/Camera2.5D/Library/InspectorExpandedItems.asset
+	new file:   UnityTest/Camera/Camera2.5D/Library/LastSceneManagerSetup.txt
+	new file:   UnityTest/Camera/Camera2.5D/Library/LibraryFormatVersion.txt
+	new file:   UnityTest/Camera/Camera2.5D/Library/MonoManager.asset
+	new file:   UnityTest/Camera/Camera2.5D/Library/ProjectSettings.asset
+	new file:   UnityTest/Camera/Camera2.5D/Library/ScriptAssemblies/Assembly-CSharp.dll
+	new file:   UnityTest/Camera/Camera2.5D/Library/ScriptAssemblies/Assembly-CSharp.dll.mdb
+	new file:   UnityTest/Camera/Camera2.5D/Library/ScriptAssemblies/BuiltinAssemblies.stamp
+	new file:   UnityTest/Camera/Camera2.5D/Library/ScriptMapper
+	new file:   UnityTest/Camera/Camera2.5D/Library/ShaderCache/1/1a2b7fe560e488a838d8954e1442eda6.bin
+	new file:   UnityTest/Camera/Camera2.5D/Library/ShaderCache/3/38aa91f9394c92c966b576bdb9f86a62.bin
+	new file:   UnityTest/Camera/Camera2.5D/Library/ShaderCache/3/3be32702634463e1bcd71308db163fa1.bin
+	new file:   UnityTest/Camera/Camera2.5D/Library/ShaderCache/4/487a05413647b4cd81dfc4dfa74ce02c.bin
+	new file:   UnityTest/Camera/Camera2.5D/Library/ShaderCache/4/4d26a09591ab4432ac4d837238b389f3.bin
+	new file:   UnityTest/Camera/Camera2.5D/Library/ShaderCache/5/5082b4440f40da183f446be20443674a.bin
+	new file:   UnityTest/Camera/Camera2.5D/Library/ShaderCache/5/57859c5db5c39a3294d1c710d2047d28.bin
+	new file:   UnityTest/Camera/Camera2.5D/Library/ShaderCache/5/5b7ea82ed062366b0d8ed100480103ce.bin
+	new file:   UnityTest/Camera/Camera2.5D/Library/ShaderCache/9/9f9e260244d60b4826630cb6da6758a9.bin
+	new file:   UnityTest/Camera/Camera2.5D/Library/ShaderCache/f/f98c1dff0ca9967f64cd83d3a1fd5211.bin
+	new file:   UnityTest/Camera/Camera2.5D/Library/UnityAssemblies/UnityEditor.dll
+	new file:   UnityTest/Camera/Camera2.5D/Library/UnityAssemblies/UnityEditor.xml
+	new file:   UnityTest/Camera/Camera2.5D/Library/UnityAssemblies/UnityEngine.Networking.dll
+	new file:   UnityTest/Camera/Camera2.5D/Library/UnityAssemblies/UnityEngine.Networking.xml
+	new file:   UnityTest/Camera/Camera2.5D/Library/UnityAssemblies/UnityEngine.UI.dll
+	new file:   UnityTest/Camera/Camera2.5D/Library/UnityAssemblies/UnityEngine.UI.xml
+	new file:   UnityTest/Camera/Camera2.5D/Library/UnityAssemblies/UnityEngine.dll
+	new file:   UnityTest/Camera/Camera2.5D/Library/UnityAssemblies/UnityEngine.xml
+	new file:   UnityTest/Camera/Camera2.5D/Library/UnityAssemblies/version.txt
+	new file:   UnityTest/Camera/Camera2.5D/Library/assetDatabase3
+	new file:   UnityTest/Camera/Camera2.5D/Library/expandedItems
+	new file:   UnityTest/Camera/Camera2.5D/Library/metadata/00/00000000000000001000000000000000
+	new file:   UnityTest/Camera/Camera2.5D/Library/metadata/00/00000000000000001000000000000000.info
+	new file:   UnityTest/Camera/Camera2.5D/Library/metadata/00/00000000000000002000000000000000
+	new file:   UnityTest/Camera/Camera2.5D/Library/metadata/00/00000000000000002000000000000000.info
+	new file:   UnityTest/Camera/Camera2.5D/Library/metadata/00/00000000000000003000000000000000
+	new file:   UnityTest/Camera/Camera2.5D/Library/metadata/00/00000000000000003000000000000000.info
+	new file:   UnityTest/Camera/Camera2.5D/Library/metadata/00/00000000000000004000000000000000
+	new file:   UnityTest/Camera/Camera2.5D/Library/metadata/00/00000000000000004000000000000000.info
+	new file:   UnityTest/Camera/Camera2.5D/Library/metadata/00/00000000000000004100000000000000
+	new file:   UnityTest/Camera/Camera2.5D/Library/metadata/00/00000000000000004100000000000000.info
+	new file:   UnityTest/Camera/Camera2.5D/Library/metadata/00/00000000000000005000000000000000
+	new file:   UnityTest/Camera/Camera2.5D/Library/metadata/00/00000000000000005000000000000000.info
+	new file:   UnityTest/Camera/Camera2.5D/Library/metadata/00/00000000000000005100000000000000
+	new file:   UnityTest/Camera/Camera2.5D/Library/metadata/00/00000000000000005100000000000000.info
+	new file:   UnityTest/Camera/Camera2.5D/Library/metadata/00/00000000000000006000000000000000
+	new file:   UnityTest/Camera/Camera2.5D/Library/metadata/00/00000000000000006000000000000000.info
+	new file:   UnityTest/Camera/Camera2.5D/Library/metadata/00/00000000000000006100000000000000
+	new file:   UnityTest/Camera/Camera2.5D/Library/metadata/00/00000000000000006100000000000000.info
+	new file:   UnityTest/Camera/Camera2.5D/Library/metadata/00/00000000000000007000000000000000
+	new file:   UnityTest/Camera/Camera2.5D/Library/metadata/00/00000000000000007000000000000000.info
+	new file:   UnityTest/Camera/Camera2.5D/Library/metadata/00/00000000000000007100000000000000
+	new file:   UnityTest/Camera/Camera2.5D/Library/metadata/00/00000000000000007100000000000000.info
+	new file:   UnityTest/Camera/Camera2.5D/Library/metadata/00/00000000000000008000000000000000
+	new file:   UnityTest/Camera/Camera2.5D/Library/metadata/00/00000000000000008000000000000000.info
+	new file:   UnityTest/Camera/Camera2.5D/Library/metadata/00/00000000000000008100000000000000
+	new file:   UnityTest/Camera/Camera2.5D/Library/metadata/00/00000000000000008100000000000000.info
+	new file:   UnityTest/Camera/Camera2.5D/Library/metadata/00/00000000000000009000000000000000
+	new file:   UnityTest/Camera/Camera2.5D/Library/metadata/00/00000000000000009000000000000000.info
+	new file:   UnityTest/Camera/Camera2.5D/Library/metadata/00/0000000000000000a000000000000000
+	new file:   UnityTest/Camera/Camera2.5D/Library/metadata/00/0000000000000000a000000000000000.info
+	new file:   UnityTest/Camera/Camera2.5D/Library/metadata/00/0000000000000000a100000000000000
+	new file:   UnityTest/Camera/Camera2.5D/Library/metadata/00/0000000000000000a100000000000000.info
+	new file:   UnityTest/Camera/Camera2.5D/Library/metadata/00/0000000000000000b000000000000000
+	new file:   UnityTest/Camera/Camera2.5D/Library/metadata/00/0000000000000000b000000000000000.info
+	new file:   UnityTest/Camera/Camera2.5D/Library/metadata/00/0000000000000000c000000000000000
+	new file:   UnityTest/Camera/Camera2.5D/Library/metadata/00/0000000000000000c000000000000000.info
+	new file:   UnityTest/Camera/Camera2.5D/Library/metadata/07/0757ce945408de942b5a53126d246590
+	new file:   UnityTest/Camera/Camera2.5D/Library/metadata/07/0757ce945408de942b5a53126d246590.info
+	new file:   UnityTest/Camera/Camera2.5D/Library/metadata/25/25a0634665367dd4fb4cf75ab5f46a29
+	new file:   UnityTest/Camera/Camera2.5D/Library/metadata/25/25a0634665367dd4fb4cf75ab5f46a29.info
+	new file:   UnityTest/Camera/Camera2.5D/Library/metadata/3c/3c0ad459c1534645b5d603b7cc258f97
+	new file:   UnityTest/Camera/Camera2.5D/Library/metadata/3c/3c0ad459c1534645b5d603b7cc258f97.info
+	new file:   UnityTest/Camera/Camera2.5D/Library/metadata/5d/5d5e83bfe002ee949b6600525708107b
+	new file:   UnityTest/Camera/Camera2.5D/Library/metadata/5d/5d5e83bfe002ee949b6600525708107b.info
+	new file:   UnityTest/Camera/Camera2.5D/Library/metadata/5f/5f32cd94baa94578a686d4b9d6b660f7
+	new file:   UnityTest/Camera/Camera2.5D/Library/metadata/5f/5f32cd94baa94578a686d4b9d6b660f7.info
+	new file:   UnityTest/Camera/Camera2.5D/Library/metadata/73/739bbd9f364b4268874f9fd86ab3beef
+	new file:   UnityTest/Camera/Camera2.5D/Library/metadata/73/739bbd9f364b4268874f9fd86ab3beef.info
+	new file:   UnityTest/Camera/Camera2.5D/Library/metadata/7c/7cbab2be89b54486bbd23a6fe637d30e
+	new file:   UnityTest/Camera/Camera2.5D/Library/metadata/7c/7cbab2be89b54486bbd23a6fe637d30e.info
+	new file:   UnityTest/Camera/Camera2.5D/Library/metadata/80/80a3616ca19596e4da0f10f14d241e9f
+	new file:   UnityTest/Camera/Camera2.5D/Library/metadata/80/80a3616ca19596e4da0f10f14d241e9f.info
+	new file:   UnityTest/Camera/Camera2.5D/Library/metadata/85/852e56802eb941638acbb491814497b0
+	new file:   UnityTest/Camera/Camera2.5D/Library/metadata/85/852e56802eb941638acbb491814497b0.info
+	new file:   UnityTest/Camera/Camera2.5D/Library/metadata/87/870353891bb340e2b2a9c8707e7419ba
+	new file:   UnityTest/Camera/Camera2.5D/Library/metadata/87/870353891bb340e2b2a9c8707e7419ba.info
+	new file:   UnityTest/Camera/Camera2.5D/Library/metadata/88/88de92724c6368b41b5ac2966e4258da
+	new file:   UnityTest/Camera/Camera2.5D/Library/metadata/88/88de92724c6368b41b5ac2966e4258da.info
+	new file:   UnityTest/Camera/Camera2.5D/Library/metadata/8e/8e0cd8ed44d4412cbe0642067abc9e44
+	new file:   UnityTest/Camera/Camera2.5D/Library/metadata/8e/8e0cd8ed44d4412cbe0642067abc9e44.info
+	new file:   UnityTest/Camera/Camera2.5D/Library/metadata/97/97decbdab0634cdd991f8d23ddf0dead
+	new file:   UnityTest/Camera/Camera2.5D/Library/metadata/97/97decbdab0634cdd991f8d23ddf0dead.info
+	new file:   UnityTest/Camera/Camera2.5D/Library/metadata/ad/adebbd281f1a4ef3a30be7f21937e02f
+	new file:   UnityTest/Camera/Camera2.5D/Library/metadata/ad/adebbd281f1a4ef3a30be7f21937e02f.info
+	new file:   UnityTest/Camera/Camera2.5D/Library/metadata/b3/b33c9fec5fc139147823ddd4580458cd
+	new file:   UnityTest/Camera/Camera2.5D/Library/metadata/b3/b33c9fec5fc139147823ddd4580458cd.info
+	new file:   UnityTest/Camera/Camera2.5D/Library/metadata/d7/d7f70d706b8586e4cb3560bb8216c5ce
+	new file:   UnityTest/Camera/Camera2.5D/Library/metadata/d7/d7f70d706b8586e4cb3560bb8216c5ce.info
+	new file:   UnityTest/Camera/Camera2.5D/Library/metadata/f0/f06f27c7ea433ae4b9342abe9f796c46
+	new file:   UnityTest/Camera/Camera2.5D/Library/metadata/f0/f06f27c7ea433ae4b9342abe9f796c46.info
+	new file:   UnityTest/Camera/Camera2.5D/Library/metadata/f5/f5f67c52d1564df4a8936ccd202a3bd8
+	new file:   UnityTest/Camera/Camera2.5D/Library/metadata/f5/f5f67c52d1564df4a8936ccd202a3bd8.info
+	new file:   UnityTest/Camera/Camera2.5D/Library/metadata/fb/fb0013a0813ccf54b8cd6e9a9a4421c6
+	new file:   UnityTest/Camera/Camera2.5D/Library/metadata/fb/fb0013a0813ccf54b8cd6e9a9a4421c6.info
+	new file:   UnityTest/Camera/Camera2.5D/Library/shadercompiler-UnityShaderCompiler.exe0.log
+	new file:   UnityTest/Camera/Camera2.5D/ProjectSettings/AudioManager.asset
+	new file:   UnityTest/Camera/Camera2.5D/ProjectSettings/ClusterInputManager.asset
+	new file:   UnityTest/Camera/Camera2.5D/ProjectSettings/DynamicsManager.asset
+	new file:   UnityTest/Camera/Camera2.5D/ProjectSettings/EditorBuildSettings.asset
+	new file:   UnityTest/Camera/Camera2.5D/ProjectSettings/EditorSettings.asset
+	new file:   UnityTest/Camera/Camera2.5D/ProjectSettings/GraphicsSettings.asset
+	new file:   UnityTest/Camera/Camera2.5D/ProjectSettings/InputManager.asset
+	new file:   UnityTest/Camera/Camera2.5D/ProjectSettings/NavMeshAreas.asset
+	new file:   UnityTest/Camera/Camera2.5D/ProjectSettings/NetworkManager.asset
+	new file:   UnityTest/Camera/Camera2.5D/ProjectSettings/Physics2DSettings.asset
+	new file:   UnityTest/Camera/Camera2.5D/ProjectSettings/ProjectSettings.asset
+	new file:   UnityTest/Camera/Camera2.5D/ProjectSettings/ProjectVersion.txt
+	new file:   UnityTest/Camera/Camera2.5D/ProjectSettings/QualitySettings.asset
+	new file:   UnityTest/Camera/Camera2.5D/ProjectSettings/TagManager.asset
+	new file:   UnityTest/Camera/Camera2.5D/ProjectSettings/TimeManager.asset
+	new file:   UnityTest/Camera/Camera2.5D/ProjectSettings/UnityAdsSettings.asset
+	new file:   UnityTest/Camera/Camera2.5D/ProjectSettings/UnityConnectSettings.asset
+	new file:   UnityTest/QTE/QTETest/Assembly-CSharp.csproj
+	new file:   UnityTest/QTE/QTETest/Assets/Button.mat
+	new file:   UnityTest/QTE/QTETest/Assets/Button.mat.meta
+	new file:   UnityTest/QTE/QTETest/Assets/InputScreen.cs
+	new file:   UnityTest/QTE/QTETest/Assets/InputScreen.cs.meta
+	new file:   UnityTest/QTE/QTETest/Assets/QTE.cs
+	new file:   UnityTest/QTE/QTETest/Assets/QTE.cs.meta
+	new file:   UnityTest/QTE/QTETest/Assets/QTE.unity
+	new file:   UnityTest/QTE/QTETest/Assets/QTE.unity.meta
+	new file:   UnityTest/QTE/QTETest/Library/AnnotationManager
+	new file:   UnityTest/QTE/QTETest/Library/AssetImportState
+	new file:   UnityTest/QTE/QTETest/Library/AssetServerCacheV3
+	new file:   UnityTest/QTE/QTETest/Library/AssetVersioning.db
+	new file:   UnityTest/QTE/QTETest/Library/BuildPlayer.prefs
+	new file:   UnityTest/QTE/QTETest/Library/BuildSettings.asset
+	new file:   UnityTest/QTE/QTETest/Library/CurrentLayout.dwlt
+	new file:   UnityTest/QTE/QTETest/Library/EditorUserBuildSettings.asset
+	new file:   UnityTest/QTE/QTETest/Library/EditorUserSettings.asset
+	new file:   UnityTest/QTE/QTETest/Library/InspectorExpandedItems.asset
+	new file:   UnityTest/QTE/QTETest/Library/LibraryFormatVersion.txt
+	new file:   UnityTest/QTE/QTETest/Library/MonoManager.asset
+	new file:   UnityTest/QTE/QTETest/Library/ProjectSettings.asset
+	new file:   UnityTest/QTE/QTETest/Library/ScriptAssemblies/Assembly-CSharp.dll
+	new file:   UnityTest/QTE/QTETest/Library/ScriptAssemblies/Assembly-CSharp.dll.mdb
+	new file:   UnityTest/QTE/QTETest/Library/ScriptAssemblies/BuiltinAssemblies.stamp
+	new file:   UnityTest/QTE/QTETest/Library/ScriptMapper
+	new file:   UnityTest/QTE/QTETest/Library/ShaderCache.db
+	new file:   UnityTest/QTE/QTETest/Library/ShaderCache/0/019da81393266e5fbeffa326dd34c9dd.bin
+	new file:   UnityTest/QTE/QTETest/Library/ShaderCache/0/025b70db7bfe745ceb0dcf1717c9f61e.bin
+	new file:   UnityTest/QTE/QTETest/Library/ShaderCache/0/0287bd09ebe6aea389ccfca7ac857ae0.bin
+	new file:   UnityTest/QTE/QTETest/Library/ShaderCache/0/02d160ffe2749b5c12a11bb9d528a573.bin
+	new file:   UnityTest/QTE/QTETest/Library/ShaderCache/0/031cfc67ef0ce14a5eb9863365c0e521.bin
+	new file:   UnityTest/QTE/QTETest/Library/ShaderCache/0/0536c90f3e91f3aeb12a77c5e943924f.bin
+	new file:   UnityTest/QTE/QTETest/Library/ShaderCache/0/05a4772fda21b08d316c5dd0985ebb5a.bin
+	new file:   UnityTest/QTE/QTETest/Library/ShaderCache/0/05c49d5c9c9e2cdae2383459d943fbfe.bin
+	new file:   UnityTest/QTE/QTETest/Library/ShaderCache/0/05ce082f6598bc871cc107680cbbcf97.bin
+	new file:   UnityTest/QTE/QTETest/Library/ShaderCache/0/066e5f952ebb3d62c0c62e3904c68495.bin
+	new file:   UnityTest/QTE/QTETest/Library/ShaderCache/0/0670eeec27fe650da9279961a7ff5bd8.bin
+	new file:   UnityTest/QTE/QTETest/Library/ShaderCache/0/06776728e33fc9af2ed1df4f3d08faa1.bin
+	new file:   UnityTest/QTE/QTETest/Library/ShaderCache/0/06f790d8974e4d2617aac18cb5466793.bin
+	new file:   UnityTest/QTE/QTETest/Library/ShaderCache/0/07d9cc9488d6662d085ef35fe6db9db6.bin
+	new file:   UnityTest/QTE/QTETest/Library/ShaderCache/0/081e9584c5c682c7ffcb5cd5bc112a92.bin
+	new file:   UnityTest/QTE/QTETest/Library/ShaderCache/0/097886457247838aa7d8d2a0b2111588.bin
+	new file:   UnityTest/QTE/QTETest/Library/ShaderCache/0/097fa0d1e59a9ed1c0f4fcc6fe2a050c.bin
+	new file:   UnityTest/QTE/QTETest/Library/ShaderCache/0/09d157f32891609155d3b87b32a112e6.bin
+	new file:   UnityTest/QTE/QTETest/Library/ShaderCache/0/0a28c94bbc8aeec4f3f8d2cb33e3a248.bin
+	new file:   UnityTest/QTE/QTETest/Library/ShaderCache/0/0a67bd84bf4f1d75063883bff766f672.bin
+	new file:   UnityTest/QTE/QTETest/Library/ShaderCache/0/0a79d3b1d709a6a37ecd43cd22131b2e.bin
+	new file:   UnityTest/QTE/QTETest/Library/ShaderCache/0/0b03b61e429134c346454032efc98dc6.bin
+	new file:   UnityTest/QTE/QTETest/Library/ShaderCache/0/0b16097e50a084727994a45c71d653c0.bin
+	new file:   UnityTest/QTE/QTETest/Library/ShaderCache/0/0b1783294dde37863689bf2fb3125e17.bin
+	new file:   UnityTest/QTE/QTETest/Library/ShaderCache/0/0b60eff68e5258e0d758c93e4db2da89.bin
+	new file:   UnityTest/QTE/QTETest/Library/ShaderCache/0/0b9b07f63963e82aac8a5b32689dcdd5.bin
+	new file:   UnityTest/QTE/QTETest/Library/ShaderCache/0/0c27c410c6b29aa109b9363903d36d5b.bin
+	new file:   UnityTest/QTE/QTETest/Library/ShaderCache/0/0c67be52a1eb4d771f02e1872a7afd3f.bin
+	new file:   UnityTest/QTE/QTETest/Library/ShaderCache/0/0d883e258707b3f1c3120d151d2f721b.bin
+	new file:   UnityTest/QTE/QTETest/Library/ShaderCache/0/0dad50b5ac56b277efde98f7cf7422ac.bin
+	new file:   UnityTest/QTE/QTETest/Library/ShaderCache/0/0e8a9be3ece5937cb2a6c4276d3bc533.bin
+	new file:   UnityTest/QTE/QTETest/Library/ShaderCache/0/0eb53102b5c4a2c1e689e3a5b26d3137.bin
+	new file:   UnityTest/QTE/QTETest/Library/ShaderCache/0/0f510aa1a7b48218738cec8388b3c8a1.bin
+	new file:   UnityTest/QTE/QTETest/Library/ShaderCache/0/0f538d1d185039adf0973032cddce8bc.bin
+	new file:   UnityTest/QTE/QTETest/Library/ShaderCache/0/0f9e99a91d0b245ecb0dfb0801a1194b.bin
+	new file:   UnityTest/QTE/QTETest/Library/ShaderCache/1/10675b956a6ae55a654ad0e185098c02.bin
+	new file:   UnityTest/QTE/QTETest/Library/ShaderCache/1/1068dde875c92d708a4ebd42335b27b8.bin
+	new file:   UnityTest/QTE/QTETest/Library/ShaderCache/1/108e9c0ac45fc67dab4fac114230e194.bin
+	new file:   UnityTest/QTE/QTETest/Library/ShaderCache/1/1108c0a105c2719fb21d1a6f62d9a108.bin
+	new file:   UnityTest/QTE/QTETest/Library/ShaderCache/1/113d79b5c53dfc14b7c52e892d3b7260.bin
+	new file:   UnityTest/QTE/QTETest/Library/ShaderCache/1/118d12d8fe8e60909dcd8454e9aad5a3.bin
+	new file:   UnityTest/QTE/QTETest/Library/ShaderCache/1/11e3ec4114ce74b9c9eeae199b11159b.bin
+	new file:   UnityTest/QTE/QTETest/Library/ShaderCache/1/120c0e7edeac458baa9f4057682c869b.bin
+	new file:   UnityTest/QTE/QTETest/Library/ShaderCache/1/1212622b9c819e5faf69a93b77dbb02b.bin
+	new file:   UnityTest/QTE/QTETest/Library/ShaderCache/1/12692037badfae8f96a81d69aca1d28b.bin
+	new file:   UnityTest/QTE/QTETest/Library/ShaderCache/1/13ca7daefa28f7c3389685449ee0635d.bin
+	new file:   UnityTest/QTE/QTETest/Library/ShaderCache/1/1448c2e64c9d6ca3bb380c34dd571c78.bin
+	new file:   UnityTest/QTE/QTETest/Library/ShaderCache/1/145a76c77b58ba7767ce03653e13504e.bin
+	new file:   UnityTest/QTE/QTETest/Library/ShaderCache/1/1517cac0aed3fd99910cd7c1eacaef75.bin
+	new file:   UnityTest/QTE/QTETest/Library/ShaderCache/1/165a75733458f12d2157a8c456d5c413.bin
+	new file:   UnityTest/QTE/QTETest/Library/ShaderCache/1/166677ed173b7585aaf6131d4112ed09.bin
+	new file:   UnityTest/QTE/QTETest/Library/ShaderCache/1/1666f80744f524edc1cbaf1742c9dc8a.bin
+	new file:   UnityTest/QTE/QTETest/Library/ShaderCache/1/169fe12437a3d26abebe594c3df4a40f.bin
+	new file:   UnityTest/QTE/QTETest/Library/ShaderCache/1/1736305332e1e65a96275f18f8870f00.bin
+	new file:   UnityTest/QTE/QTETest/Library/ShaderCache/1/17414df369fbf29e557e0b3a9d527b1c.bin
+	new file:   UnityTest/QTE/QTETest/Library/ShaderCache/1/17c4c4bd637ee4803ded9d1499e75dfe.bin
+	new file:   UnityTest/QTE/QTETest/Library/ShaderCache/1/185eafa74a3994ea61d3b8188320d298.bin
+	new file:   UnityTest/QTE/QTETest/Library/ShaderCache/1/18cf939499b9d1ee675827ae9f4c2300.bin
+	new file:   UnityTest/QTE/QTETest/Library/ShaderCache/1/18eb9cc27ceba220a407d4673d129cdf.bin
+	new file:   UnityTest/QTE/QTETest/Library/ShaderCache/1/1980f9ebb5bf0bc490a53795448be9d1.bin
+	new file:   UnityTest/QTE/QTETest/Library/ShaderCache/1/19972fee6c6c487c2c89b296e1143176.bin
+	new file:   UnityTest/QTE/QTETest/Library/ShaderCache/1/1bbc13a7df051c48e1f7955bc5118fd3.bin
+	new file:   UnityTest/QTE/QTETest/Library/ShaderCache/1/1c0bc964c491c043abe5ad07a3e35203.bin
+	new file:   UnityTest/QTE/QTETest/Library/ShaderCache/1/1c26a4c305ef601e7fb8b117ac85ff2a.bin
+	new file:   UnityTest/QTE/QTETest/Library/ShaderCache/1/1cc7e96f11ca304294455c89f251ee33.bin
+	new file:   UnityTest/QTE/QTETest/Library/ShaderCache/1/1df6a6ada71c9531817f05abdce32f05.bin
+	new file:   UnityTest/QTE/QTETest/Library/ShaderCache/1/1ea72eb007cdc11cb0eaf3c95c032417.bin
+	new file:   UnityTest/QTE/QTETest/Library/ShaderCache/1/1ee674210fcbc040e019348552e99e7b.bin
+	new file:   UnityTest/QTE/QTETest/Library/ShaderCache/1/1ef48ab90d82e298e14ffe6fcd3f653e.bin
+	new file:   UnityTest/QTE/QTETest/Library/ShaderCache/1/1f492e7b11cbbcf52a42b7f5f41de167.bin
+	new file:   UnityTest/QTE/QTETest/Library/ShaderCache/2/200c9d89fcb2342cd9e272256b7dc262.bin
+	new file:   UnityTest/QTE/QTETest/Library/ShaderCache/2/205599685ca38a9a2272397e8fa5096d.bin
+	new file:   UnityTest/QTE/QTETest/Library/ShaderCache/2/208fb7c08ba1782566bfc0879e9727e2.bin
+	new file:   UnityTest/QTE/QTETest/Library/ShaderCache/2/210ae379179034eac7e01ca6038a933c.bin
+	new file:   UnityTest/QTE/QTETest/Library/ShaderCache/2/214197b6a7b1ea0644016c7837eabb30.bin
+	new file:   UnityTest/QTE/QTETest/Library/ShaderCache/2/22234cdeb8117b9eb92f14b0c00ef973.bin
+	new file:   UnityTest/QTE/QTETest/Library/ShaderCache/2/225c4278cb8d3f69a0fdf6935dd4677d.bin
+	new file:   UnityTest/QTE/QTETest/Library/ShaderCache/2/2280b8ab54af65a685b47149f2bfbc43.bin
+	new file:   UnityTest/QTE/QTETest/Library/ShaderCache/2/22dde875ff1334d9a92e3b34b2dbca19.bin
+	new file:   UnityTest/QTE/QTETest/Library/ShaderCache/2/22def3fe18848163a12c22dfad8d6c0d.bin
+	new file:   UnityTest/QTE/QTETest/Library/ShaderCache/2/238c4bb7ccf40bf69ad101ae23774aa9.bin
+	new file:   UnityTest/QTE/QTETest/Library/ShaderCache/2/239dc399389936936b21cae984d70e75.bin
+	new file:   UnityTest/QTE/QTETest/Library/ShaderCache/2/24f602e0ec6a99e40175cc8d940c9adf.bin
+	new file:   UnityTest/QTE/QTETest/Library/ShaderCache/2/259d238135cc385df359dcf3b69e31fd.bin
+	new file:   UnityTest/QTE/QTETest/Library/ShaderCache/2/25abb867150bac62ebde11eaf91fd971.bin
+	new file:   UnityTest/QTE/QTETest/Library/ShaderCache/2/25af8ff0c008176fa7b02e3df85b93ff.bin
+	new file:   UnityTest/QTE/QTETest/Library/ShaderCache/2/25c5c4be2f9afe10fb4c0831c6dfbc09.bin
+	new file:   UnityTest/QTE/QTETest/Library/ShaderCache/2/264592ac5fae2d7cce4458e4325a9498.bin
+	new file:   UnityTest/QTE/QTETest/Library/ShaderCache/2/264782f28b876bfafe427856e182f93f.bin
+	new file:   UnityTest/QTE/QTETest/Library/ShaderCache/2/26f563261d9cedff67e55e2d83b87bc5.bin
+	new file:   UnityTest/QTE/QTETest/Library/ShaderCache/2/2781507e96f8dc30d716a28c7b4ba299.bin
+	new file:   UnityTest/QTE/QTETest/Library/ShaderCache/2/27876b84ef5ae64b8b9dca04bbb6d4b4.bin
+	new file:   UnityTest/QTE/QTETest/Library/ShaderCache/2/284b7acb6717f1ca4255bebfa7b40e4a.bin
+	new file:   UnityTest/QTE/QTETest/Library/ShaderCache/2/2870ee949d0b40d47dbf4cdfb268f45a.bin
+	new file:   UnityTest/QTE/QTETest/Library/ShaderCache/2/28d5a92adc2049df5814d5fc8ca3bc7a.bin
+	new file:   UnityTest/QTE/QTETest/Library/ShaderCache/2/28f54556c3714b2f50b16cc4ad446c1a.bin
+	new file:   UnityTest/QTE/QTETest/Library/ShaderCache/2/290874896fa41aa3f636d9e4d30269d6.bin
+	new file:   UnityTest/QTE/QTETest/Library/ShaderCache/2/29e8cc577c0d83d87441689ba0071b81.bin
+	new file:   UnityTest/QTE/QTETest/Library/ShaderCache/2/2aab85b3dd778f7178aad39bd7fa03e1.bin
+	new file:   UnityTest/QTE/QTETest/Library/ShaderCache/2/2b70db641c49969eecd688fe44655663.bin
+	new file:   UnityTest/QTE/QTETest/Library/ShaderCache/2/2c712feef28fe54b51ba8b367c767808.bin
+	new file:   UnityTest/QTE/QTETest/Library/ShaderCache/2/2ca7acac8196ec4a613d1a4a0387aff1.bin
+	new file:   UnityTest/QTE/QTETest/Library/ShaderCache/2/2cbb3def7af41549612bb4c08fd679d0.bin
+	new file:   UnityTest/QTE/QTETest/Library/ShaderCache/2/2e46a21f5eb7720232b28fb5ed5e7e4c.bin
+	new file:   UnityTest/QTE/QTETest/Library/ShaderCache/2/2fd0526aaf5e04b72fc3d58806a9db46.bin
+	new file:   UnityTest/QTE/QTETest/Library/ShaderCache/2/2feb2c6e4cdc6c7f00d8c19dfd85c9a0.bin
+	new file:   UnityTest/QTE/QTETest/Library/ShaderCache/3/30841d3bfc598a412eb8378c23e100f9.bin
+	new file:   UnityTest/QTE/QTETest/Library/ShaderCache/3/30a330cd10c67d8de60a9d818e2afb92.bin
+	new file:   UnityTest/QTE/QTETest/Library/ShaderCache/3/30b715fdc502d7dcf6ba1775568e81ec.bin
+	new file:   UnityTest/QTE/QTETest/Library/ShaderCache/3/3115b48656c37d42432f2ba34b487d8b.bin
+	new file:   UnityTest/QTE/QTETest/Library/ShaderCache/3/3197342229e033221b4c7858fd23aac7.bin
+	new file:   UnityTest/QTE/QTETest/Library/ShaderCache/3/31fd1eb2e462ab0fce024ae40f27d2fe.bin
+	new file:   UnityTest/QTE/QTETest/Library/ShaderCache/3/321a43019025bb089918e18ac9940ae5.bin
+	new file:   UnityTest/QTE/QTETest/Library/ShaderCache/3/321cbc3c44fbe4c532ddf179054b815e.bin
+	new file:   UnityTest/QTE/QTETest/Library/ShaderCache/3/323577a0b8975b2d40980cd30ec2cbca.bin
+	new file:   UnityTest/QTE/QTETest/Library/ShaderCache/3/328869c784fc1fbff8114607125a230e.bin
+	new file:   UnityTest/QTE/QTETest/Library/ShaderCache/3/342f06436f600898481e6f10a579ac26.bin
+	new file:   UnityTest/QTE/QTETest/Library/ShaderCache/3/34cc23d613fb03aa0f3b14222efce417.bin
+	new file:   UnityTest/QTE/QTETest/Library/ShaderCache/3/35f0ef4280dad1a05f8175244f106a7e.bin
+	new file:   UnityTest/QTE/QTETest/Library/ShaderCache/3/35fe5fc1f967ffd5701d0e7e4ca1d0f5.bin
+	new file:   UnityTest/QTE/QTETest/Library/ShaderCache/3/3662affc58b0f087d41ae605d1d59636.bin
+	new file:   UnityTest/QTE/QTETest/Library/ShaderCache/3/36ee7a47e9435804d652be192a83aa9a.bin
+	new file:   UnityTest/QTE/QTETest/Library/ShaderCache/3/374f909bb40fc7984a0c5b6a9d711846.bin
+	new file:   UnityTest/QTE/QTETest/Library/ShaderCache/3/380c30bdeb62f118d5d6764304fe9e7e.bin
+	new file:   UnityTest/QTE/QTETest/Library/ShaderCache/3/3895d794bed486e5697cb487c4741699.bin
+	new file:   UnityTest/QTE/QTETest/Library/ShaderCache/3/3940771b266b32810c43e3cb394f7727.bin
+	new file:   UnityTest/QTE/QTETest/Library/ShaderCache/3/39aad72e609fb97ef25032110bb89466.bin
+	new file:   UnityTest/QTE/QTETest/Library/ShaderCache/3/39f37c43e20c759f1998ea5b84f104bc.bin
+	new file:   UnityTest/QTE/QTETest/Library/ShaderCache/3/3a338aa44bca358acd3275cc4436cee4.bin
+	new file:   UnityTest/QTE/QTETest/Library/ShaderCache/3/3ba14c826c06e93a80e45483db03aa57.bin
+	new file:   UnityTest/QTE/QTETest/Library/ShaderCache/3/3c325fdfc6083d0c64d901f4ad6f69e2.bin
+	new file:   UnityTest/QTE/QTETest/Library/ShaderCache/3/3c5f7dab95c09023d4c67b736c849ea0.bin
+	new file:   UnityTest/QTE/QTETest/Library/ShaderCache/3/3c64b1b2ecbbb78af09b6686e29b2976.bin
+	new file:   UnityTest/QTE/QTETest/Library/ShaderCache/3/3ca3db4a3a3bd7faa7368fe62380f28e.bin
+	new file:   UnityTest/QTE/QTETest/Library/ShaderCache/3/3ccab20b02fcc628e86630faa239cb9c.bin
+	new file:   UnityTest/QTE/QTETest/Library/ShaderCache/3/3d65574c1d5f5b19ee74fd4a6e9b8b19.bin
+	new file:   UnityTest/QTE/QTETest/Library/ShaderCache/3/3dd9b593632089c785c11e8eff1b3ae6.bin
+	new file:   UnityTest/QTE/QTETest/Library/ShaderCache/3/3ea0036cd51b34817f4fc80bb8932daa.bin
+	new file:   UnityTest/QTE/QTETest/Library/ShaderCache/3/3ea042d16f92cb4ce24985ac2b023428.bin
+	new file:   UnityTest/QTE/QTETest/Library/ShaderCache/3/3ed3be53cf1b2be52276bf2f18d33f58.bin
+	new file:   UnityTest/QTE/QTETest/Library/ShaderCache/3/3f3205d21de8f2ebdca88716130ff44e.bin
+	new file:   UnityTest/QTE/QTETest/Library/ShaderCache/3/3f48a37af1073b5de0f6be47d0fcb0fc.bin
+	new file:   UnityTest/QTE/QTETest/Library/ShaderCache/3/3f84bfe7633d1bb3f4a16d0a5984e236.bin
+	new file:   UnityTest/QTE/QTETest/Library/ShaderCache/3/3f855357f16bc60db6f082881ed236d1.bin
+	new file:   UnityTest/QTE/QTETest/Library/ShaderCache/3/3f9b339b0c952c143ddcff53926d744f.bin
+	new file:   UnityTest/QTE/QTETest/Library/ShaderCache/3/3fb1cd8bc22ac7e8dc2d59adf28f929d.bin
+	new file:   UnityTest/QTE/QTETest/Library/ShaderCache/4/401eb8a807280339e449ad4cc3685161.bin
+	new file:   UnityTest/QTE/QTETest/Library/ShaderCache/4/401f8d1aadd27dd68553107f64f32b32.bin
+	new file:   UnityTest/QTE/QTETest/Library/ShaderCache/4/40cda7f33e0bfcf06c2aab23dd4f90e0.bin
+	new file:   UnityTest/QTE/QTETest/Library/ShaderCache/4/41658d361f080619d62a018a560fd7e6.bin
+	new file:   UnityTest/QTE/QTETest/Library/ShaderCache/4/418b39056f0d819a82bd6c7d289e84c5.bin
+	new file:   UnityTest/QTE/QTETest/Library/ShaderCache/4/41d69a4c5fed07024e445106493080b6.bin
+	new file:   UnityTest/QTE/QTETest/Library/ShaderCache/4/4211fecc9a5170d9a3ee43d05d42c61e.bin
+	new file:   UnityTest/QTE/QTETest/Library/ShaderCache/4/423c928fadd62deec15809d11b3d4625.bin
+	new file:   UnityTest/QTE/QTETest/Library/ShaderCache/4/42860a08e29f1eafdc6332ea245657d0.bin
+	new file:   UnityTest/QTE/QTETest/Library/ShaderCache/4/429b35274d2c4bfa9dffffb8bc2b56e6.bin
+	new file:   UnityTest/QTE/QTETest/Library/ShaderCache/4/42b5dea2ecffaeac58255165cc728765.bin
+	new file:   UnityTest/QTE/QTETest/Library/ShaderCache/4/42dcccd481052cca700616649ed70e63.bin
+	new file:   UnityTest/QTE/QTETest/Library/ShaderCache/4/43120239c2e44d1ca35dac41b200cfe9.bin
+	new file:   UnityTest/QTE/QTETest/Library/ShaderCache/4/435f45096f7a84d785e390dd53c19cd5.bin
+	new file:   UnityTest/QTE/QTETest/Library/ShaderCache/4/43ba8bdce5c03f2a84ace3128f481ce1.bin
+	new file:   UnityTest/QTE/QTETest/Library/ShaderCache/4/43cbf73b4a46e68ccde201d25c50c864.bin
+	new file:   UnityTest/QTE/QTETest/Library/ShaderCache/4/440042ebac6d07dd606bda23d965cde2.bin
+	new file:   UnityTest/QTE/QTETest/Library/ShaderCache/4/44295c718b474bcfcd04a809e2615d4c.bin
+	new file:   UnityTest/QTE/QTETest/Library/ShaderCache/4/45f79e30b9b9860bd07f74bcf1f4c981.bin
+	new file:   UnityTest/QTE/QTETest/Library/ShaderCache/4/46f39833724d581a685cf2dbe24cfc55.bin
+	new file:   UnityTest/QTE/QTETest/Library/ShaderCache/4/474cc878bccf0904f06efb8e3daf806b.bin
+	new file:   UnityTest/QTE/QTETest/Library/ShaderCache/4/47b3e17a29fb7cb5b173236f5426daad.bin
+	new file:   UnityTest/QTE/QTETest/Library/ShaderCache/4/482403900bb2f79e59c1c8e5c4cc9e7d.bin
+	new file:   UnityTest/QTE/QTETest/Library/ShaderCache/4/48436fc7417e651fc33500417e6e80e3.bin
+	new file:   UnityTest/QTE/QTETest/Library/ShaderCache/4/48e5170fcb9a03ef0202cace2f7c6490.bin
+	new file:   UnityTest/QTE/QTETest/Library/ShaderCache/4/48fc199add05b5fae5e9094b002bae62.bin
+	new file:   UnityTest/QTE/QTETest/Library/ShaderCache/4/493fd1cd3befa9c63e9078b9c6e62ac9.bin
+	new file:   UnityTest/QTE/QTETest/Library/ShaderCache/4/4a6ca125cb068d26733581917127bac5.bin
+	new file:   UnityTest/QTE/QTETest/Library/ShaderCache/4/4a81a775c266b6e0ca9550289ce5c8e8.bin
+	new file:   UnityTest/QTE/QTETest/Library/ShaderCache/4/4aade74f0229f3d617170caaca4f903b.bin
+	new file:   UnityTest/QTE/QTETest/Library/ShaderCache/4/4b1a2f67f0e427f0eec0ae0bbbdca0d5.bin
+	new file:   UnityTest/QTE/QTETest/Library/ShaderCache/4/4b8d0af4d2948746cbbcb777f35a16e2.bin
+	new file:   UnityTest/QTE/QTETest/Library/ShaderCache/4/4c1b5218e8701a3d6ad4b8df32f4c93d.bin
+	new file:   UnityTest/QTE/QTETest/Library/ShaderCache/4/4d73d3ab5bbea91aa60d989f961abfe0.bin
+	new file:   UnityTest/QTE/QTETest/Library/ShaderCache/4/4e01c0d2914d4615d91be677c8992a2e.bin
+	new file:   UnityTest/QTE/QTETest/Library/ShaderCache/4/4e2c8b30ec034e0b7e36664c39e55f9c.bin
+	new file:   UnityTest/QTE/QTETest/Library/ShaderCache/4/4e3ca75e8bbc3249a1bf9e308d55c0c9.bin
+	new file:   UnityTest/QTE/QTETest/Library/ShaderCache/4/4f30c944e016a8900226d2a53e470ff2.bin
+	new file:   UnityTest/QTE/QTETest/Library/ShaderCache/4/4fd90b7216de7e16514d941d242ed1dd.bin
+	new file:   UnityTest/QTE/QTETest/Library/ShaderCache/5/5013319aaaab9d16264f3535e6646eb6.bin
+	new file:   UnityTest/QTE/QTETest/Library/ShaderCache/5/50e6718f7c7c044b4a41ff86bea1c1ac.bin
+	new file:   UnityTest/QTE/QTETest/Library/ShaderCache/5/52af59ad70df93b0cc47e2f1823bb259.bin
+	new file:   UnityTest/QTE/QTETest/Library/ShaderCache/5/540aaccc410154b9e0cc606622f0e244.bin
+	new file:   UnityTest/QTE/QTETest/Library/ShaderCache/5/5455e51e1e686fe28ab73dd35a587b30.bin
+	new file:   UnityTest/QTE/QTETest/Library/ShaderCache/5/54f252c8eec265ec4626d3d62f54054d.bin
+	new file:   UnityTest/QTE/QTETest/Library/ShaderCache/5/553a45e9e771a25a319c750d750c0322.bin
+	new file:   UnityTest/QTE/QTETest/Library/ShaderCache/5/55b4f4fe2cb53148528f435e7f7a916e.bin
+	new file:   UnityTest/QTE/QTETest/Library/ShaderCache/5/56572d7a8754209e3ee241466af621f6.bin
+	new file:   UnityTest/QTE/QTETest/Library/ShaderCache/5/56742cbc88c95790f2fea4efbcc30084.bin
+	new file:   UnityTest/QTE/QTETest/Library/ShaderCache/5/56c5d776d9748850aad61e6020c86ef1.bin
+	new file:   UnityTest/QTE/QTETest/Library/ShaderCache/5/56d97bdb5692d7d91fa6ae3aa4a54123.bin
+	new file:   UnityTest/QTE/QTETest/Library/ShaderCache/5/56f4ab1119711b8ec3a6257e3dc96450.bin
+	new file:   UnityTest/QTE/QTETest/Library/ShaderCache/5/5707ee48feb37b7901f1935ce1776dde.bin
+	new file:   UnityTest/QTE/QTETest/Library/ShaderCache/5/5839e4f07270e08c508fc209883f738f.bin
+	new file:   UnityTest/QTE/QTETest/Library/ShaderCache/5/585b70061aa53b29239edd1f20fc285b.bin
+	new file:   UnityTest/QTE/QTETest/Library/ShaderCache/5/58b43eb7e571e3b48a800e3e964bc60e.bin
+	new file:   UnityTest/QTE/QTETest/Library/ShaderCache/5/58d5bfdb97dc056ffbe10e2088996e4e.bin
+	new file:   UnityTest/QTE/QTETest/Library/ShaderCache/5/59919c7b14dd9fd489c128ae24e478b4.bin
+	new file:   UnityTest/QTE/QTETest/Library/ShaderCache/5/59b78bceffffabcddc645401e1805d4e.bin
+	new file:   UnityTest/QTE/QTETest/Library/ShaderCache/5/59cebec940b511b4467c34e23948bafa.bin
+	new file:   UnityTest/QTE/QTETest/Library/ShaderCache/5/5a053da785c78fd121d20f7362d5c8c9.bin
+	new file:   UnityTest/QTE/QTETest/Library/ShaderCache/5/5a6864ae94806b06c585602f1fd35810.bin
+	new file:   UnityTest/QTE/QTETest/Library/ShaderCache/5/5b62a65a8d3cf7f25ad213f39df242b7.bin
+	new file:   UnityTest/QTE/QTETest/Library/ShaderCache/5/5b860f7c05bd31bad26c68d48da2f2b1.bin
+	new file:   UnityTest/QTE/QTETest/Library/ShaderCache/5/5bc755089590ed72e9c7c926a0822237.bin
+	new file:   UnityTest/QTE/QTETest/Library/ShaderCache/5/5c5be383aceee752e1aec4333aa76534.bin
+	new file:   UnityTest/QTE/QTETest/Library/ShaderCache/5/5ca120ecf7d89695c45866515308123d.bin
+	new file:   UnityTest/QTE/QTETest/Library/ShaderCache/5/5d190bcf8628cc1e14e07b42ad2b8d3b.bin
+	new file:   UnityTest/QTE/QTETest/Library/ShaderCache/5/5ded25f3b55051afa3ba36f777cdcd28.bin
+	new file:   UnityTest/QTE/QTETest/Library/ShaderCache/5/5e7e7efcd6a7ebb59e326f721fc4a34a.bin
+	new file:   UnityTest/QTE/QTETest/Library/ShaderCache/5/5f02217745389e35231a1d6cbaa1e700.bin
+	new file:   UnityTest/QTE/QTETest/Library/ShaderCache/5/5f79a57bc22b710718dbdc84946381e0.bin
+	new file:   UnityTest/QTE/QTETest/Library/ShaderCache/5/5fcf19c2cfde56b41fbf820214261d25.bin
+	new file:   UnityTest/QTE/QTETest/Library/ShaderCache/6/60156b50526d36c6e00903ec9107492f.bin
+	new file:   UnityTest/QTE/QTETest/Library/ShaderCache/6/61a32ebf184fe52bc3c3b4b3bcb1612b.bin
+	new file:   UnityTest/QTE/QTETest/Library/ShaderCache/6/6277b43b58e85e6591b885091810d9ed.bin
+	new file:   UnityTest/QTE/QTETest/Library/ShaderCache/6/62799ff79d2d94b2c4f929255c64b185.bin
+	new file:   UnityTest/QTE/QTETest/Library/ShaderCache/6/62fe9ad1bbe9e60a2160932d76968ead.bin
+	new file:   UnityTest/QTE/QTETest/Library/ShaderCache/6/63063dcb0e2c4f56ab998cd8d84d1f90.bin
+	new file:   UnityTest/QTE/QTETest/Library/ShaderCache/6/635001b8753118629b2235c272590c69.bin
+	new file:   UnityTest/QTE/QTETest/Library/ShaderCache/6/640b6b6cf73fc61e7db9ed77e7c98d0c.bin
+	new file:   UnityTest/QTE/QTETest/Library/ShaderCache/6/645900a921335d5dcb40b8f73f8fd7b5.bin
+	new file:   UnityTest/QTE/QTETest/Library/ShaderCache/6/646600742fbd2efafbbdfa11f55f08db.bin
+	new file:   UnityTest/QTE/QTETest/Library/ShaderCache/6/65708ad763cf0c456c9daca634b063aa.bin
+	new file:   UnityTest/QTE/QTETest/Library/ShaderCache/6/6605a3f92b6f3164cdd99c0cfb584896.bin
+	new file:   UnityTest/QTE/QTETest/Library/ShaderCache/6/6655c98895bafaf2b6684e4712bf6897.bin
+	new file:   UnityTest/QTE/QTETest/Library/ShaderCache/6/6667b551ca64c5fde0488c37847e29fc.bin
+	new file:   UnityTest/QTE/QTETest/Library/ShaderCache/6/667c889ffc5293fbe81a122efc5250eb.bin
+	new file:   UnityTest/QTE/QTETest/Library/ShaderCache/6/67588f4da66b1d319cedf24614c67bbb.bin
+	new file:   UnityTest/QTE/QTETest/Library/ShaderCache/6/676beca1ef9a3b2a6ca5cf50b1fcf6d9.bin
+	new file:   UnityTest/QTE/QTETest/Library/ShaderCache/6/68d937fc55f7e4b57db33793e595f53b.bin
+	new file:   UnityTest/QTE/QTETest/Library/ShaderCache/6/69aba0d34e1a36fcdc8e976e67a18ce3.bin
+	new file:   UnityTest/QTE/QTETest/Library/ShaderCache/6/6b70ec2a48ade551724782bdc678a3ab.bin
+	new file:   UnityTest/QTE/QTETest/Library/ShaderCache/6/6bdd5e49f0c3b8b6ec54305f6a79cda9.bin
+	new file:   UnityTest/QTE/QTETest/Library/ShaderCache/6/6cf55dc4a50c39316a8a3b9ca4616006.bin
+	new file:   UnityTest/QTE/QTETest/Library/ShaderCache/6/6dfe62c5e51dd5f136ad7db2c5c8300f.bin
+	new file:   UnityTest/QTE/QTETest/Library/ShaderCache/6/6e3e0a0c3c4f7eeed4efdc33cab1c3bf.bin
+	new file:   UnityTest/QTE/QTETest/Library/ShaderCache/6/6ecd6730996d2b0ce989d2b5a2238291.bin
+	new file:   UnityTest/QTE/QTETest/Library/ShaderCache/6/6ed2c9742c0e1539f7c4ba40ddfbcc4b.bin
+	new file:   UnityTest/QTE/QTETest/Library/ShaderCache/6/6f4839968d1fc893a2f89f384cb9e618.bin
+	new file:   UnityTest/QTE/QTETest/Library/ShaderCache/6/6f6558a3779df4899c5657aee70fafcc.bin
+	new file:   UnityTest/QTE/QTETest/Library/ShaderCache/7/7000cb64968126cbd2864f7fe04ce506.bin
+	new file:   UnityTest/QTE/QTETest/Library/ShaderCache/7/7160987578093824688b448e45573416.bin
+	new file:   UnityTest/QTE/QTETest/Library/ShaderCache/7/72520486170025a67e26537421d0038d.bin
+	new file:   UnityTest/QTE/QTETest/Library/ShaderCache/7/73f2222471f9e151bac9c5f4132d2ba5.bin
+	new file:   UnityTest/QTE/QTETest/Library/ShaderCache/7/7412fa2b5e493a1abbace9f2afff3df6.bin
+	new file:   UnityTest/QTE/QTETest/Library/ShaderCache/7/74a36915b05f4c7ebef3bcc666d21531.bin
+	new file:   UnityTest/QTE/QTETest/Library/ShaderCache/7/74a5f16b511bcf5f38c553ff5881f349.bin
+	new file:   UnityTest/QTE/QTETest/Library/ShaderCache/7/74c87ccf820a6e4490973a3004551309.bin
+	new file:   UnityTest/QTE/QTETest/Library/ShaderCache/7/7534bba4788ca0841d0b3a7a3250d914.bin
+	new file:   UnityTest/QTE/QTETest/Library/ShaderCache/7/761bbb6b1bcb9a07c142a932005e3089.bin
+	new file:   UnityTest/QTE/QTETest/Library/ShaderCache/7/76408312b04d89b0e056d8a6b30eda5f.bin
+	new file:   UnityTest/QTE/QTETest/Library/ShaderCache/7/769a0e8b779fb7aa396214bbfb54ba60.bin
+	new file:   UnityTest/QTE/QTETest/Library/ShaderCache/7/76ca1d62af8a4ea2d948d958157d1094.bin
+	new file:   UnityTest/QTE/QTETest/Library/ShaderCache/7/7778b7a6b5b3a025199d84785d8fb080.bin
+	new file:   UnityTest/QTE/QTETest/Library/ShaderCache/7/780e334102a0ce4236adfc48d63e3df3.bin
+	new file:   UnityTest/QTE/QTETest/Library/ShaderCache/7/7819aeafd52409cbbcbe513cd2313351.bin
+	new file:   UnityTest/QTE/QTETest/Library/ShaderCache/7/787fdf998a5380d620c3a722fc5cbdeb.bin
+	new file:   UnityTest/QTE/QTETest/Library/ShaderCache/7/78b3ca17ce5852b8bc5dbc9ef2640343.bin
+	new file:   UnityTest/QTE/QTETest/Library/ShaderCache/7/7960908f249d24220052304bbfdd374a.bin
+	new file:   UnityTest/QTE/QTETest/Library/ShaderCache/7/7979c15a202759ea6bc7c14e653e1609.bin
+	new file:   UnityTest/QTE/QTETest/Library/ShaderCache/7/79d17500b6607c2628131eb35e5a420f.bin
+	new file:   UnityTest/QTE/QTETest/Library/ShaderCache/7/7a56a4dbf177fd545185824658807cfb.bin
+	new file:   UnityTest/QTE/QTETest/Library/ShaderCache/7/7a69848a5fb977cd42186e6f6c735d34.bin
+	new file:   UnityTest/QTE/QTETest/Library/ShaderCache/7/7acae8649154d7b397910c8b1075990f.bin
+	new file:   UnityTest/QTE/QTETest/Library/ShaderCache/7/7ae07a3281d6c946b8f6f1f070141508.bin
+	new file:   UnityTest/QTE/QTETest/Library/ShaderCache/7/7b0f676e368556c7daedfc02ead9e4c0.bin
+	new file:   UnityTest/QTE/QTETest/Library/ShaderCache/7/7bd9ea00ab85eed43fe282b3aa904ee6.bin
+	new file:   UnityTest/QTE/QTETest/Library/ShaderCache/7/7bf29d6685eb37233c21afe14a5c590a.bin
+	new file:   UnityTest/QTE/QTETest/Library/ShaderCache/7/7c6674068971d0cb5097f3eaf4b6485a.bin
+	new file:   UnityTest/QTE/QTETest/Library/ShaderCache/7/7ce20e7a7c20e22aa27f5cb856b1f886.bin
+	new file:   UnityTest/QTE/QTETest/Library/ShaderCache/7/7e167a77c5af4759394236173446edbd.bin
+	new file:   UnityTest/QTE/QTETest/Library/ShaderCache/7/7e5fb9abd6ead01ce0035d6a32d47331.bin
+	new file:   UnityTest/QTE/QTETest/Library/ShaderCache/7/7eb882363407bf2f9cd1005503388bee.bin
+	new file:   UnityTest/QTE/QTETest/Library/ShaderCache/7/7eccc90b4e57ec4e03c6da60f7797ebe.bin
+	new file:   UnityTest/QTE/QTETest/Library/ShaderCache/7/7ecfc21b27439042798244dbae3a0c85.bin
+	new file:   UnityTest/QTE/QTETest/Library/ShaderCache/7/7f3a0634db1ef93bc1dd4b90041e0d00.bin
+	new file:   UnityTest/QTE/QTETest/Library/ShaderCache/7/7fde7ad8e00b47b82eacb85b9e8d8a47.bin
+	new file:   UnityTest/QTE/QTETest/Library/ShaderCache/8/80a32ecd5e33d5884ebd94aa6bd88e0e.bin
+	new file:   UnityTest/QTE/QTETest/Library/ShaderCache/8/80b2d97e1bff2cce3f4923f507a82866.bin
+	new file:   UnityTest/QTE/QTETest/Library/ShaderCache/8/80c309602290d31203f0a7e6ed176a7d.bin
+	new file:   UnityTest/QTE/QTETest/Library/ShaderCache/8/80c56eff899e00eae2738c06227642d7.bin
+	new file:   UnityTest/QTE/QTETest/Library/ShaderCache/8/819ee809f14dd73d7eb0b9a51879af6d.bin
+	new file:   UnityTest/QTE/QTETest/Library/ShaderCache/8/81de09076361ac4a3be9e25dc1d5d2db.bin
+	new file:   UnityTest/QTE/QTETest/Library/ShaderCache/8/8218242a9c6becf97eecdd00871d7bc4.bin
+	new file:   UnityTest/QTE/QTETest/Library/ShaderCache/8/8223bf7a4fdf7c18c5c70389961b234a.bin
+	new file:   UnityTest/QTE/QTETest/Library/ShaderCache/8/826c72f9f77f12be4d523ffa2d347888.bin
+	new file:   UnityTest/QTE/QTETest/Library/ShaderCache/8/84389267a7352667e860c4c44440bb59.bin
+	new file:   UnityTest/QTE/QTETest/Library/ShaderCache/8/84a64990e3aff145dd050022594c86f9.bin
+	new file:   UnityTest/QTE/QTETest/Library/ShaderCache/8/84b5415e0c065c3d7022d00921051b80.bin
+	new file:   UnityTest/QTE/QTETest/Library/ShaderCache/8/84c9b79efeb7fecfacdf4503e042f01a.bin
+	new file:   UnityTest/QTE/QTETest/Library/ShaderCache/8/8537b3e90425ca09cd4441c5a56784b9.bin
+	new file:   UnityTest/QTE/QTETest/Library/ShaderCache/8/85d6e95a7763eb03f68270404f72cee7.bin
+	new file:   UnityTest/QTE/QTETest/Library/ShaderCache/8/8607f543cee7b8009edd3b2d7640046f.bin
+	new file:   UnityTest/QTE/QTETest/Library/ShaderCache/8/869624c0f13f77c282e52efd8f25ef3d.bin
+	new file:   UnityTest/QTE/QTETest/Library/ShaderCache/8/872bdd3dd422461d16202e40df5cad25.bin
+	new file:   UnityTest/QTE/QTETest/Library/ShaderCache/8/87341bcf2e8a47a72085310ebb8c9d6b.bin
+	new file:   UnityTest/QTE/QTETest/Library/ShaderCache/8/8765b5826703995a2c530fbed5598de1.bin
+	new file:   UnityTest/QTE/QTETest/Library/ShaderCache/8/885f39219ebbfb441e642ebedcb78a76.bin
+	new file:   UnityTest/QTE/QTETest/Library/ShaderCache/8/886c59298d935304738a02c6391bdd77.bin
+	new file:   UnityTest/QTE/QTETest/Library/ShaderCache/8/88b63fbf9b85c5099f883798c97ef4d4.bin
+	new file:   UnityTest/QTE/QTETest/Library/ShaderCache/8/88ece659babcdafb3aba43dc9cf5c442.bin
+	new file:   UnityTest/QTE/QTETest/Library/ShaderCache/8/8a1a4003523345f1f0005e4f7bd71cdc.bin
+	new file:   UnityTest/QTE/QTETest/Library/ShaderCache/8/8a841c9d2b9413ecfeed5086d5a67d3a.bin
+	new file:   UnityTest/QTE/QTETest/Library/ShaderCache/8/8ab6109676e4dce3d88de5bcd1e93cdf.bin
+	new file:   UnityTest/QTE/QTETest/Library/ShaderCache/8/8adcc5c78c17dd7b0eba46841400101f.bin
+	new file:   UnityTest/QTE/QTETest/Library/ShaderCache/8/8af118187ba348263f3ef3b6e2707cb9.bin
+	new file:   UnityTest/QTE/QTETest/Library/ShaderCache/8/8afd168124b87b943167b44a02c9d8b7.bin
+	new file:   UnityTest/QTE/QTETest/Library/ShaderCache/8/8b01e9a3d02c0f9452e6562144b3d917.bin
+	new file:   UnityTest/QTE/QTETest/Library/ShaderCache/8/8b0f8d99d2ba9fc169e4433b0439fdec.bin
+	new file:   UnityTest/QTE/QTETest/Library/ShaderCache/8/8b12fdc66593d67f04d2675b63c0cf00.bin
+	new file:   UnityTest/QTE/QTETest/Library/ShaderCache/8/8b1542adab881ce67e774582d237840e.bin
+	new file:   UnityTest/QTE/QTETest/Library/ShaderCache/8/8b7ae94586fde2f98a71dfe38e9000ae.bin
+	new file:   UnityTest/QTE/QTETest/Library/ShaderCache/8/8b8c513f1903712543399c8bdee14fc9.bin
+	new file:   UnityTest/QTE/QTETest/Library/ShaderCache/8/8c9020c5b196d0e26a4482e3127d52c0.bin
+	new file:   UnityTest/QTE/QTETest/Library/ShaderCache/8/8dcb8ea1edacf29d9cadd7b0602106e5.bin
+	new file:   UnityTest/QTE/QTETest/Library/ShaderCache/8/8e25c819e481ea97d2a82166887ba567.bin
+	new file:   UnityTest/QTE/QTETest/Library/ShaderCache/8/8ed26708b5dfc60e4813cd09af0bad1f.bin
+	new file:   UnityTest/QTE/QTETest/Library/ShaderCache/8/8f03c855d2556a636838def886781969.bin
+	new file:   UnityTest/QTE/QTETest/Library/ShaderCache/9/90821da280649ecd359672b666d21b0e.bin
+	new file:   UnityTest/QTE/QTETest/Library/ShaderCache/9/909ac5ea2b6d8cfc9351ff76a7f88dad.bin
+	new file:   UnityTest/QTE/QTETest/Library/ShaderCache/9/912207599b158c1245ec2f9ff4491bc6.bin
+	new file:   UnityTest/QTE/QTETest/Library/ShaderCache/9/912ca19147306a0e8b4f8dbdc81e7fd3.bin
+	new file:   UnityTest/QTE/QTETest/Library/ShaderCache/9/9411315f81fe093333e359470f322bdb.bin
+	new file:   UnityTest/QTE/QTETest/Library/ShaderCache/9/942222dd63c6ff982eb123154c23ab40.bin
+	new file:   UnityTest/QTE/QTETest/Library/ShaderCache/9/94ae0d31d77aeabb3c5764c4d1b669b0.bin
+	new file:   UnityTest/QTE/QTETest/Library/ShaderCache/9/94f0747e4074fd301de4570ac06320e6.bin
+	new file:   UnityTest/QTE/QTETest/Library/ShaderCache/9/95eea3f3afab9a043c8637671e2a681c.bin
+	new file:   UnityTest/QTE/QTETest/Library/ShaderCache/9/96b1db3472b854723a6ef2203fd3890e.bin
+	new file:   UnityTest/QTE/QTETest/Library/ShaderCache/9/9714331c018f5017bd5293cc6d597bf7.bin
+	new file:   UnityTest/QTE/QTETest/Library/ShaderCache/9/97e1b8521240c210addaea367295c34c.bin
+	new file:   UnityTest/QTE/QTETest/Library/ShaderCache/9/9870072c3bddbd4584f080c517fb0883.bin
+	new file:   UnityTest/QTE/QTETest/Library/ShaderCache/9/98c53e077cc3d26bf8dab831964dea60.bin
+	new file:   UnityTest/QTE/QTETest/Library/ShaderCache/9/98db0301c74c05e5cfe442f8d22be596.bin
+	new file:   UnityTest/QTE/QTETest/Library/ShaderCache/9/990d99cb0afc02b31bb7de79b372a2d5.bin
+	new file:   UnityTest/QTE/QTETest/Library/ShaderCache/9/99afecec2dcaf77bc261ea64707e03e8.bin
+	new file:   UnityTest/QTE/QTETest/Library/ShaderCache/9/99c888ae2b5a12be4acea637518f02ec.bin
+	new file:   UnityTest/QTE/QTETest/Library/ShaderCache/9/9b6ee59aca5bbc30ddc38a202a68ab81.bin
+	new file:   UnityTest/QTE/QTETest/Library/ShaderCache/9/9bfb7fda951a490c2a758f5d10df8960.bin
+	new file:   UnityTest/QTE/QTETest/Library/ShaderCache/9/9c7e1cb07ced58f8a2aa64f8ee2f1f10.bin
+	new file:   UnityTest/QTE/QTETest/Library/ShaderCache/9/9cdaa1d33d1041d4cfebcb66d5a05b8f.bin
+	new file:   UnityTest/QTE/QTETest/Library/ShaderCache/9/9e288200120400d4af136066c12289cd.bin
+	new file:   UnityTest/QTE/QTETest/Library/ShaderCache/9/9e5608fbf55e14564ce03a46bb700fec.bin
+	new file:   UnityTest/QTE/QTETest/Library/ShaderCache/9/9e7a4f477fcfe29e4363c03ea4e5510e.bin
+	new file:   UnityTest/QTE/QTETest/Library/ShaderCache/9/9f4c3ccf7b6d6cea2133f83d7af301d5.bin
+	new file:   UnityTest/QTE/QTETest/Library/ShaderCache/9/9fbcaf9f6bc881105fd4479a34be3364.bin
+	new file:   UnityTest/QTE/QTETest/Library/ShaderCache/9/9ff425843abd70bbf74bf87e6981bdbe.bin
+	new file:   UnityTest/QTE/QTETest/Library/ShaderCache/a/a0348b92ffa7cb7d2ae5a3b627159c4b.bin
+	new file:   UnityTest/QTE/QTETest/Library/ShaderCache/a/a0492352d2fc4b949c4485ac095e683c.bin
+	new file:   UnityTest/QTE/QTETest/Library/ShaderCache/a/a0a1b31a5ba2b5b0619c241ecee44dab.bin
+	new file:   UnityTest/QTE/QTETest/Library/ShaderCache/a/a0c7944f3866d8d697559c798796c255.bin
+	new file:   UnityTest/QTE/QTETest/Library/ShaderCache/a/a1586ad30e70df639c510dcd3061348b.bin
+	new file:   UnityTest/QTE/QTETest/Library/ShaderCache/a/a15c6c3ef8113b362d0c73c5abe5478c.bin
+	new file:   UnityTest/QTE/QTETest/Library/ShaderCache/a/a1d9a1bf982c046fd211f0bc03941f22.bin
+	new file:   UnityTest/QTE/QTETest/Library/ShaderCache/a/a1e0137096895e1d8a6c7525f944c74c.bin
+	new file:   UnityTest/QTE/QTETest/Library/ShaderCache/a/a2ca9aba15f7d069c7ad9c61dedc9db1.bin
+	new file:   UnityTest/QTE/QTETest/Library/ShaderCache/a/a396b04a8e7e98b9c97027a218dcc0d3.bin
+	new file:   UnityTest/QTE/QTETest/Library/ShaderCache/a/a3c01ad8e482e1f6b6d3fa3caf03049e.bin
+	new file:   UnityTest/QTE/QTETest/Library/ShaderCache/a/a40a316cb5c6709a8727b836cf0f7750.bin
+	new file:   UnityTest/QTE/QTETest/Library/ShaderCache/a/a49cca4913629882f576b654259dae8d.bin
+	new file:   UnityTest/QTE/QTETest/Library/ShaderCache/a/a4efc60f142ecf4712cd3038e7763ad4.bin
+	new file:   UnityTest/QTE/QTETest/Library/ShaderCache/a/a55ebf0a5726b24c5b73910fc1924276.bin
+	new file:   UnityTest/QTE/QTETest/Library/ShaderCache/a/a5719b1ca82d0ad7617ca7d839f97db9.bin
+	new file:   UnityTest/QTE/QTETest/Library/ShaderCache/a/a6708d318dad4848e77e8671da93fe3f.bin
+	new file:   UnityTest/QTE/QTETest/Library/ShaderCache/a/a6c5f168bd6993b02d131adbd889c97c.bin
+	new file:   UnityTest/QTE/QTETest/Library/ShaderCache/a/a724e64b665de17a93ec74832e88537d.bin
+	new file:   UnityTest/QTE/QTETest/Library/ShaderCache/a/a78676c38b61e37c046d3808eb725ed7.bin
+	new file:   UnityTest/QTE/QTETest/Library/ShaderCache/a/a78ba4a2db5967504a8f9b8902fa5ce2.bin
+	new file:   UnityTest/QTE/QTETest/Library/ShaderCache/a/a7cce7b758b58766fea076633aee5a8b.bin
+	new file:   UnityTest/QTE/QTETest/Library/ShaderCache/a/a7d70c766a919ca0be5b979ca697ea8c.bin
+	new file:   UnityTest/QTE/QTETest/Library/ShaderCache/a/a815638d063c75ef4a4beda3e11a882b.bin
+	new file:   UnityTest/QTE/QTETest/Library/ShaderCache/a/a912fe11e37ee5740401da2177ce6cfc.bin
+	new file:   UnityTest/QTE/QTETest/Library/ShaderCache/a/a94ea8279539cd107e63ef510f5b5a3b.bin
+	new file:   UnityTest/QTE/QTETest/Library/ShaderCache/a/a993e5e7c2ec965331b32e7feed05de4.bin
+	new file:   UnityTest/QTE/QTETest/Library/ShaderCache/a/a9e8a90c36cbb99a1c05d3609ab0f5f8.bin
+	new file:   UnityTest/QTE/QTETest/Library/ShaderCache/a/aa889b3c72f2e04f5b3be4a2305355b5.bin
+	new file:   UnityTest/QTE/QTETest/Library/ShaderCache/a/ac0824dc9625730bf53a8e911160292b.bin
+	new file:   UnityTest/QTE/QTETest/Library/ShaderCache/a/ac5de4963b89b58fe8aa4f9c28e8be13.bin
+	new file:   UnityTest/QTE/QTETest/Library/ShaderCache/a/ac892a2a6900f9538598b15f5041542b.bin
+	new file:   UnityTest/QTE/QTETest/Library/ShaderCache/a/ad21dfe7980512d20cde5ee70ab5c36f.bin
+	new file:   UnityTest/QTE/QTETest/Library/ShaderCache/a/ad4033c289b58700068fdfccf92d8274.bin
+	new file:   UnityTest/QTE/QTETest/Library/ShaderCache/a/ad7e73424cb291b681051864825990da.bin
+	new file:   UnityTest/QTE/QTETest/Library/ShaderCache/a/ae1492f0400e4d0bec8604e5ee4fbf6e.bin
+	new file:   UnityTest/QTE/QTETest/Library/ShaderCache/a/ae5039d2778df2d5a1ca1598f0272055.bin
+	new file:   UnityTest/QTE/QTETest/Library/ShaderCache/a/ae65c122944807635c07ae79c9fb8441.bin
+	new file:   UnityTest/QTE/QTETest/Library/ShaderCache/b/b0ba4f7b0b504aa3b989ff6552fb245d.bin
+	new file:   UnityTest/QTE/QTETest/Library/ShaderCache/b/b12e4a8f193e8e317a9e0e6a7bff187b.bin
+	new file:   UnityTest/QTE/QTETest/Library/ShaderCache/b/b13c817881de34eb936d8fa6c1a4a6b6.bin
+	new file:   UnityTest/QTE/QTETest/Library/ShaderCache/b/b14c51c07b39c6fef31724765bb12e8d.bin
+	new file:   UnityTest/QTE/QTETest/Library/ShaderCache/b/b1cb861ca4ba7740e8f0470b0f0d6c08.bin
+	new file:   UnityTest/QTE/QTETest/Library/ShaderCache/b/b2085bfe2a07a21e2c57085f695cc330.bin
+	new file:   UnityTest/QTE/QTETest/Library/ShaderCache/b/b2bc66fd6862de9f0a545b0e80cd8e45.bin
+	new file:   UnityTest/QTE/QTETest/Library/ShaderCache/b/b485d3c89d83203a4525ab16a2df9fba.bin
+	new file:   UnityTest/QTE/QTETest/Library/ShaderCache/b/b612a15c4ce59cbbf12522a0105d6d46.bin
+	new file:   UnityTest/QTE/QTETest/Library/ShaderCache/b/b616e8f38f47104cf3be7f51feb1e86b.bin
+	new file:   UnityTest/QTE/QTETest/Library/ShaderCache/b/b618bb40e8697551b2033e811a4b2ce6.bin
+	new file:   UnityTest/QTE/QTETest/Library/ShaderCache/b/b6b838d0492ad1eddaf194f75807eea5.bin
+	new file:   UnityTest/QTE/QTETest/Library/ShaderCache/b/b6cb8ba4ca7ca6d04eacab555e844d21.bin
+	new file:   UnityTest/QTE/QTETest/Library/ShaderCache/b/b743a8f701b791b31d49129449823af9.bin
+	new file:   UnityTest/QTE/QTETest/Library/ShaderCache/b/b7f162750ec8548e701c97038e61e36f.bin
+	new file:   UnityTest/QTE/QTETest/Library/ShaderCache/b/baa64895da7ff2e9766842612730242b.bin
+	new file:   UnityTest/QTE/QTETest/Library/ShaderCache/b/baec097e496ecf80653ad1bbadc83a7f.bin
+	new file:   UnityTest/QTE/QTETest/Library/ShaderCache/b/baf02b0c2862dd696d39ef14c8e8bf7d.bin
+	new file:   UnityTest/QTE/QTETest/Library/ShaderCache/b/bbc8a99ef248169a5a9a3c5a27a3c46d.bin
+	new file:   UnityTest/QTE/QTETest/Library/ShaderCache/b/bbecda3a8fd14f1f8599ac7619a9d5c1.bin
+	new file:   UnityTest/QTE/QTETest/Library/ShaderCache/b/bc9b653f1929c1f3ee4b58511035b49b.bin
+	new file:   UnityTest/QTE/QTETest/Library/ShaderCache/b/bcdc7e944f7ee906c989e0d13beb188d.bin
+	new file:   UnityTest/QTE/QTETest/Library/ShaderCache/b/bd0ef4e534871d5f432c2663cb82aff6.bin
+	new file:   UnityTest/QTE/QTETest/Library/ShaderCache/b/bd4b2ed211004804869f37073ece6c5b.bin
+	new file:   UnityTest/QTE/QTETest/Library/ShaderCache/b/bd70702f8562ab31d90371b3aae9c40b.bin
+	new file:   UnityTest/QTE/QTETest/Library/ShaderCache/b/bdf89a6264c8559b3cf8b23b84021fc6.bin
+	new file:   UnityTest/QTE/QTETest/Library/ShaderCache/b/be17278a0aaf5f3ba9f88a6771b5100b.bin
+	new file:   UnityTest/QTE/QTETest/Library/ShaderCache/b/bf14b5132776c470b02664497ed0c0ce.bin
+	new file:   UnityTest/QTE/QTETest/Library/ShaderCache/b/bf1904bbe3ef5ef7dec95d6e660a2c14.bin
+	new file:   UnityTest/QTE/QTETest/Library/ShaderCache/c/c05ce5feb6b36f7509e35b9fad00389c.bin
+	new file:   UnityTest/QTE/QTETest/Library/ShaderCache/c/c0b9d31aef5562c27c00c04f9d433b73.bin
+	new file:   UnityTest/QTE/QTETest/Library/ShaderCache/c/c168b72805eaecb60014c0842904f4c9.bin
+	new file:   UnityTest/QTE/QTETest/Library/ShaderCache/c/c17538ca82dad4b2735375884a6e02ed.bin
+	new file:   UnityTest/QTE/QTETest/Library/ShaderCache/c/c1d3fdf9c07309e814f02a21dc21da98.bin
+	new file:   UnityTest/QTE/QTETest/Library/ShaderCache/c/c244b5e5c743c0fbfc841b75f1c4c96b.bin
+	new file:   UnityTest/QTE/QTETest/Library/ShaderCache/c/c25a3bcda007d280b7e6bba1513d03b8.bin
+	new file:   UnityTest/QTE/QTETest/Library/ShaderCache/c/c25d37c8d0c1e6d7d3392b6414b47fa0.bin
+	new file:   UnityTest/QTE/QTETest/Library/ShaderCache/c/c5a8a1392a4dc21529debdbe97225895.bin
+	new file:   UnityTest/QTE/QTETest/Library/ShaderCache/c/c5dfcc44707368e503a53ffdd310397b.bin
+	new file:   UnityTest/QTE/QTETest/Library/ShaderCache/c/c71265998b1f0dc89844cc03b2fa396c.bin
+	new file:   UnityTest/QTE/QTETest/Library/ShaderCache/c/c7beeb183013a92a529375fc84785087.bin
+	new file:   UnityTest/QTE/QTETest/Library/ShaderCache/c/c82c403fd402fa1bd646063c2207edfa.bin
+	new file:   UnityTest/QTE/QTETest/Library/ShaderCache/c/c8895a4e8957c5f46703e7144815f79f.bin
+	new file:   UnityTest/QTE/QTETest/Library/ShaderCache/c/c8f6bc6c929e85ba1d51b4a74b2ac7c2.bin
+	new file:   UnityTest/QTE/QTETest/Library/ShaderCache/c/c8ffd7956b066d0f8cd2565256c8fd04.bin
+	new file:   UnityTest/QTE/QTETest/Library/ShaderCache/c/c92e21173261ffb076eab20c895c621d.bin
+	new file:   UnityTest/QTE/QTETest/Library/ShaderCache/c/c9cac40a566fd59519e4e58b102b8122.bin
+	new file:   UnityTest/QTE/QTETest/Library/ShaderCache/c/c9cd9e7cefd7ab72c8ca632d79fe29c5.bin
+	new file:   UnityTest/QTE/QTETest/Library/ShaderCache/c/ca18e1940d3c4fbf20033f2e82e10ebb.bin
+	new file:   UnityTest/QTE/QTETest/Library/ShaderCache/c/ca1fe24fccda0071d40fa7547630d64f.bin
+	new file:   UnityTest/QTE/QTETest/Library/ShaderCache/c/ca910d8dcf38662c0cc6f2c1bc9eb556.bin
+	new file:   UnityTest/QTE/QTETest/Library/ShaderCache/c/cab321bde6b7afa0831e827fa8c15f0e.bin
+	new file:   UnityTest/QTE/QTETest/Library/ShaderCache/c/caba975e7e90e62b5c5d192d883d2fc6.bin
+	new file:   UnityTest/QTE/QTETest/Library/ShaderCache/c/cb48e94c77b72bd3c53f9041e5e8cde4.bin
+	new file:   UnityTest/QTE/QTETest/Library/ShaderCache/c/cbda71c16be0ae1c6899f2aeb6403e38.bin
+	new file:   UnityTest/QTE/QTETest/Library/ShaderCache/c/cbeb89e5d416009d4f4a8b1a8a43db09.bin
+	new file:   UnityTest/QTE/QTETest/Library/ShaderCache/c/cc21dd304ed04433915d9ebfb39cf885.bin
+	new file:   UnityTest/QTE/QTETest/Library/ShaderCache/c/cd63b028d1c10f47f7bfed99e2ff0212.bin
+	new file:   UnityTest/QTE/QTETest/Library/ShaderCache/c/cdecf7d97657f2ab84454cffcdd966e7.bin
+	new file:   UnityTest/QTE/QTETest/Library/ShaderCache/c/ce93c9d9e4dcfb3a3c8de4d65be03acb.bin
+	new file:   UnityTest/QTE/QTETest/Library/ShaderCache/c/ceb899b4a5fbee0bf6bc8e1fb0548999.bin
+	new file:   UnityTest/QTE/QTETest/Library/ShaderCache/c/cfec2535ebb92f0103e2276c3bbc5bd5.bin
+	new file:   UnityTest/QTE/QTETest/Library/ShaderCache/d/d1079cc7674488715c4028e742b406fc.bin
+	new file:   UnityTest/QTE/QTETest/Library/ShaderCache/d/d11caadab289464abd09bfb541759886.bin
+	new file:   UnityTest/QTE/QTETest/Library/ShaderCache/d/d19a066a22c3d6876dd08c70d02513b9.bin
+	new file:   UnityTest/QTE/QTETest/Library/ShaderCache/d/d262b794044d7016a83c25d22ca69511.bin
+	new file:   UnityTest/QTE/QTETest/Library/ShaderCache/d/d27ce38c4e6091f8795470a756f69887.bin
+	new file:   UnityTest/QTE/QTETest/Library/ShaderCache/d/d351863a606e218c907190dc8fda779d.bin
+	new file:   UnityTest/QTE/QTETest/Library/ShaderCache/d/d3fd11a02680ead62feb2c5006619a78.bin
+	new file:   UnityTest/QTE/QTETest/Library/ShaderCache/d/d52181569587e0007bce28f78e78bcd5.bin
+	new file:   UnityTest/QTE/QTETest/Library/ShaderCache/d/d522d48152dec819cc99a4b7db4f4c32.bin
+	new file:   UnityTest/QTE/QTETest/Library/ShaderCache/d/d598194c5fd3e9cb1e2c38bfe3b4d1b5.bin
+	new file:   UnityTest/QTE/QTETest/Library/ShaderCache/d/d5d4d8904df9e45b7c89e00891e938d4.bin
+	new file:   UnityTest/QTE/QTETest/Library/ShaderCache/d/d6a0a0f3e4652790ee3f2d72eb7a87de.bin
+	new file:   UnityTest/QTE/QTETest/Library/ShaderCache/d/d6ee6ccda70a40d280de5618388c38b4.bin
+	new file:   UnityTest/QTE/QTETest/Library/ShaderCache/d/d705116fd1122efcf4955aff99887031.bin
+	new file:   UnityTest/QTE/QTETest/Library/ShaderCache/d/d7423ccc1651294ea3cadea43becf167.bin
+	new file:   UnityTest/QTE/QTETest/Library/ShaderCache/d/d76fc945cffc587ba67de46e9bf09f57.bin
+	new file:   UnityTest/QTE/QTETest/Library/ShaderCache/d/d7c347b392d51b47f5051665141fec8b.bin
+	new file:   UnityTest/QTE/QTETest/Library/ShaderCache/d/d84fb1897039e99aa3cd8e992addb09b.bin
+	new file:   UnityTest/QTE/QTETest/Library/ShaderCache/d/d9415a5a634995cc9ae27c323eead34a.bin
+	new file:   UnityTest/QTE/QTETest/Library/ShaderCache/d/d9a0ec3abd26c51c9eea3c1ad2c7ed89.bin
+	new file:   UnityTest/QTE/QTETest/Library/ShaderCache/d/da397f872e1035b91cefe77741204326.bin
+	new file:   UnityTest/QTE/QTETest/Library/ShaderCache/d/da89626d9b7428b6e4a8544606c9d402.bin
+	new file:   UnityTest/QTE/QTETest/Library/ShaderCache/d/da9a09850a17817da08c3b7ba36c11f3.bin
+	new file:   UnityTest/QTE/QTETest/Library/ShaderCache/d/db4cfd5fa95f9712f624a901b077a782.bin
+	new file:   UnityTest/QTE/QTETest/Library/ShaderCache/d/db88845d109980d1d746b41d12e8602e.bin
+	new file:   UnityTest/QTE/QTETest/Library/ShaderCache/d/dced5310a239db5198fcef02ec4178a6.bin
+	new file:   UnityTest/QTE/QTETest/Library/ShaderCache/d/dd497700ea482d99d766400c56d4cf95.bin
+	new file:   UnityTest/QTE/QTETest/Library/ShaderCache/d/dd9c59fb22a5c7385a90516b85f00b0b.bin
+	new file:   UnityTest/QTE/QTETest/Library/ShaderCache/d/de4e054922330cd40a6132bb1e817c79.bin
+	new file:   UnityTest/QTE/QTETest/Library/ShaderCache/d/de6ef34c7037c837271716b6ecd553f6.bin
+	new file:   UnityTest/QTE/QTETest/Library/ShaderCache/d/de7b5b39b9e8ab387776c0cb7619db04.bin
+	new file:   UnityTest/QTE/QTETest/Library/ShaderCache/d/df8122ac86d0629882619208bcca16c3.bin
+	new file:   UnityTest/QTE/QTETest/Library/ShaderCache/e/e09f1ea96a6ffcc79f7c6c73237cab3a.bin
+	new file:   UnityTest/QTE/QTETest/Library/ShaderCache/e/e0c38014fa317899474d035b39aa3fb3.bin
+	new file:   UnityTest/QTE/QTETest/Library/ShaderCache/e/e105ea3805822de9acb94e120d335622.bin
+	new file:   UnityTest/QTE/QTETest/Library/ShaderCache/e/e12a3541908882e7d411d3c7be3d71e5.bin
+	new file:   UnityTest/QTE/QTETest/Library/ShaderCache/e/e17c2d8c3bda0437d86aefd0e2c08b98.bin
+	new file:   UnityTest/QTE/QTETest/Library/ShaderCache/e/e1cd3f0a0dfac459ccdc04969cc44892.bin
+	new file:   UnityTest/QTE/QTETest/Library/ShaderCache/e/e1cd8e9ce4955a0e7c0f4a293ebdd131.bin
+	new file:   UnityTest/QTE/QTETest/Library/ShaderCache/e/e20d5f9d1e4125b3f4f2f3d1780158b6.bin
+	new file:   UnityTest/QTE/QTETest/Library/ShaderCache/e/e2a777002583d4fef4cb7012eb1c3e5b.bin
+	new file:   UnityTest/QTE/QTETest/Library/ShaderCache/e/e2ae74bf972bff71d4a32e3c246cdb85.bin
+	new file:   UnityTest/QTE/QTETest/Library/ShaderCache/e/e3613230a944c312179774891b0bd341.bin
+	new file:   UnityTest/QTE/QTETest/Library/ShaderCache/e/e3866c572e9a7e9547ece920b96a1fc6.bin
+	new file:   UnityTest/QTE/QTETest/Library/ShaderCache/e/e4862ed59bbba37c6d5b6bc0d13faf3f.bin
+	new file:   UnityTest/QTE/QTETest/Library/ShaderCache/e/e48f9b1f452faee7ee4f533cc88e1544.bin
+	new file:   UnityTest/QTE/QTETest/Library/ShaderCache/e/e4a27f7117040ee61293d70f6717a383.bin
+	new file:   UnityTest/QTE/QTETest/Library/ShaderCache/e/e4c74b24c0359886c8d116ce9770e599.bin
+	new file:   UnityTest/QTE/QTETest/Library/ShaderCache/e/e51dee1339db48f5ebaf7b5b5c22f3bf.bin
+	new file:   UnityTest/QTE/QTETest/Library/ShaderCache/e/e6293c7614b874bb7ac5343832118416.bin
+	new file:   UnityTest/QTE/QTETest/Library/ShaderCache/e/e82e0c6a7214563b65172104c0130ca5.bin
+	new file:   UnityTest/QTE/QTETest/Library/ShaderCache/e/e887a548164e137c2e7458e23d969268.bin
+	new file:   UnityTest/QTE/QTETest/Library/ShaderCache/e/e9b0c43975d4781f891940ec808ddd8c.bin
+	new file:   UnityTest/QTE/QTETest/Library/ShaderCache/e/eac1736d2c66e3812cd1a1f5bbc90aec.bin
+	new file:   UnityTest/QTE/QTETest/Library/ShaderCache/e/ebc050c1c578ef421da03dbb8940eb84.bin
+	new file:   UnityTest/QTE/QTETest/Library/ShaderCache/e/ebd282214fe8b722951773af72636dbc.bin
+	new file:   UnityTest/QTE/QTETest/Library/ShaderCache/e/ec0a503e24e6d2bde209fdb79128430f.bin
+	new file:   UnityTest/QTE/QTETest/Library/ShaderCache/e/ecc1be1d8fd2911e416035cf10e4d8c8.bin
+	new file:   UnityTest/QTE/QTETest/Library/ShaderCache/e/ecdacdf78ed6f42ccecc16e5dc5c6951.bin
+	new file:   UnityTest/QTE/QTETest/Library/ShaderCache/e/ede04b455b7871d63b94236e4ee3e484.bin
+	new file:   UnityTest/QTE/QTETest/Library/ShaderCache/e/eec90077a4f37308d1ee392a16dcac48.bin
+	new file:   UnityTest/QTE/QTETest/Library/ShaderCache/e/eef901ee5f8da2ac49728b4faad90409.bin
+	new file:   UnityTest/QTE/QTETest/Library/ShaderCache/f/f0ed6cfa6e1ec85667f8e833a7299d9f.bin
+	new file:   UnityTest/QTE/QTETest/Library/ShaderCache/f/f1a576eafa149b37008f8558b2611620.bin
+	new file:   UnityTest/QTE/QTETest/Library/ShaderCache/f/f272be69ceb346f2ac71a32aff4301a7.bin
+	new file:   UnityTest/QTE/QTETest/Library/ShaderCache/f/f2c3216e8ec27041dd7e4ff4bc35ec46.bin
+	new file:   UnityTest/QTE/QTETest/Library/ShaderCache/f/f2cd3f58f38bfb4ccc4cd785d5cd378b.bin
+	new file:   UnityTest/QTE/QTETest/Library/ShaderCache/f/f38f0dc3f2324972f0b5422f207e1d3f.bin
+	new file:   UnityTest/QTE/QTETest/Library/ShaderCache/f/f3ce705bd50cb3ac4a2c9c0db624d70d.bin
+	new file:   UnityTest/QTE/QTETest/Library/ShaderCache/f/f3fa1958e76ad9967411f5d5117d983f.bin
+	new file:   UnityTest/QTE/QTETest/Library/ShaderCache/f/f4210b1bb89080857bc1e5cb40468fe5.bin
+	new file:   UnityTest/QTE/QTETest/Library/ShaderCache/f/f4e3bb00d4488b9bea05e013c92482e1.bin
+	new file:   UnityTest/QTE/QTETest/Library/ShaderCache/f/f51b359e0b1da4f187c624483d1b49e0.bin
+	new file:   UnityTest/QTE/QTETest/Library/ShaderCache/f/f5389be90eb65e3697205d776552762e.bin
+	new file:   UnityTest/QTE/QTETest/Library/ShaderCache/f/f6a81892d3145b8c26ecda8e58a24ee8.bin
+	new file:   UnityTest/QTE/QTETest/Library/ShaderCache/f/f6c0f32cb04bb6626ee051b03b783bab.bin
+	new file:   UnityTest/QTE/QTETest/Library/ShaderCache/f/f7abba04007ccff6837cef18d95193fe.bin
+	new file:   UnityTest/QTE/QTETest/Library/ShaderCache/f/f7fe1f0b7fac29ca86dccb53f5959fed.bin
+	new file:   UnityTest/QTE/QTETest/Library/ShaderCache/f/fa4ee33756760b1eb60be31744b0c74a.bin
+	new file:   UnityTest/QTE/QTETest/Library/ShaderCache/f/fa59d92134495b6c307fdbfc8c189ccf.bin
+	new file:   UnityTest/QTE/QTETest/Library/ShaderCache/f/fa5c92be328c265f00172a83bb5633a4.bin
+	new file:   UnityTest/QTE/QTETest/Library/ShaderCache/f/faebc67ec28754e2aad39da048de8893.bin
+	new file:   UnityTest/QTE/QTETest/Library/ShaderCache/f/fb845c0d1e7066a88f86220d05c786d8.bin
+	new file:   UnityTest/QTE/QTETest/Library/ShaderCache/f/fbd9ef683b17de40a8bfd2de3f72ac8d.bin
+	new file:   UnityTest/QTE/QTETest/Library/ShaderCache/f/fc05501a58f2a45c445b03f6dd6a10eb.bin
+	new file:   UnityTest/QTE/QTETest/Library/ShaderCache/f/fce46147d520591884855174bc9bfdd0.bin
+	new file:   UnityTest/QTE/QTETest/Library/ShaderCache/f/fdd7d7bb830a02a343de8e11324f3acf.bin
+	new file:   UnityTest/QTE/QTETest/Library/ShaderCache/f/ff31662adc005c5797cba50e453058c2.bin
+	new file:   UnityTest/QTE/QTETest/Library/ShaderCache/f/ff6fe2e3da6b937e3de61957e31886d0.bin
+	new file:   UnityTest/QTE/QTETest/Library/assetDatabase3
+	new file:   UnityTest/QTE/QTETest/Library/expandedItems
+	new file:   UnityTest/QTE/QTETest/Library/metadata/00/00000000000000001000000000000000
+	new file:   UnityTest/QTE/QTETest/Library/metadata/00/00000000000000001000000000000000.info
+	new file:   UnityTest/QTE/QTETest/Library/metadata/00/00000000000000002000000000000000
+	new file:   UnityTest/QTE/QTETest/Library/metadata/00/00000000000000002000000000000000.info
+	new file:   UnityTest/QTE/QTETest/Library/metadata/00/00000000000000003000000000000000
+	new file:   UnityTest/QTE/QTETest/Library/metadata/00/00000000000000003000000000000000.info
+	new file:   UnityTest/QTE/QTETest/Library/metadata/00/00000000000000004000000000000000
+	new file:   UnityTest/QTE/QTETest/Library/metadata/00/00000000000000004000000000000000.info
+	new file:   UnityTest/QTE/QTETest/Library/metadata/00/00000000000000004100000000000000
+	new file:   UnityTest/QTE/QTETest/Library/metadata/00/00000000000000004100000000000000.info
+	new file:   UnityTest/QTE/QTETest/Library/metadata/00/00000000000000005000000000000000
+	new file:   UnityTest/QTE/QTETest/Library/metadata/00/00000000000000005000000000000000.info
+	new file:   UnityTest/QTE/QTETest/Library/metadata/00/00000000000000005100000000000000
+	new file:   UnityTest/QTE/QTETest/Library/metadata/00/00000000000000005100000000000000.info
+	new file:   UnityTest/QTE/QTETest/Library/metadata/00/00000000000000006000000000000000
+	new file:   UnityTest/QTE/QTETest/Library/metadata/00/00000000000000006000000000000000.info
+	new file:   UnityTest/QTE/QTETest/Library/metadata/00/00000000000000006100000000000000
+	new file:   UnityTest/QTE/QTETest/Library/metadata/00/00000000000000006100000000000000.info
+	new file:   UnityTest/QTE/QTETest/Library/metadata/00/00000000000000007000000000000000
+	new file:   UnityTest/QTE/QTETest/Library/metadata/00/00000000000000007000000000000000.info
+	new file:   UnityTest/QTE/QTETest/Library/metadata/00/00000000000000008000000000000000
+	new file:   UnityTest/QTE/QTETest/Library/metadata/00/00000000000000008000000000000000.info
+	new file:   UnityTest/QTE/QTETest/Library/metadata/00/00000000000000008100000000000000
+	new file:   UnityTest/QTE/QTETest/Library/metadata/00/00000000000000008100000000000000.info
+	new file:   UnityTest/QTE/QTETest/Library/metadata/00/00000000000000009000000000000000
+	new file:   UnityTest/QTE/QTETest/Library/metadata/00/00000000000000009000000000000000.info
+	new file:   UnityTest/QTE/QTETest/Library/metadata/00/00000000000000009100000000000000
+	new file:   UnityTest/QTE/QTETest/Library/metadata/00/00000000000000009100000000000000.info
+	new file:   UnityTest/QTE/QTETest/Library/metadata/00/0000000000000000a000000000000000
+	new file:   UnityTest/QTE/QTETest/Library/metadata/00/0000000000000000a000000000000000.info
+	new file:   UnityTest/QTE/QTETest/Library/metadata/00/0000000000000000b000000000000000
+	new file:   UnityTest/QTE/QTETest/Library/metadata/00/0000000000000000b000000000000000.info
+	new file:   UnityTest/QTE/QTETest/Library/metadata/00/0000000000000000c000000000000000
+	new file:   UnityTest/QTE/QTETest/Library/metadata/00/0000000000000000c000000000000000.info
+	new file:   UnityTest/QTE/QTETest/Library/metadata/0b/0b6f763d374ec0b448d1db88b2dfc591
+	new file:   UnityTest/QTE/QTETest/Library/metadata/0b/0b6f763d374ec0b448d1db88b2dfc591.info
+	new file:   UnityTest/QTE/QTETest/Library/metadata/56/56071d59275dd2b4c945c6a13aa8f174
+	new file:   UnityTest/QTE/QTETest/Library/metadata/56/56071d59275dd2b4c945c6a13aa8f174.info
+	new file:   UnityTest/QTE/QTETest/Library/metadata/5f/5f32cd94baa94578a686d4b9d6b660f7
+	new file:   UnityTest/QTE/QTETest/Library/metadata/5f/5f32cd94baa94578a686d4b9d6b660f7.info
+	new file:   UnityTest/QTE/QTETest/Library/metadata/73/739bbd9f364b4268874f9fd86ab3beef
+	new file:   UnityTest/QTE/QTETest/Library/metadata/73/739bbd9f364b4268874f9fd86ab3beef.info
+	new file:   UnityTest/QTE/QTETest/Library/metadata/80/80a3616ca19596e4da0f10f14d241e9f
+	new file:   UnityTest/QTE/QTETest/Library/metadata/80/80a3616ca19596e4da0f10f14d241e9f.info
+	new file:   UnityTest/QTE/QTETest/Library/metadata/85/852e56802eb941638acbb491814497b0
+	new file:   UnityTest/QTE/QTETest/Library/metadata/85/852e56802eb941638acbb491814497b0.info
+	new file:   UnityTest/QTE/QTETest/Library/metadata/87/870353891bb340e2b2a9c8707e7419ba
+	new file:   UnityTest/QTE/QTETest/Library/metadata/87/870353891bb340e2b2a9c8707e7419ba.info
+	new file:   UnityTest/QTE/QTETest/Library/metadata/97/97decbdab0634cdd991f8d23ddf0dead
+	new file:   UnityTest/QTE/QTETest/Library/metadata/97/97decbdab0634cdd991f8d23ddf0dead.info
+	new file:   UnityTest/QTE/QTETest/Library/metadata/a0/a01491ee90361ee4f9381de31c47798f
+	new file:   UnityTest/QTE/QTETest/Library/metadata/a0/a01491ee90361ee4f9381de31c47798f.info
+	new file:   UnityTest/QTE/QTETest/Library/metadata/bb/bb8ec58606689d140aa44026802ef271
+	new file:   UnityTest/QTE/QTETest/Library/metadata/bb/bb8ec58606689d140aa44026802ef271.info
+	new file:   UnityTest/QTE/QTETest/Library/metadata/f5/f5f67c52d1564df4a8936ccd202a3bd8
+	new file:   UnityTest/QTE/QTETest/Library/metadata/f5/f5f67c52d1564df4a8936ccd202a3bd8.info
+	new file:   UnityTest/QTE/QTETest/Library/shadercompiler-32bit-1.log
+	new file:   UnityTest/QTE/QTETest/Library/shadercompiler-32bit-2.log
+	new file:   UnityTest/QTE/QTETest/Library/shadercompiler-64bit-1.log
+	new file:   UnityTest/QTE/QTETest/Library/shadercompiler-64bit-2.log
+	new file:   UnityTest/QTE/QTETest/ProjectSettings/AudioManager.asset
+	new file:   UnityTest/QTE/QTETest/ProjectSettings/DynamicsManager.asset
+	new file:   UnityTest/QTE/QTETest/ProjectSettings/EditorBuildSettings.asset
+	new file:   UnityTest/QTE/QTETest/ProjectSettings/EditorSettings.asset
+	new file:   UnityTest/QTE/QTETest/ProjectSettings/GraphicsSettings.asset
+	new file:   UnityTest/QTE/QTETest/ProjectSettings/InputManager.asset
+	new file:   UnityTest/QTE/QTETest/ProjectSettings/NavMeshAreas.asset
+	new file:   UnityTest/QTE/QTETest/ProjectSettings/NetworkManager.asset
+	new file:   UnityTest/QTE/QTETest/ProjectSettings/Physics2DSettings.asset
+	new file:   UnityTest/QTE/QTETest/ProjectSettings/ProjectSettings.asset
+	new file:   UnityTest/QTE/QTETest/ProjectSettings/ProjectVersion.txt
+	new file:   UnityTest/QTE/QTETest/ProjectSettings/QualitySettings.asset
+	new file:   UnityTest/QTE/QTETest/ProjectSettings/TagManager.asset
+	new file:   UnityTest/QTE/QTETest/ProjectSettings/TimeManager.asset
+	new file:   UnityTest/QTE/QTETest/ProjectSettings/UnityAdsSettings.asset
+	new file:   UnityTest/QTE/QTETest/ProjectSettings/UnityAnalyticsManager.asset
+	new file:   UnityTest/QTE/QTETest/QTETest.apk
+	new file:   UnityTest/QTE/QTETest/QTETest.sln
+	new file:   UnityTest/QTE/QTETest/QTETest.userprefs
+	new file:   UnityTutorial/GenericPlateformer/GenericPlateformer/.vs/GenericPlateformer/v14/.suo
+	new file:   UnityTutorial/GenericPlateformer/GenericPlateformer/Assembly-CSharp.csproj
+	new file:   UnityTutorial/GenericPlateformer/GenericPlateformer/Assets/GenericPlateform.unity
+	new file:   UnityTutorial/GenericPlateformer/GenericPlateformer/Assets/GenericPlateform.unity.meta
+	new file:   UnityTutorial/GenericPlateformer/GenericPlateformer/Assets/Materials.meta
+	new file:   UnityTutorial/GenericPlateformer/GenericPlateformer/Assets/Materials/Obstacle.mat
+	new file:   UnityTutorial/GenericPlateformer/GenericPlateformer/Assets/Materials/Obstacle.mat.meta
+	new file:   UnityTutorial/GenericPlateformer/GenericPlateformer/Assets/Materials/Player.mat
+	new file:   UnityTutorial/GenericPlateformer/GenericPlateformer/Assets/Materials/Player.mat.meta
+	new file:   UnityTutorial/GenericPlateformer/GenericPlateformer/Assets/Scripts.meta
+	new file:   UnityTutorial/GenericPlateformer/GenericPlateformer/Assets/Scripts/Controller2D.cs
+	new file:   UnityTutorial/GenericPlateformer/GenericPlateformer/Assets/Scripts/Controller2D.cs.meta
+	new file:   UnityTutorial/GenericPlateformer/GenericPlateformer/Assets/Scripts/Player.cs
+	new file:   UnityTutorial/GenericPlateformer/GenericPlateformer/Assets/Scripts/Player.cs.meta
+	new file:   UnityTutorial/GenericPlateformer/GenericPlateformer/GenericPlateformer.CSharp.csproj
+	new file:   UnityTutorial/GenericPlateformer/GenericPlateformer/GenericPlateformer.sln
+	new file:   UnityTutorial/GenericPlateformer/GenericPlateformer/GenericPlateformer.userprefs
+	new file:   UnityTutorial/GenericPlateformer/GenericPlateformer/Library/AnnotationManager
+	new file:   UnityTutorial/GenericPlateformer/GenericPlateformer/Library/AssetImportState
+	new file:   UnityTutorial/GenericPlateformer/GenericPlateformer/Library/AssetServerCacheV3
+	new file:   UnityTutorial/GenericPlateformer/GenericPlateformer/Library/AssetVersioning.db
+	new file:   UnityTutorial/GenericPlateformer/GenericPlateformer/Library/BuildPlayer.prefs
+	new file:   UnityTutorial/GenericPlateformer/GenericPlateformer/Library/BuildSettings.asset
+	new file:   UnityTutorial/GenericPlateformer/GenericPlateformer/Library/CurrentLayout.dwlt
+	new file:   UnityTutorial/GenericPlateformer/GenericPlateformer/Library/CurrentMaximizeLayout.dwlt
+	new file:   UnityTutorial/GenericPlateformer/GenericPlateformer/Library/EditorUserBuildSettings.asset
+	new file:   UnityTutorial/GenericPlateformer/GenericPlateformer/Library/EditorUserSettings.asset
+	new file:   UnityTutorial/GenericPlateformer/GenericPlateformer/Library/InspectorExpandedItems.asset
+	new file:   UnityTutorial/GenericPlateformer/GenericPlateformer/Library/LastSceneManagerSetup.txt
+	new file:   UnityTutorial/GenericPlateformer/GenericPlateformer/Library/LibraryFormatVersion.txt
+	new file:   UnityTutorial/GenericPlateformer/GenericPlateformer/Library/MonoManager.asset
+	new file:   UnityTutorial/GenericPlateformer/GenericPlateformer/Library/ProjectSettings.asset
+	new file:   UnityTutorial/GenericPlateformer/GenericPlateformer/Library/ScriptAssemblies/Assembly-CSharp.dll
+	new file:   UnityTutorial/GenericPlateformer/GenericPlateformer/Library/ScriptAssemblies/Assembly-CSharp.dll.mdb
+	new file:   UnityTutorial/GenericPlateformer/GenericPlateformer/Library/ScriptAssemblies/BuiltinAssemblies.stamp
+	new file:   UnityTutorial/GenericPlateformer/GenericPlateformer/Library/ScriptMapper
+	new file:   UnityTutorial/GenericPlateformer/GenericPlateformer/Library/ShaderCache/0/030d11072be6e261cb26cb0683cb652a.bin
+	new file:   UnityTutorial/GenericPlateformer/GenericPlateformer/Library/ShaderCache/0/06776728e33fc9af2ed1df4f3d08faa1.bin
+	new file:   UnityTutorial/GenericPlateformer/GenericPlateformer/Library/ShaderCache/0/097886457247838aa7d8d2a0b2111588.bin
+	new file:   UnityTutorial/GenericPlateformer/GenericPlateformer/Library/ShaderCache/1/1a2b7fe560e488a838d8954e1442eda6.bin
+	new file:   UnityTutorial/GenericPlateformer/GenericPlateformer/Library/ShaderCache/2/23e2d9474bd54d8c6908a164f5bc0a07.bin
+	new file:   UnityTutorial/GenericPlateformer/GenericPlateformer/Library/ShaderCache/2/25f8c0ace22aba5ca32bfd3285dccfb7.bin
+	new file:   UnityTutorial/GenericPlateformer/GenericPlateformer/Library/ShaderCache/3/38aa91f9394c92c966b576bdb9f86a62.bin
+	new file:   UnityTutorial/GenericPlateformer/GenericPlateformer/Library/ShaderCache/3/3be32702634463e1bcd71308db163fa1.bin
+	new file:   UnityTutorial/GenericPlateformer/GenericPlateformer/Library/ShaderCache/3/3c5f7dab95c09023d4c67b736c849ea0.bin
+	new file:   UnityTutorial/GenericPlateformer/GenericPlateformer/Library/ShaderCache/4/487a05413647b4cd81dfc4dfa74ce02c.bin
+	new file:   UnityTutorial/GenericPlateformer/GenericPlateformer/Library/ShaderCache/4/4d26a09591ab4432ac4d837238b389f3.bin
+	new file:   UnityTutorial/GenericPlateformer/GenericPlateformer/Library/ShaderCache/5/5082b4440f40da183f446be20443674a.bin
+	new file:   UnityTutorial/GenericPlateformer/GenericPlateformer/Library/ShaderCache/5/57859c5db5c39a3294d1c710d2047d28.bin
+	new file:   UnityTutorial/GenericPlateformer/GenericPlateformer/Library/ShaderCache/5/5b7ea82ed062366b0d8ed100480103ce.bin
+	new file:   UnityTutorial/GenericPlateformer/GenericPlateformer/Library/ShaderCache/5/5e8ccf760d9674cf7048e9c3b2a991de.bin
+	new file:   UnityTutorial/GenericPlateformer/GenericPlateformer/Library/ShaderCache/6/68ed3905fef4f4fd90d26876d14fa1b1.bin
+	new file:   UnityTutorial/GenericPlateformer/GenericPlateformer/Library/ShaderCache/7/7eccc90b4e57ec4e03c6da60f7797ebe.bin
+	new file:   UnityTutorial/GenericPlateformer/GenericPlateformer/Library/ShaderCache/8/84d092d4f1f0c17ad3f0d7614f7a1320.bin
+	new file:   UnityTutorial/GenericPlateformer/GenericPlateformer/Library/ShaderCache/8/89ef898df78e89a07d8f8a5bd4a13c8e.bin
+	new file:   UnityTutorial/GenericPlateformer/GenericPlateformer/Library/ShaderCache/8/8e25c819e481ea97d2a82166887ba567.bin
+	new file:   UnityTutorial/GenericPlateformer/GenericPlateformer/Library/ShaderCache/9/9411315f81fe093333e359470f322bdb.bin
+	new file:   UnityTutorial/GenericPlateformer/GenericPlateformer/Library/ShaderCache/9/9f9e260244d60b4826630cb6da6758a9.bin
+	new file:   UnityTutorial/GenericPlateformer/GenericPlateformer/Library/ShaderCache/a/a188fc21889d9a551e973f719fa1cad8.bin
+	new file:   UnityTutorial/GenericPlateformer/GenericPlateformer/Library/ShaderCache/c/c6d07c3ab443788d12dd64936e65ccb8.bin
+	new file:   UnityTutorial/GenericPlateformer/GenericPlateformer/Library/ShaderCache/e/e2110a27349252b987f862c858e50aa5.bin
+	new file:   UnityTutorial/GenericPlateformer/GenericPlateformer/Library/ShaderCache/f/f404998bb9ca1165ba9de501b572176a.bin
+	new file:   UnityTutorial/GenericPlateformer/GenericPlateformer/Library/ShaderCache/f/f4c1bad856bad154302469699c764ded.bin
+	new file:   UnityTutorial/GenericPlateformer/GenericPlateformer/Library/ShaderCache/f/f98c1dff0ca9967f64cd83d3a1fd5211.bin
+	new file:   UnityTutorial/GenericPlateformer/GenericPlateformer/Library/UnityAssemblies/UnityEditor.dll
+	new file:   UnityTutorial/GenericPlateformer/GenericPlateformer/Library/UnityAssemblies/UnityEditor.xml
+	new file:   UnityTutorial/GenericPlateformer/GenericPlateformer/Library/UnityAssemblies/UnityEngine.Networking.dll
+	new file:   UnityTutorial/GenericPlateformer/GenericPlateformer/Library/UnityAssemblies/UnityEngine.Networking.xml
+	new file:   UnityTutorial/GenericPlateformer/GenericPlateformer/Library/UnityAssemblies/UnityEngine.UI.dll
+	new file:   UnityTutorial/GenericPlateformer/GenericPlateformer/Library/UnityAssemblies/UnityEngine.UI.xml
+	new file:   UnityTutorial/GenericPlateformer/GenericPlateformer/Library/UnityAssemblies/UnityEngine.dll
+	new file:   UnityTutorial/GenericPlateformer/GenericPlateformer/Library/UnityAssemblies/UnityEngine.xml
+	new file:   UnityTutorial/GenericPlateformer/GenericPlateformer/Library/UnityAssemblies/version.txt
+	new file:   UnityTutorial/GenericPlateformer/GenericPlateformer/Library/assetDatabase3
+	new file:   UnityTutorial/GenericPlateformer/GenericPlateformer/Library/expandedItems
+	new file:   UnityTutorial/GenericPlateformer/GenericPlateformer/Library/metadata/00/00000000000000001000000000000000
+	new file:   UnityTutorial/GenericPlateformer/GenericPlateformer/Library/metadata/00/00000000000000001000000000000000.info
+	new file:   UnityTutorial/GenericPlateformer/GenericPlateformer/Library/metadata/00/00000000000000002000000000000000
+	new file:   UnityTutorial/GenericPlateformer/GenericPlateformer/Library/metadata/00/00000000000000002000000000000000.info
+	new file:   UnityTutorial/GenericPlateformer/GenericPlateformer/Library/metadata/00/00000000000000003000000000000000
+	new file:   UnityTutorial/GenericPlateformer/GenericPlateformer/Library/metadata/00/00000000000000003000000000000000.info
+	new file:   UnityTutorial/GenericPlateformer/GenericPlateformer/Library/metadata/00/00000000000000004000000000000000
+	new file:   UnityTutorial/GenericPlateformer/GenericPlateformer/Library/metadata/00/00000000000000004000000000000000.info
+	new file:   UnityTutorial/GenericPlateformer/GenericPlateformer/Library/metadata/00/00000000000000004100000000000000
+	new file:   UnityTutorial/GenericPlateformer/GenericPlateformer/Library/metadata/00/00000000000000004100000000000000.info
+	new file:   UnityTutorial/GenericPlateformer/GenericPlateformer/Library/metadata/00/00000000000000005000000000000000
+	new file:   UnityTutorial/GenericPlateformer/GenericPlateformer/Library/metadata/00/00000000000000005000000000000000.info
+	new file:   UnityTutorial/GenericPlateformer/GenericPlateformer/Library/metadata/00/00000000000000005100000000000000
+	new file:   UnityTutorial/GenericPlateformer/GenericPlateformer/Library/metadata/00/00000000000000005100000000000000.info
+	new file:   UnityTutorial/GenericPlateformer/GenericPlateformer/Library/metadata/00/00000000000000006000000000000000
+	new file:   UnityTutorial/GenericPlateformer/GenericPlateformer/Library/metadata/00/00000000000000006000000000000000.info
+	new file:   UnityTutorial/GenericPlateformer/GenericPlateformer/Library/metadata/00/00000000000000006100000000000000
+	new file:   UnityTutorial/GenericPlateformer/GenericPlateformer/Library/metadata/00/00000000000000006100000000000000.info
+	new file:   UnityTutorial/GenericPlateformer/GenericPlateformer/Library/metadata/00/00000000000000007000000000000000
+	new file:   UnityTutorial/GenericPlateformer/GenericPlateformer/Library/metadata/00/00000000000000007000000000000000.info
+	new file:   UnityTutorial/GenericPlateformer/GenericPlateformer/Library/metadata/00/00000000000000007100000000000000
+	new file:   UnityTutorial/GenericPlateformer/GenericPlateformer/Library/metadata/00/00000000000000007100000000000000.info
+	new file:   UnityTutorial/GenericPlateformer/GenericPlateformer/Library/metadata/00/00000000000000008000000000000000
+	new file:   UnityTutorial/GenericPlateformer/GenericPlateformer/Library/metadata/00/00000000000000008000000000000000.info
+	new file:   UnityTutorial/GenericPlateformer/GenericPlateformer/Library/metadata/00/00000000000000008100000000000000
+	new file:   UnityTutorial/GenericPlateformer/GenericPlateformer/Library/metadata/00/00000000000000008100000000000000.info
+	new file:   UnityTutorial/GenericPlateformer/GenericPlateformer/Library/metadata/00/00000000000000009000000000000000
+	new file:   UnityTutorial/GenericPlateformer/GenericPlateformer/Library/metadata/00/00000000000000009000000000000000.info
+	new file:   UnityTutorial/GenericPlateformer/GenericPlateformer/Library/metadata/00/0000000000000000a000000000000000
+	new file:   UnityTutorial/GenericPlateformer/GenericPlateformer/Library/metadata/00/0000000000000000a000000000000000.info
+	new file:   UnityTutorial/GenericPlateformer/GenericPlateformer/Library/metadata/00/0000000000000000a100000000000000
+	new file:   UnityTutorial/GenericPlateformer/GenericPlateformer/Library/metadata/00/0000000000000000a100000000000000.info
+	new file:   UnityTutorial/GenericPlateformer/GenericPlateformer/Library/metadata/00/0000000000000000b000000000000000
+	new file:   UnityTutorial/GenericPlateformer/GenericPlateformer/Library/metadata/00/0000000000000000b000000000000000.info
+	new file:   UnityTutorial/GenericPlateformer/GenericPlateformer/Library/metadata/00/0000000000000000c000000000000000
+	new file:   UnityTutorial/GenericPlateformer/GenericPlateformer/Library/metadata/00/0000000000000000c000000000000000.info
+	new file:   UnityTutorial/GenericPlateformer/GenericPlateformer/Library/metadata/2d/2ddeeeffdd22f074b9c41e73bcd4eac8
+	new file:   UnityTutorial/GenericPlateformer/GenericPlateformer/Library/metadata/2d/2ddeeeffdd22f074b9c41e73bcd4eac8.info
+	new file:   UnityTutorial/GenericPlateformer/GenericPlateformer/Library/metadata/3c/3c0ad459c1534645b5d603b7cc258f97
+	new file:   UnityTutorial/GenericPlateformer/GenericPlateformer/Library/metadata/3c/3c0ad459c1534645b5d603b7cc258f97.info
+	new file:   UnityTutorial/GenericPlateformer/GenericPlateformer/Library/metadata/5f/5f32cd94baa94578a686d4b9d6b660f7
+	new file:   UnityTutorial/GenericPlateformer/GenericPlateformer/Library/metadata/5f/5f32cd94baa94578a686d4b9d6b660f7.info
+	new file:   UnityTutorial/GenericPlateformer/GenericPlateformer/Library/metadata/6c/6c3782269d981dd4a800c2e7fe32032c
+	new file:   UnityTutorial/GenericPlateformer/GenericPlateformer/Library/metadata/6c/6c3782269d981dd4a800c2e7fe32032c.info
+	new file:   UnityTutorial/GenericPlateformer/GenericPlateformer/Library/metadata/73/739bbd9f364b4268874f9fd86ab3beef
+	new file:   UnityTutorial/GenericPlateformer/GenericPlateformer/Library/metadata/73/739bbd9f364b4268874f9fd86ab3beef.info
+	new file:   UnityTutorial/GenericPlateformer/GenericPlateformer/Library/metadata/7c/7cbab2be89b54486bbd23a6fe637d30e
+	new file:   UnityTutorial/GenericPlateformer/GenericPlateformer/Library/metadata/7c/7cbab2be89b54486bbd23a6fe637d30e.info
+	new file:   UnityTutorial/GenericPlateformer/GenericPlateformer/Library/metadata/80/80a3616ca19596e4da0f10f14d241e9f
+	new file:   UnityTutorial/GenericPlateformer/GenericPlateformer/Library/metadata/80/80a3616ca19596e4da0f10f14d241e9f.info
+	new file:   UnityTutorial/GenericPlateformer/GenericPlateformer/Library/metadata/85/852e56802eb941638acbb491814497b0
+	new file:   UnityTutorial/GenericPlateformer/GenericPlateformer/Library/metadata/85/852e56802eb941638acbb491814497b0.info
+	new file:   UnityTutorial/GenericPlateformer/GenericPlateformer/Library/metadata/87/870353891bb340e2b2a9c8707e7419ba
+	new file:   UnityTutorial/GenericPlateformer/GenericPlateformer/Library/metadata/87/870353891bb340e2b2a9c8707e7419ba.info
+	new file:   UnityTutorial/GenericPlateformer/GenericPlateformer/Library/metadata/8d/8d6fda051cb3e9547bdde2a0db7b513d
+	new file:   UnityTutorial/GenericPlateformer/GenericPlateformer/Library/metadata/8d/8d6fda051cb3e9547bdde2a0db7b513d.info
+	new file:   UnityTutorial/GenericPlateformer/GenericPlateformer/Library/metadata/8e/8e0cd8ed44d4412cbe0642067abc9e44
+	new file:   UnityTutorial/GenericPlateformer/GenericPlateformer/Library/metadata/8e/8e0cd8ed44d4412cbe0642067abc9e44.info
+	new file:   UnityTutorial/GenericPlateformer/GenericPlateformer/Library/metadata/97/972e8f6a0b9d90d4f950482dff060aa3
+	new file:   UnityTutorial/GenericPlateformer/GenericPlateformer/Library/metadata/97/972e8f6a0b9d90d4f950482dff060aa3.info
+	new file:   UnityTutorial/GenericPlateformer/GenericPlateformer/Library/metadata/97/97decbdab0634cdd991f8d23ddf0dead
+	new file:   UnityTutorial/GenericPlateformer/GenericPlateformer/Library/metadata/97/97decbdab0634cdd991f8d23ddf0dead.info
+	new file:   UnityTutorial/GenericPlateformer/GenericPlateformer/Library/metadata/a9/a9acd7dbeaa0fd344895e75da9e08a9a
+	new file:   UnityTutorial/GenericPlateformer/GenericPlateformer/Library/metadata/a9/a9acd7dbeaa0fd344895e75da9e08a9a.info
+	new file:   UnityTutorial/GenericPlateformer/GenericPlateformer/Library/metadata/ad/adebbd281f1a4ef3a30be7f21937e02f
+	new file:   UnityTutorial/GenericPlateformer/GenericPlateformer/Library/metadata/ad/adebbd281f1a4ef3a30be7f21937e02f.info
+	new file:   UnityTutorial/GenericPlateformer/GenericPlateformer/Library/metadata/b8/b86618aa02c8f9243ab631840e1cc1b3
+	new file:   UnityTutorial/GenericPlateformer/GenericPlateformer/Library/metadata/b8/b86618aa02c8f9243ab631840e1cc1b3.info
+	new file:   UnityTutorial/GenericPlateformer/GenericPlateformer/Library/metadata/f5/f5f67c52d1564df4a8936ccd202a3bd8
+	new file:   UnityTutorial/GenericPlateformer/GenericPlateformer/Library/metadata/f5/f5f67c52d1564df4a8936ccd202a3bd8.info
+	new file:   UnityTutorial/GenericPlateformer/GenericPlateformer/Library/metadata/fa/fae07a757dce0954896912acd0bf0c80
+	new file:   UnityTutorial/GenericPlateformer/GenericPlateformer/Library/metadata/fa/fae07a757dce0954896912acd0bf0c80.info
+	new file:   UnityTutorial/GenericPlateformer/GenericPlateformer/Library/shadercompiler-32bit-1.log
+	new file:   UnityTutorial/GenericPlateformer/GenericPlateformer/Library/shadercompiler-64bit-1.log
+	new file:   UnityTutorial/GenericPlateformer/GenericPlateformer/Library/shadercompiler-UnityShaderCompiler.exe0.log
+	new file:   UnityTutorial/GenericPlateformer/GenericPlateformer/ProjectSettings/AudioManager.asset
+	new file:   UnityTutorial/GenericPlateformer/GenericPlateformer/ProjectSettings/ClusterInputManager.asset
+	new file:   UnityTutorial/GenericPlateformer/GenericPlateformer/ProjectSettings/DynamicsManager.asset
+	new file:   UnityTutorial/GenericPlateformer/GenericPlateformer/ProjectSettings/EditorBuildSettings.asset
+	new file:   UnityTutorial/GenericPlateformer/GenericPlateformer/ProjectSettings/EditorSettings.asset
+	new file:   UnityTutorial/GenericPlateformer/GenericPlateformer/ProjectSettings/GraphicsSettings.asset
+	new file:   UnityTutorial/GenericPlateformer/GenericPlateformer/ProjectSettings/InputManager.asset
+	new file:   UnityTutorial/GenericPlateformer/GenericPlateformer/ProjectSettings/NavMeshAreas.asset
+	new file:   UnityTutorial/GenericPlateformer/GenericPlateformer/ProjectSettings/NetworkManager.asset
+	new file:   UnityTutorial/GenericPlateformer/GenericPlateformer/ProjectSettings/Physics2DSettings.asset
+	new file:   UnityTutorial/GenericPlateformer/GenericPlateformer/ProjectSettings/ProjectSettings.asset
+	new file:   UnityTutorial/GenericPlateformer/GenericPlateformer/ProjectSettings/ProjectVersion.txt
+	new file:   UnityTutorial/GenericPlateformer/GenericPlateformer/ProjectSettings/QualitySettings.asset
+	new file:   UnityTutorial/GenericPlateformer/GenericPlateformer/ProjectSettings/TagManager.asset
+	new file:   UnityTutorial/GenericPlateformer/GenericPlateformer/ProjectSettings/TimeManager.asset
+	new file:   UnityTutorial/GenericPlateformer/GenericPlateformer/ProjectSettings/UnityAdsSettings.asset
+	new file:   UnityTutorial/GenericPlateformer/GenericPlateformer/ProjectSettings/UnityConnectSettings.asset
+	new file:   UnityTutorial/GenericPlateformer/Library/AnnotationManager
+	new file:   UnityTutorial/GenericPlateformer/Library/AssetImportState
+	new file:   UnityTutorial/GenericPlateformer/Library/AssetServerCacheV3
+	new file:   UnityTutorial/GenericPlateformer/Library/BuildPlayer.prefs
+	new file:   UnityTutorial/GenericPlateformer/Library/BuildSettings.asset
+	new file:   UnityTutorial/GenericPlateformer/Library/CurrentLayout.dwlt
+	new file:   UnityTutorial/GenericPlateformer/Library/EditorUserBuildSettings.asset
+	new file:   UnityTutorial/GenericPlateformer/Library/EditorUserSettings.asset
+	new file:   UnityTutorial/GenericPlateformer/Library/InspectorExpandedItems.asset
+	new file:   UnityTutorial/GenericPlateformer/Library/LastSceneManagerSetup.txt
+	new file:   UnityTutorial/GenericPlateformer/Library/LibraryFormatVersion.txt
+	new file:   UnityTutorial/GenericPlateformer/Library/MonoManager.asset
+	new file:   UnityTutorial/GenericPlateformer/Library/ProjectSettings.asset
+	new file:   UnityTutorial/GenericPlateformer/Library/ScriptMapper
+	new file:   UnityTutorial/GenericPlateformer/Library/ShaderCache/4/4d26a09591ab4432ac4d837238b389f3.bin
+	new file:   UnityTutorial/GenericPlateformer/Library/ShaderCache/f/f98c1dff0ca9967f64cd83d3a1fd5211.bin
+	new file:   UnityTutorial/GenericPlateformer/Library/assetDatabase3
+	new file:   UnityTutorial/GenericPlateformer/Library/expandedItems
+	new file:   UnityTutorial/GenericPlateformer/Library/metadata/00/00000000000000001000000000000000
+	new file:   UnityTutorial/GenericPlateformer/Library/metadata/00/00000000000000001000000000000000.info
+	new file:   UnityTutorial/GenericPlateformer/Library/metadata/00/00000000000000002000000000000000
+	new file:   UnityTutorial/GenericPlateformer/Library/metadata/00/00000000000000002000000000000000.info
+	new file:   UnityTutorial/GenericPlateformer/Library/metadata/00/00000000000000003000000000000000
+	new file:   UnityTutorial/GenericPlateformer/Library/metadata/00/00000000000000003000000000000000.info
+	new file:   UnityTutorial/GenericPlateformer/Library/metadata/00/00000000000000004000000000000000
+	new file:   UnityTutorial/GenericPlateformer/Library/metadata/00/00000000000000004000000000000000.info
+	new file:   UnityTutorial/GenericPlateformer/Library/metadata/00/00000000000000004100000000000000
+	new file:   UnityTutorial/GenericPlateformer/Library/metadata/00/00000000000000004100000000000000.info
+	new file:   UnityTutorial/GenericPlateformer/Library/metadata/00/00000000000000005000000000000000
+	new file:   UnityTutorial/GenericPlateformer/Library/metadata/00/00000000000000005000000000000000.info
+	new file:   UnityTutorial/GenericPlateformer/Library/metadata/00/00000000000000005100000000000000
+	new file:   UnityTutorial/GenericPlateformer/Library/metadata/00/00000000000000005100000000000000.info
+	new file:   UnityTutorial/GenericPlateformer/Library/metadata/00/00000000000000006000000000000000
+	new file:   UnityTutorial/GenericPlateformer/Library/metadata/00/00000000000000006000000000000000.info
+	new file:   UnityTutorial/GenericPlateformer/Library/metadata/00/00000000000000006100000000000000
+	new file:   UnityTutorial/GenericPlateformer/Library/metadata/00/00000000000000006100000000000000.info
+	new file:   UnityTutorial/GenericPlateformer/Library/metadata/00/00000000000000007000000000000000
+	new file:   UnityTutorial/GenericPlateformer/Library/metadata/00/00000000000000007000000000000000.info
+	new file:   UnityTutorial/GenericPlateformer/Library/metadata/00/00000000000000007100000000000000
+	new file:   UnityTutorial/GenericPlateformer/Library/metadata/00/00000000000000007100000000000000.info
+	new file:   UnityTutorial/GenericPlateformer/Library/metadata/00/00000000000000008000000000000000
+	new file:   UnityTutorial/GenericPlateformer/Library/metadata/00/00000000000000008000000000000000.info
+	new file:   UnityTutorial/GenericPlateformer/Library/metadata/00/00000000000000008100000000000000
+	new file:   UnityTutorial/GenericPlateformer/Library/metadata/00/00000000000000008100000000000000.info
+	new file:   UnityTutorial/GenericPlateformer/Library/metadata/00/00000000000000009000000000000000
+	new file:   UnityTutorial/GenericPlateformer/Library/metadata/00/00000000000000009000000000000000.info
+	new file:   UnityTutorial/GenericPlateformer/Library/metadata/00/0000000000000000a000000000000000
+	new file:   UnityTutorial/GenericPlateformer/Library/metadata/00/0000000000000000a000000000000000.info
+	new file:   UnityTutorial/GenericPlateformer/Library/metadata/00/0000000000000000a100000000000000
+	new file:   UnityTutorial/GenericPlateformer/Library/metadata/00/0000000000000000a100000000000000.info
+	new file:   UnityTutorial/GenericPlateformer/Library/metadata/00/0000000000000000b000000000000000
+	new file:   UnityTutorial/GenericPlateformer/Library/metadata/00/0000000000000000b000000000000000.info
+	new file:   UnityTutorial/GenericPlateformer/Library/metadata/00/0000000000000000c000000000000000
+	new file:   UnityTutorial/GenericPlateformer/Library/metadata/00/0000000000000000c000000000000000.info
+	new file:   UnityTutorial/GenericPlateformer/Library/metadata/3c/3c0ad459c1534645b5d603b7cc258f97
+	new file:   UnityTutorial/GenericPlateformer/Library/metadata/3c/3c0ad459c1534645b5d603b7cc258f97.info
+	new file:   UnityTutorial/GenericPlateformer/Library/metadata/5f/5f32cd94baa94578a686d4b9d6b660f7
+	new file:   UnityTutorial/GenericPlateformer/Library/metadata/5f/5f32cd94baa94578a686d4b9d6b660f7.info
+	new file:   UnityTutorial/GenericPlateformer/Library/metadata/73/739bbd9f364b4268874f9fd86ab3beef
+	new file:   UnityTutorial/GenericPlateformer/Library/metadata/73/739bbd9f364b4268874f9fd86ab3beef.info
+	new file:   UnityTutorial/GenericPlateformer/Library/metadata/7c/7cbab2be89b54486bbd23a6fe637d30e
+	new file:   UnityTutorial/GenericPlateformer/Library/metadata/7c/7cbab2be89b54486bbd23a6fe637d30e.info
+	new file:   UnityTutorial/GenericPlateformer/Library/metadata/80/80a3616ca19596e4da0f10f14d241e9f
+	new file:   UnityTutorial/GenericPlateformer/Library/metadata/80/80a3616ca19596e4da0f10f14d241e9f.info
+	new file:   UnityTutorial/GenericPlateformer/Library/metadata/85/852e56802eb941638acbb491814497b0
+	new file:   UnityTutorial/GenericPlateformer/Library/metadata/85/852e56802eb941638acbb491814497b0.info
+	new file:   UnityTutorial/GenericPlateformer/Library/metadata/87/870353891bb340e2b2a9c8707e7419ba
+	new file:   UnityTutorial/GenericPlateformer/Library/metadata/87/870353891bb340e2b2a9c8707e7419ba.info
+	new file:   UnityTutorial/GenericPlateformer/Library/metadata/8e/8e0cd8ed44d4412cbe0642067abc9e44
+	new file:   UnityTutorial/GenericPlateformer/Library/metadata/8e/8e0cd8ed44d4412cbe0642067abc9e44.info
+	new file:   UnityTutorial/GenericPlateformer/Library/metadata/97/97decbdab0634cdd991f8d23ddf0dead
+	new file:   UnityTutorial/GenericPlateformer/Library/metadata/97/97decbdab0634cdd991f8d23ddf0dead.info
+	new file:   UnityTutorial/GenericPlateformer/Library/metadata/ad/adebbd281f1a4ef3a30be7f21937e02f
+	new file:   UnityTutorial/GenericPlateformer/Library/metadata/ad/adebbd281f1a4ef3a30be7f21937e02f.info
+	new file:   UnityTutorial/GenericPlateformer/Library/metadata/f5/f5f67c52d1564df4a8936ccd202a3bd8
+	new file:   UnityTutorial/GenericPlateformer/Library/metadata/f5/f5f67c52d1564df4a8936ccd202a3bd8.info
+	new file:   UnityTutorial/GenericPlateformer/Library/shadercompiler-UnityShaderCompiler.exe0.log
+	new file:   UnityTutorial/GenericPlateformer/ProjectSettings/AudioManager.asset
+	new file:   UnityTutorial/GenericPlateformer/ProjectSettings/ClusterInputManager.asset
+	new file:   UnityTutorial/GenericPlateformer/ProjectSettings/DynamicsManager.asset
+	new file:   UnityTutorial/GenericPlateformer/ProjectSettings/EditorBuildSettings.asset
+	new file:   UnityTutorial/GenericPlateformer/ProjectSettings/EditorSettings.asset
+	new file:   UnityTutorial/GenericPlateformer/ProjectSettings/GraphicsSettings.asset
+	new file:   UnityTutorial/GenericPlateformer/ProjectSettings/InputManager.asset
+	new file:   UnityTutorial/GenericPlateformer/ProjectSettings/NavMeshAreas.asset
+	new file:   UnityTutorial/GenericPlateformer/ProjectSettings/NetworkManager.asset
+	new file:   UnityTutorial/GenericPlateformer/ProjectSettings/Physics2DSettings.asset
+	new file:   UnityTutorial/GenericPlateformer/ProjectSettings/ProjectSettings.asset
+	new file:   UnityTutorial/GenericPlateformer/ProjectSettings/ProjectVersion.txt
+	new file:   UnityTutorial/GenericPlateformer/ProjectSettings/QualitySettings.asset
+	new file:   UnityTutorial/GenericPlateformer/ProjectSettings/TagManager.asset
+	new file:   UnityTutorial/GenericPlateformer/ProjectSettings/TimeManager.asset
+	new file:   UnityTutorial/GenericPlateformer/ProjectSettings/UnityAdsSettings.asset
+	new file:   UnityTutorial/GenericPlateformer/ProjectSettings/UnityConnectSettings.asset
+	new file:   UnityTutorial/TouchScreen/New Unity Project/Assembly-CSharp.csproj
+	new file:   UnityTutorial/TouchScreen/New Unity Project/Assets/Button.cs
+	new file:   UnityTutorial/TouchScreen/New Unity Project/Assets/Button.cs.meta
+	new file:   UnityTutorial/TouchScreen/New Unity Project/Assets/Button.mat
+	new file:   UnityTutorial/TouchScreen/New Unity Project/Assets/Button.mat.meta
+	new file:   UnityTutorial/TouchScreen/New Unity Project/Assets/InputScreen.cs
+	new file:   UnityTutorial/TouchScreen/New Unity Project/Assets/InputScreen.cs.meta
+	new file:   UnityTutorial/TouchScreen/New Unity Project/Assets/TouchScreen3D.unity
+	new file:   UnityTutorial/TouchScreen/New Unity Project/Assets/TouchScreen3D.unity.meta
+	new file:   UnityTutorial/TouchScreen/New Unity Project/Library/AnnotationManager
+	new file:   UnityTutorial/TouchScreen/New Unity Project/Library/AssetImportState
+	new file:   UnityTutorial/TouchScreen/New Unity Project/Library/AssetServerCacheV3
+	new file:   UnityTutorial/TouchScreen/New Unity Project/Library/BuildPlayer.prefs
+	new file:   UnityTutorial/TouchScreen/New Unity Project/Library/BuildSettings.asset
+	new file:   UnityTutorial/TouchScreen/New Unity Project/Library/CurrentLayout.dwlt
+	new file:   UnityTutorial/TouchScreen/New Unity Project/Library/EditorUserBuildSettings.asset
+	new file:   UnityTutorial/TouchScreen/New Unity Project/Library/EditorUserSettings.asset
+	new file:   UnityTutorial/TouchScreen/New Unity Project/Library/InspectorExpandedItems.asset
+	new file:   UnityTutorial/TouchScreen/New Unity Project/Library/LibraryFormatVersion.txt
+	new file:   UnityTutorial/TouchScreen/New Unity Project/Library/MonoManager.asset
+	new file:   UnityTutorial/TouchScreen/New Unity Project/Library/ProjectSettings.asset
+	new file:   UnityTutorial/TouchScreen/New Unity Project/Library/ScriptAssemblies/Assembly-CSharp.dll
+	new file:   UnityTutorial/TouchScreen/New Unity Project/Library/ScriptAssemblies/Assembly-CSharp.dll.mdb
+	new file:   UnityTutorial/TouchScreen/New Unity Project/Library/ScriptAssemblies/BuiltinAssemblies.stamp
+	new file:   UnityTutorial/TouchScreen/New Unity Project/Library/ScriptMapper
+	new file:   UnityTutorial/TouchScreen/New Unity Project/Library/ShaderCache/0/019da81393266e5fbeffa326dd34c9dd.bin
+	new file:   UnityTutorial/TouchScreen/New Unity Project/Library/ShaderCache/0/025b70db7bfe745ceb0dcf1717c9f61e.bin
+	new file:   UnityTutorial/TouchScreen/New Unity Project/Library/ShaderCache/0/0287bd09ebe6aea389ccfca7ac857ae0.bin
+	new file:   UnityTutorial/TouchScreen/New Unity Project/Library/ShaderCache/0/02d160ffe2749b5c12a11bb9d528a573.bin
+	new file:   UnityTutorial/TouchScreen/New Unity Project/Library/ShaderCache/0/031cfc67ef0ce14a5eb9863365c0e521.bin
+	new file:   UnityTutorial/TouchScreen/New Unity Project/Library/ShaderCache/0/0536c90f3e91f3aeb12a77c5e943924f.bin
+	new file:   UnityTutorial/TouchScreen/New Unity Project/Library/ShaderCache/0/05a4772fda21b08d316c5dd0985ebb5a.bin
+	new file:   UnityTutorial/TouchScreen/New Unity Project/Library/ShaderCache/0/05c49d5c9c9e2cdae2383459d943fbfe.bin
+	new file:   UnityTutorial/TouchScreen/New Unity Project/Library/ShaderCache/0/05ce082f6598bc871cc107680cbbcf97.bin
+	new file:   UnityTutorial/TouchScreen/New Unity Project/Library/ShaderCache/0/066e5f952ebb3d62c0c62e3904c68495.bin
+	new file:   UnityTutorial/TouchScreen/New Unity Project/Library/ShaderCache/0/0670eeec27fe650da9279961a7ff5bd8.bin
+	new file:   UnityTutorial/TouchScreen/New Unity Project/Library/ShaderCache/0/06776728e33fc9af2ed1df4f3d08faa1.bin
+	new file:   UnityTutorial/TouchScreen/New Unity Project/Library/ShaderCache/0/06f790d8974e4d2617aac18cb5466793.bin
+	new file:   UnityTutorial/TouchScreen/New Unity Project/Library/ShaderCache/0/07d9cc9488d6662d085ef35fe6db9db6.bin
+	new file:   UnityTutorial/TouchScreen/New Unity Project/Library/ShaderCache/0/081e9584c5c682c7ffcb5cd5bc112a92.bin
+	new file:   UnityTutorial/TouchScreen/New Unity Project/Library/ShaderCache/0/097886457247838aa7d8d2a0b2111588.bin
+	new file:   UnityTutorial/TouchScreen/New Unity Project/Library/ShaderCache/0/097fa0d1e59a9ed1c0f4fcc6fe2a050c.bin
+	new file:   UnityTutorial/TouchScreen/New Unity Project/Library/ShaderCache/0/09d157f32891609155d3b87b32a112e6.bin
+	new file:   UnityTutorial/TouchScreen/New Unity Project/Library/ShaderCache/0/0a28c94bbc8aeec4f3f8d2cb33e3a248.bin
+	new file:   UnityTutorial/TouchScreen/New Unity Project/Library/ShaderCache/0/0a67bd84bf4f1d75063883bff766f672.bin
+	new file:   UnityTutorial/TouchScreen/New Unity Project/Library/ShaderCache/0/0a79d3b1d709a6a37ecd43cd22131b2e.bin
+	new file:   UnityTutorial/TouchScreen/New Unity Project/Library/ShaderCache/0/0b03b61e429134c346454032efc98dc6.bin
+	new file:   UnityTutorial/TouchScreen/New Unity Project/Library/ShaderCache/0/0b16097e50a084727994a45c71d653c0.bin
+	new file:   UnityTutorial/TouchScreen/New Unity Project/Library/ShaderCache/0/0b1783294dde37863689bf2fb3125e17.bin
+	new file:   UnityTutorial/TouchScreen/New Unity Project/Library/ShaderCache/0/0b60eff68e5258e0d758c93e4db2da89.bin
+	new file:   UnityTutorial/TouchScreen/New Unity Project/Library/ShaderCache/0/0b9b07f63963e82aac8a5b32689dcdd5.bin
+	new file:   UnityTutorial/TouchScreen/New Unity Project/Library/ShaderCache/0/0c27c410c6b29aa109b9363903d36d5b.bin
+	new file:   UnityTutorial/TouchScreen/New Unity Project/Library/ShaderCache/0/0c67be52a1eb4d771f02e1872a7afd3f.bin
+	new file:   UnityTutorial/TouchScreen/New Unity Project/Library/ShaderCache/0/0d883e258707b3f1c3120d151d2f721b.bin
+	new file:   UnityTutorial/TouchScreen/New Unity Project/Library/ShaderCache/0/0dad50b5ac56b277efde98f7cf7422ac.bin
+	new file:   UnityTutorial/TouchScreen/New Unity Project/Library/ShaderCache/0/0e8a9be3ece5937cb2a6c4276d3bc533.bin
+	new file:   UnityTutorial/TouchScreen/New Unity Project/Library/ShaderCache/0/0eb53102b5c4a2c1e689e3a5b26d3137.bin
+	new file:   UnityTutorial/TouchScreen/New Unity Project/Library/ShaderCache/0/0f510aa1a7b48218738cec8388b3c8a1.bin
+	new file:   UnityTutorial/TouchScreen/New Unity Project/Library/ShaderCache/0/0f538d1d185039adf0973032cddce8bc.bin
+	new file:   UnityTutorial/TouchScreen/New Unity Project/Library/ShaderCache/0/0f9e99a91d0b245ecb0dfb0801a1194b.bin
+	new file:   UnityTutorial/TouchScreen/New Unity Project/Library/ShaderCache/1/10675b956a6ae55a654ad0e185098c02.bin
+	new file:   UnityTutorial/TouchScreen/New Unity Project/Library/ShaderCache/1/1068dde875c92d708a4ebd42335b27b8.bin
+	new file:   UnityTutorial/TouchScreen/New Unity Project/Library/ShaderCache/1/108e9c0ac45fc67dab4fac114230e194.bin
+	new file:   UnityTutorial/TouchScreen/New Unity Project/Library/ShaderCache/1/1108c0a105c2719fb21d1a6f62d9a108.bin
+	new file:   UnityTutorial/TouchScreen/New Unity Project/Library/ShaderCache/1/113d79b5c53dfc14b7c52e892d3b7260.bin
+	new file:   UnityTutorial/TouchScreen/New Unity Project/Library/ShaderCache/1/118d12d8fe8e60909dcd8454e9aad5a3.bin
+	new file:   UnityTutorial/TouchScreen/New Unity Project/Library/ShaderCache/1/11e3ec4114ce74b9c9eeae199b11159b.bin
+	new file:   UnityTutorial/TouchScreen/New Unity Project/Library/ShaderCache/1/120c0e7edeac458baa9f4057682c869b.bin
+	new file:   UnityTutorial/TouchScreen/New Unity Project/Library/ShaderCache/1/1212622b9c819e5faf69a93b77dbb02b.bin
+	new file:   UnityTutorial/TouchScreen/New Unity Project/Library/ShaderCache/1/12692037badfae8f96a81d69aca1d28b.bin
+	new file:   UnityTutorial/TouchScreen/New Unity Project/Library/ShaderCache/1/13ca7daefa28f7c3389685449ee0635d.bin
+	new file:   UnityTutorial/TouchScreen/New Unity Project/Library/ShaderCache/1/1448c2e64c9d6ca3bb380c34dd571c78.bin
+	new file:   UnityTutorial/TouchScreen/New Unity Project/Library/ShaderCache/1/145a76c77b58ba7767ce03653e13504e.bin
+	new file:   UnityTutorial/TouchScreen/New Unity Project/Library/ShaderCache/1/1517cac0aed3fd99910cd7c1eacaef75.bin
+	new file:   UnityTutorial/TouchScreen/New Unity Project/Library/ShaderCache/1/165a75733458f12d2157a8c456d5c413.bin
+	new file:   UnityTutorial/TouchScreen/New Unity Project/Library/ShaderCache/1/166677ed173b7585aaf6131d4112ed09.bin
+	new file:   UnityTutorial/TouchScreen/New Unity Project/Library/ShaderCache/1/1666f80744f524edc1cbaf1742c9dc8a.bin
+	new file:   UnityTutorial/TouchScreen/New Unity Project/Library/ShaderCache/1/169fe12437a3d26abebe594c3df4a40f.bin
+	new file:   UnityTutorial/TouchScreen/New Unity Project/Library/ShaderCache/1/1736305332e1e65a96275f18f8870f00.bin
+	new file:   UnityTutorial/TouchScreen/New Unity Project/Library/ShaderCache/1/17414df369fbf29e557e0b3a9d527b1c.bin
+	new file:   UnityTutorial/TouchScreen/New Unity Project/Library/ShaderCache/1/17c4c4bd637ee4803ded9d1499e75dfe.bin
+	new file:   UnityTutorial/TouchScreen/New Unity Project/Library/ShaderCache/1/185eafa74a3994ea61d3b8188320d298.bin
+	new file:   UnityTutorial/TouchScreen/New Unity Project/Library/ShaderCache/1/18cf939499b9d1ee675827ae9f4c2300.bin
+	new file:   UnityTutorial/TouchScreen/New Unity Project/Library/ShaderCache/1/18eb9cc27ceba220a407d4673d129cdf.bin
+	new file:   UnityTutorial/TouchScreen/New Unity Project/Library/ShaderCache/1/1980f9ebb5bf0bc490a53795448be9d1.bin
+	new file:   UnityTutorial/TouchScreen/New Unity Project/Library/ShaderCache/1/19972fee6c6c487c2c89b296e1143176.bin
+	new file:   UnityTutorial/TouchScreen/New Unity Project/Library/ShaderCache/1/1bbc13a7df051c48e1f7955bc5118fd3.bin
+	new file:   UnityTutorial/TouchScreen/New Unity Project/Library/ShaderCache/1/1c0bc964c491c043abe5ad07a3e35203.bin
+	new file:   UnityTutorial/TouchScreen/New Unity Project/Library/ShaderCache/1/1c26a4c305ef601e7fb8b117ac85ff2a.bin
+	new file:   UnityTutorial/TouchScreen/New Unity Project/Library/ShaderCache/1/1cc7e96f11ca304294455c89f251ee33.bin
+	new file:   UnityTutorial/TouchScreen/New Unity Project/Library/ShaderCache/1/1df6a6ada71c9531817f05abdce32f05.bin
+	new file:   UnityTutorial/TouchScreen/New Unity Project/Library/ShaderCache/1/1ea72eb007cdc11cb0eaf3c95c032417.bin
+	new file:   UnityTutorial/TouchScreen/New Unity Project/Library/ShaderCache/1/1ee674210fcbc040e019348552e99e7b.bin
+	new file:   UnityTutorial/TouchScreen/New Unity Project/Library/ShaderCache/1/1ef48ab90d82e298e14ffe6fcd3f653e.bin
+	new file:   UnityTutorial/TouchScreen/New Unity Project/Library/ShaderCache/1/1f492e7b11cbbcf52a42b7f5f41de167.bin
+	new file:   UnityTutorial/TouchScreen/New Unity Project/Library/ShaderCache/2/200c9d89fcb2342cd9e272256b7dc262.bin
+	new file:   UnityTutorial/TouchScreen/New Unity Project/Library/ShaderCache/2/205599685ca38a9a2272397e8fa5096d.bin
+	new file:   UnityTutorial/TouchScreen/New Unity Project/Library/ShaderCache/2/208fb7c08ba1782566bfc0879e9727e2.bin
+	new file:   UnityTutorial/TouchScreen/New Unity Project/Library/ShaderCache/2/210ae379179034eac7e01ca6038a933c.bin
+	new file:   UnityTutorial/TouchScreen/New Unity Project/Library/ShaderCache/2/214197b6a7b1ea0644016c7837eabb30.bin
+	new file:   UnityTutorial/TouchScreen/New Unity Project/Library/ShaderCache/2/22234cdeb8117b9eb92f14b0c00ef973.bin
+	new file:   UnityTutorial/TouchScreen/New Unity Project/Library/ShaderCache/2/225c4278cb8d3f69a0fdf6935dd4677d.bin
+	new file:   UnityTutorial/TouchScreen/New Unity Project/Library/ShaderCache/2/2280b8ab54af65a685b47149f2bfbc43.bin
+	new file:   UnityTutorial/TouchScreen/New Unity Project/Library/ShaderCache/2/22dde875ff1334d9a92e3b34b2dbca19.bin
+	new file:   UnityTutorial/TouchScreen/New Unity Project/Library/ShaderCache/2/22def3fe18848163a12c22dfad8d6c0d.bin
+	new file:   UnityTutorial/TouchScreen/New Unity Project/Library/ShaderCache/2/238c4bb7ccf40bf69ad101ae23774aa9.bin
+	new file:   UnityTutorial/TouchScreen/New Unity Project/Library/ShaderCache/2/239dc399389936936b21cae984d70e75.bin
+	new file:   UnityTutorial/TouchScreen/New Unity Project/Library/ShaderCache/2/24f602e0ec6a99e40175cc8d940c9adf.bin
+	new file:   UnityTutorial/TouchScreen/New Unity Project/Library/ShaderCache/2/259d238135cc385df359dcf3b69e31fd.bin
+	new file:   UnityTutorial/TouchScreen/New Unity Project/Library/ShaderCache/2/25abb867150bac62ebde11eaf91fd971.bin
+	new file:   UnityTutorial/TouchScreen/New Unity Project/Library/ShaderCache/2/25af8ff0c008176fa7b02e3df85b93ff.bin
+	new file:   UnityTutorial/TouchScreen/New Unity Project/Library/ShaderCache/2/25c5c4be2f9afe10fb4c0831c6dfbc09.bin
+	new file:   UnityTutorial/TouchScreen/New Unity Project/Library/ShaderCache/2/264592ac5fae2d7cce4458e4325a9498.bin
+	new file:   UnityTutorial/TouchScreen/New Unity Project/Library/ShaderCache/2/264782f28b876bfafe427856e182f93f.bin
+	new file:   UnityTutorial/TouchScreen/New Unity Project/Library/ShaderCache/2/26f563261d9cedff67e55e2d83b87bc5.bin
+	new file:   UnityTutorial/TouchScreen/New Unity Project/Library/ShaderCache/2/2781507e96f8dc30d716a28c7b4ba299.bin
+	new file:   UnityTutorial/TouchScreen/New Unity Project/Library/ShaderCache/2/27876b84ef5ae64b8b9dca04bbb6d4b4.bin
+	new file:   UnityTutorial/TouchScreen/New Unity Project/Library/ShaderCache/2/284b7acb6717f1ca4255bebfa7b40e4a.bin
+	new file:   UnityTutorial/TouchScreen/New Unity Project/Library/ShaderCache/2/2870ee949d0b40d47dbf4cdfb268f45a.bin
+	new file:   UnityTutorial/TouchScreen/New Unity Project/Library/ShaderCache/2/28d5a92adc2049df5814d5fc8ca3bc7a.bin
+	new file:   UnityTutorial/TouchScreen/New Unity Project/Library/ShaderCache/2/28f54556c3714b2f50b16cc4ad446c1a.bin
+	new file:   UnityTutorial/TouchScreen/New Unity Project/Library/ShaderCache/2/290874896fa41aa3f636d9e4d30269d6.bin
+	new file:   UnityTutorial/TouchScreen/New Unity Project/Library/ShaderCache/2/29e8cc577c0d83d87441689ba0071b81.bin
+	new file:   UnityTutorial/TouchScreen/New Unity Project/Library/ShaderCache/2/2aab85b3dd778f7178aad39bd7fa03e1.bin
+	new file:   UnityTutorial/TouchScreen/New Unity Project/Library/ShaderCache/2/2b70db641c49969eecd688fe44655663.bin
+	new file:   UnityTutorial/TouchScreen/New Unity Project/Library/ShaderCache/2/2c712feef28fe54b51ba8b367c767808.bin
+	new file:   UnityTutorial/TouchScreen/New Unity Project/Library/ShaderCache/2/2ca7acac8196ec4a613d1a4a0387aff1.bin
+	new file:   UnityTutorial/TouchScreen/New Unity Project/Library/ShaderCache/2/2cbb3def7af41549612bb4c08fd679d0.bin
+	new file:   UnityTutorial/TouchScreen/New Unity Project/Library/ShaderCache/2/2e46a21f5eb7720232b28fb5ed5e7e4c.bin
+	new file:   UnityTutorial/TouchScreen/New Unity Project/Library/ShaderCache/2/2fd0526aaf5e04b72fc3d58806a9db46.bin
+	new file:   UnityTutorial/TouchScreen/New Unity Project/Library/ShaderCache/2/2feb2c6e4cdc6c7f00d8c19dfd85c9a0.bin
+	new file:   UnityTutorial/TouchScreen/New Unity Project/Library/ShaderCache/3/30841d3bfc598a412eb8378c23e100f9.bin
+	new file:   UnityTutorial/TouchScreen/New Unity Project/Library/ShaderCache/3/30a330cd10c67d8de60a9d818e2afb92.bin
+	new file:   UnityTutorial/TouchScreen/New Unity Project/Library/ShaderCache/3/30b715fdc502d7dcf6ba1775568e81ec.bin
+	new file:   UnityTutorial/TouchScreen/New Unity Project/Library/ShaderCache/3/3115b48656c37d42432f2ba34b487d8b.bin
+	new file:   UnityTutorial/TouchScreen/New Unity Project/Library/ShaderCache/3/3197342229e033221b4c7858fd23aac7.bin
+	new file:   UnityTutorial/TouchScreen/New Unity Project/Library/ShaderCache/3/31fd1eb2e462ab0fce024ae40f27d2fe.bin
+	new file:   UnityTutorial/TouchScreen/New Unity Project/Library/ShaderCache/3/321a43019025bb089918e18ac9940ae5.bin
+	new file:   UnityTutorial/TouchScreen/New Unity Project/Library/ShaderCache/3/321cbc3c44fbe4c532ddf179054b815e.bin
+	new file:   UnityTutorial/TouchScreen/New Unity Project/Library/ShaderCache/3/323577a0b8975b2d40980cd30ec2cbca.bin
+	new file:   UnityTutorial/TouchScreen/New Unity Project/Library/ShaderCache/3/328869c784fc1fbff8114607125a230e.bin
+	new file:   UnityTutorial/TouchScreen/New Unity Project/Library/ShaderCache/3/342f06436f600898481e6f10a579ac26.bin
+	new file:   UnityTutorial/TouchScreen/New Unity Project/Library/ShaderCache/3/34cc23d613fb03aa0f3b14222efce417.bin
+	new file:   UnityTutorial/TouchScreen/New Unity Project/Library/ShaderCache/3/35f0ef4280dad1a05f8175244f106a7e.bin
+	new file:   UnityTutorial/TouchScreen/New Unity Project/Library/ShaderCache/3/35fe5fc1f967ffd5701d0e7e4ca1d0f5.bin
+	new file:   UnityTutorial/TouchScreen/New Unity Project/Library/ShaderCache/3/3662affc58b0f087d41ae605d1d59636.bin
+	new file:   UnityTutorial/TouchScreen/New Unity Project/Library/ShaderCache/3/36ee7a47e9435804d652be192a83aa9a.bin
+	new file:   UnityTutorial/TouchScreen/New Unity Project/Library/ShaderCache/3/374f909bb40fc7984a0c5b6a9d711846.bin
+	new file:   UnityTutorial/TouchScreen/New Unity Project/Library/ShaderCache/3/380c30bdeb62f118d5d6764304fe9e7e.bin
+	new file:   UnityTutorial/TouchScreen/New Unity Project/Library/ShaderCache/3/3895d794bed486e5697cb487c4741699.bin
+	new file:   UnityTutorial/TouchScreen/New Unity Project/Library/ShaderCache/3/3940771b266b32810c43e3cb394f7727.bin
+	new file:   UnityTutorial/TouchScreen/New Unity Project/Library/ShaderCache/3/39aad72e609fb97ef25032110bb89466.bin
+	new file:   UnityTutorial/TouchScreen/New Unity Project/Library/ShaderCache/3/39f37c43e20c759f1998ea5b84f104bc.bin
+	new file:   UnityTutorial/TouchScreen/New Unity Project/Library/ShaderCache/3/3a338aa44bca358acd3275cc4436cee4.bin
+	new file:   UnityTutorial/TouchScreen/New Unity Project/Library/ShaderCache/3/3ba14c826c06e93a80e45483db03aa57.bin
+	new file:   UnityTutorial/TouchScreen/New Unity Project/Library/ShaderCache/3/3c325fdfc6083d0c64d901f4ad6f69e2.bin
+	new file:   UnityTutorial/TouchScreen/New Unity Project/Library/ShaderCache/3/3c5f7dab95c09023d4c67b736c849ea0.bin
+	new file:   UnityTutorial/TouchScreen/New Unity Project/Library/ShaderCache/3/3c64b1b2ecbbb78af09b6686e29b2976.bin
+	new file:   UnityTutorial/TouchScreen/New Unity Project/Library/ShaderCache/3/3ca3db4a3a3bd7faa7368fe62380f28e.bin
+	new file:   UnityTutorial/TouchScreen/New Unity Project/Library/ShaderCache/3/3ccab20b02fcc628e86630faa239cb9c.bin
+	new file:   UnityTutorial/TouchScreen/New Unity Project/Library/ShaderCache/3/3d65574c1d5f5b19ee74fd4a6e9b8b19.bin
+	new file:   UnityTutorial/TouchScreen/New Unity Project/Library/ShaderCache/3/3dd9b593632089c785c11e8eff1b3ae6.bin
+	new file:   UnityTutorial/TouchScreen/New Unity Project/Library/ShaderCache/3/3ea0036cd51b34817f4fc80bb8932daa.bin
+	new file:   UnityTutorial/TouchScreen/New Unity Project/Library/ShaderCache/3/3ea042d16f92cb4ce24985ac2b023428.bin
+	new file:   UnityTutorial/TouchScreen/New Unity Project/Library/ShaderCache/3/3ed3be53cf1b2be52276bf2f18d33f58.bin
+	new file:   UnityTutorial/TouchScreen/New Unity Project/Library/ShaderCache/3/3f3205d21de8f2ebdca88716130ff44e.bin
+	new file:   UnityTutorial/TouchScreen/New Unity Project/Library/ShaderCache/3/3f48a37af1073b5de0f6be47d0fcb0fc.bin
+	new file:   UnityTutorial/TouchScreen/New Unity Project/Library/ShaderCache/3/3f84bfe7633d1bb3f4a16d0a5984e236.bin
+	new file:   UnityTutorial/TouchScreen/New Unity Project/Library/ShaderCache/3/3f855357f16bc60db6f082881ed236d1.bin
+	new file:   UnityTutorial/TouchScreen/New Unity Project/Library/ShaderCache/3/3f9b339b0c952c143ddcff53926d744f.bin
+	new file:   UnityTutorial/TouchScreen/New Unity Project/Library/ShaderCache/3/3fb1cd8bc22ac7e8dc2d59adf28f929d.bin
+	new file:   UnityTutorial/TouchScreen/New Unity Project/Library/ShaderCache/4/401eb8a807280339e449ad4cc3685161.bin
+	new file:   UnityTutorial/TouchScreen/New Unity Project/Library/ShaderCache/4/401f8d1aadd27dd68553107f64f32b32.bin
+	new file:   UnityTutorial/TouchScreen/New Unity Project/Library/ShaderCache/4/40cda7f33e0bfcf06c2aab23dd4f90e0.bin
+	new file:   UnityTutorial/TouchScreen/New Unity Project/Library/ShaderCache/4/41658d361f080619d62a018a560fd7e6.bin
+	new file:   UnityTutorial/TouchScreen/New Unity Project/Library/ShaderCache/4/418b39056f0d819a82bd6c7d289e84c5.bin
+	new file:   UnityTutorial/TouchScreen/New Unity Project/Library/ShaderCache/4/41d69a4c5fed07024e445106493080b6.bin
+	new file:   UnityTutorial/TouchScreen/New Unity Project/Library/ShaderCache/4/4211fecc9a5170d9a3ee43d05d42c61e.bin
+	new file:   UnityTutorial/TouchScreen/New Unity Project/Library/ShaderCache/4/423c928fadd62deec15809d11b3d4625.bin
+	new file:   UnityTutorial/TouchScreen/New Unity Project/Library/ShaderCache/4/42860a08e29f1eafdc6332ea245657d0.bin
+	new file:   UnityTutorial/TouchScreen/New Unity Project/Library/ShaderCache/4/429b35274d2c4bfa9dffffb8bc2b56e6.bin
+	new file:   UnityTutorial/TouchScreen/New Unity Project/Library/ShaderCache/4/42b5dea2ecffaeac58255165cc728765.bin
+	new file:   UnityTutorial/TouchScreen/New Unity Project/Library/ShaderCache/4/42dcccd481052cca700616649ed70e63.bin
+	new file:   UnityTutorial/TouchScreen/New Unity Project/Library/ShaderCache/4/43120239c2e44d1ca35dac41b200cfe9.bin
+	new file:   UnityTutorial/TouchScreen/New Unity Project/Library/ShaderCache/4/435f45096f7a84d785e390dd53c19cd5.bin
+	new file:   UnityTutorial/TouchScreen/New Unity Project/Library/ShaderCache/4/43ba8bdce5c03f2a84ace3128f481ce1.bin
+	new file:   UnityTutorial/TouchScreen/New Unity Project/Library/ShaderCache/4/43cbf73b4a46e68ccde201d25c50c864.bin
+	new file:   UnityTutorial/TouchScreen/New Unity Project/Library/ShaderCache/4/440042ebac6d07dd606bda23d965cde2.bin
+	new file:   UnityTutorial/TouchScreen/New Unity Project/Library/ShaderCache/4/44295c718b474bcfcd04a809e2615d4c.bin
+	new file:   UnityTutorial/TouchScreen/New Unity Project/Library/ShaderCache/4/45f79e30b9b9860bd07f74bcf1f4c981.bin
+	new file:   UnityTutorial/TouchScreen/New Unity Project/Library/ShaderCache/4/46f39833724d581a685cf2dbe24cfc55.bin
+	new file:   UnityTutorial/TouchScreen/New Unity Project/Library/ShaderCache/4/474cc878bccf0904f06efb8e3daf806b.bin
+	new file:   UnityTutorial/TouchScreen/New Unity Project/Library/ShaderCache/4/47b3e17a29fb7cb5b173236f5426daad.bin
+	new file:   UnityTutorial/TouchScreen/New Unity Project/Library/ShaderCache/4/482403900bb2f79e59c1c8e5c4cc9e7d.bin
+	new file:   UnityTutorial/TouchScreen/New Unity Project/Library/ShaderCache/4/48436fc7417e651fc33500417e6e80e3.bin
+	new file:   UnityTutorial/TouchScreen/New Unity Project/Library/ShaderCache/4/48e5170fcb9a03ef0202cace2f7c6490.bin
+	new file:   UnityTutorial/TouchScreen/New Unity Project/Library/ShaderCache/4/48fc199add05b5fae5e9094b002bae62.bin
+	new file:   UnityTutorial/TouchScreen/New Unity Project/Library/ShaderCache/4/493fd1cd3befa9c63e9078b9c6e62ac9.bin
+	new file:   UnityTutorial/TouchScreen/New Unity Project/Library/ShaderCache/4/4a6ca125cb068d26733581917127bac5.bin
+	new file:   UnityTutorial/TouchScreen/New Unity Project/Library/ShaderCache/4/4a81a775c266b6e0ca9550289ce5c8e8.bin
+	new file:   UnityTutorial/TouchScreen/New Unity Project/Library/ShaderCache/4/4aade74f0229f3d617170caaca4f903b.bin
+	new file:   UnityTutorial/TouchScreen/New Unity Project/Library/ShaderCache/4/4b1a2f67f0e427f0eec0ae0bbbdca0d5.bin
+	new file:   UnityTutorial/TouchScreen/New Unity Project/Library/ShaderCache/4/4b8d0af4d2948746cbbcb777f35a16e2.bin
+	new file:   UnityTutorial/TouchScreen/New Unity Project/Library/ShaderCache/4/4c1b5218e8701a3d6ad4b8df32f4c93d.bin
+	new file:   UnityTutorial/TouchScreen/New Unity Project/Library/ShaderCache/4/4d73d3ab5bbea91aa60d989f961abfe0.bin
+	new file:   UnityTutorial/TouchScreen/New Unity Project/Library/ShaderCache/4/4e01c0d2914d4615d91be677c8992a2e.bin
+	new file:   UnityTutorial/TouchScreen/New Unity Project/Library/ShaderCache/4/4e2c8b30ec034e0b7e36664c39e55f9c.bin
+	new file:   UnityTutorial/TouchScreen/New Unity Project/Library/ShaderCache/4/4e3ca75e8bbc3249a1bf9e308d55c0c9.bin
+	new file:   UnityTutorial/TouchScreen/New Unity Project/Library/ShaderCache/4/4f30c944e016a8900226d2a53e470ff2.bin
+	new file:   UnityTutorial/TouchScreen/New Unity Project/Library/ShaderCache/4/4fd90b7216de7e16514d941d242ed1dd.bin
+	new file:   UnityTutorial/TouchScreen/New Unity Project/Library/ShaderCache/5/5013319aaaab9d16264f3535e6646eb6.bin
+	new file:   UnityTutorial/TouchScreen/New Unity Project/Library/ShaderCache/5/50e6718f7c7c044b4a41ff86bea1c1ac.bin
+	new file:   UnityTutorial/TouchScreen/New Unity Project/Library/ShaderCache/5/52af59ad70df93b0cc47e2f1823bb259.bin
+	new file:   UnityTutorial/TouchScreen/New Unity Project/Library/ShaderCache/5/540aaccc410154b9e0cc606622f0e244.bin
+	new file:   UnityTutorial/TouchScreen/New Unity Project/Library/ShaderCache/5/5455e51e1e686fe28ab73dd35a587b30.bin
+	new file:   UnityTutorial/TouchScreen/New Unity Project/Library/ShaderCache/5/54f252c8eec265ec4626d3d62f54054d.bin
+	new file:   UnityTutorial/TouchScreen/New Unity Project/Library/ShaderCache/5/553a45e9e771a25a319c750d750c0322.bin
+	new file:   UnityTutorial/TouchScreen/New Unity Project/Library/ShaderCache/5/55b4f4fe2cb53148528f435e7f7a916e.bin
+	new file:   UnityTutorial/TouchScreen/New Unity Project/Library/ShaderCache/5/56572d7a8754209e3ee241466af621f6.bin
+	new file:   UnityTutorial/TouchScreen/New Unity Project/Library/ShaderCache/5/56742cbc88c95790f2fea4efbcc30084.bin
+	new file:   UnityTutorial/TouchScreen/New Unity Project/Library/ShaderCache/5/56c5d776d9748850aad61e6020c86ef1.bin
+	new file:   UnityTutorial/TouchScreen/New Unity Project/Library/ShaderCache/5/56d97bdb5692d7d91fa6ae3aa4a54123.bin
+	new file:   UnityTutorial/TouchScreen/New Unity Project/Library/ShaderCache/5/56f4ab1119711b8ec3a6257e3dc96450.bin
+	new file:   UnityTutorial/TouchScreen/New Unity Project/Library/ShaderCache/5/5707ee48feb37b7901f1935ce1776dde.bin
+	new file:   UnityTutorial/TouchScreen/New Unity Project/Library/ShaderCache/5/5839e4f07270e08c508fc209883f738f.bin
+	new file:   UnityTutorial/TouchScreen/New Unity Project/Library/ShaderCache/5/585b70061aa53b29239edd1f20fc285b.bin
+	new file:   UnityTutorial/TouchScreen/New Unity Project/Library/ShaderCache/5/58b43eb7e571e3b48a800e3e964bc60e.bin
+	new file:   UnityTutorial/TouchScreen/New Unity Project/Library/ShaderCache/5/58d5bfdb97dc056ffbe10e2088996e4e.bin
+	new file:   UnityTutorial/TouchScreen/New Unity Project/Library/ShaderCache/5/59919c7b14dd9fd489c128ae24e478b4.bin
+	new file:   UnityTutorial/TouchScreen/New Unity Project/Library/ShaderCache/5/59b78bceffffabcddc645401e1805d4e.bin
+	new file:   UnityTutorial/TouchScreen/New Unity Project/Library/ShaderCache/5/59cebec940b511b4467c34e23948bafa.bin
+	new file:   UnityTutorial/TouchScreen/New Unity Project/Library/ShaderCache/5/5a053da785c78fd121d20f7362d5c8c9.bin
+	new file:   UnityTutorial/TouchScreen/New Unity Project/Library/ShaderCache/5/5a6864ae94806b06c585602f1fd35810.bin
+	new file:   UnityTutorial/TouchScreen/New Unity Project/Library/ShaderCache/5/5b62a65a8d3cf7f25ad213f39df242b7.bin
+	new file:   UnityTutorial/TouchScreen/New Unity Project/Library/ShaderCache/5/5b860f7c05bd31bad26c68d48da2f2b1.bin
+	new file:   UnityTutorial/TouchScreen/New Unity Project/Library/ShaderCache/5/5bc755089590ed72e9c7c926a0822237.bin
+	new file:   UnityTutorial/TouchScreen/New Unity Project/Library/ShaderCache/5/5c5be383aceee752e1aec4333aa76534.bin
+	new file:   UnityTutorial/TouchScreen/New Unity Project/Library/ShaderCache/5/5ca120ecf7d89695c45866515308123d.bin
+	new file:   UnityTutorial/TouchScreen/New Unity Project/Library/ShaderCache/5/5d190bcf8628cc1e14e07b42ad2b8d3b.bin
+	new file:   UnityTutorial/TouchScreen/New Unity Project/Library/ShaderCache/5/5ded25f3b55051afa3ba36f777cdcd28.bin
+	new file:   UnityTutorial/TouchScreen/New Unity Project/Library/ShaderCache/5/5e7e7efcd6a7ebb59e326f721fc4a34a.bin
+	new file:   UnityTutorial/TouchScreen/New Unity Project/Library/ShaderCache/5/5f02217745389e35231a1d6cbaa1e700.bin
+	new file:   UnityTutorial/TouchScreen/New Unity Project/Library/ShaderCache/5/5f79a57bc22b710718dbdc84946381e0.bin
+	new file:   UnityTutorial/TouchScreen/New Unity Project/Library/ShaderCache/5/5fcf19c2cfde56b41fbf820214261d25.bin
+	new file:   UnityTutorial/TouchScreen/New Unity Project/Library/ShaderCache/6/60156b50526d36c6e00903ec9107492f.bin
+	new file:   UnityTutorial/TouchScreen/New Unity Project/Library/ShaderCache/6/61a32ebf184fe52bc3c3b4b3bcb1612b.bin
+	new file:   UnityTutorial/TouchScreen/New Unity Project/Library/ShaderCache/6/6277b43b58e85e6591b885091810d9ed.bin
+	new file:   UnityTutorial/TouchScreen/New Unity Project/Library/ShaderCache/6/62799ff79d2d94b2c4f929255c64b185.bin
+	new file:   UnityTutorial/TouchScreen/New Unity Project/Library/ShaderCache/6/62fe9ad1bbe9e60a2160932d76968ead.bin
+	new file:   UnityTutorial/TouchScreen/New Unity Project/Library/ShaderCache/6/63063dcb0e2c4f56ab998cd8d84d1f90.bin
+	new file:   UnityTutorial/TouchScreen/New Unity Project/Library/ShaderCache/6/635001b8753118629b2235c272590c69.bin
+	new file:   UnityTutorial/TouchScreen/New Unity Project/Library/ShaderCache/6/640b6b6cf73fc61e7db9ed77e7c98d0c.bin
+	new file:   UnityTutorial/TouchScreen/New Unity Project/Library/ShaderCache/6/645900a921335d5dcb40b8f73f8fd7b5.bin
+	new file:   UnityTutorial/TouchScreen/New Unity Project/Library/ShaderCache/6/646600742fbd2efafbbdfa11f55f08db.bin
+	new file:   UnityTutorial/TouchScreen/New Unity Project/Library/ShaderCache/6/65708ad763cf0c456c9daca634b063aa.bin
+	new file:   UnityTutorial/TouchScreen/New Unity Project/Library/ShaderCache/6/6605a3f92b6f3164cdd99c0cfb584896.bin
+	new file:   UnityTutorial/TouchScreen/New Unity Project/Library/ShaderCache/6/6655c98895bafaf2b6684e4712bf6897.bin
+	new file:   UnityTutorial/TouchScreen/New Unity Project/Library/ShaderCache/6/6667b551ca64c5fde0488c37847e29fc.bin
+	new file:   UnityTutorial/TouchScreen/New Unity Project/Library/ShaderCache/6/667c889ffc5293fbe81a122efc5250eb.bin
+	new file:   UnityTutorial/TouchScreen/New Unity Project/Library/ShaderCache/6/67588f4da66b1d319cedf24614c67bbb.bin
+	new file:   UnityTutorial/TouchScreen/New Unity Project/Library/ShaderCache/6/676beca1ef9a3b2a6ca5cf50b1fcf6d9.bin
+	new file:   UnityTutorial/TouchScreen/New Unity Project/Library/ShaderCache/6/68d937fc55f7e4b57db33793e595f53b.bin
+	new file:   UnityTutorial/TouchScreen/New Unity Project/Library/ShaderCache/6/69aba0d34e1a36fcdc8e976e67a18ce3.bin
+	new file:   UnityTutorial/TouchScreen/New Unity Project/Library/ShaderCache/6/6b70ec2a48ade551724782bdc678a3ab.bin
+	new file:   UnityTutorial/TouchScreen/New Unity Project/Library/ShaderCache/6/6bdd5e49f0c3b8b6ec54305f6a79cda9.bin
+	new file:   UnityTutorial/TouchScreen/New Unity Project/Library/ShaderCache/6/6cf55dc4a50c39316a8a3b9ca4616006.bin
+	new file:   UnityTutorial/TouchScreen/New Unity Project/Library/ShaderCache/6/6dfe62c5e51dd5f136ad7db2c5c8300f.bin
+	new file:   UnityTutorial/TouchScreen/New Unity Project/Library/ShaderCache/6/6e3e0a0c3c4f7eeed4efdc33cab1c3bf.bin
+	new file:   UnityTutorial/TouchScreen/New Unity Project/Library/ShaderCache/6/6ecd6730996d2b0ce989d2b5a2238291.bin
+	new file:   UnityTutorial/TouchScreen/New Unity Project/Library/ShaderCache/6/6ed2c9742c0e1539f7c4ba40ddfbcc4b.bin
+	new file:   UnityTutorial/TouchScreen/New Unity Project/Library/ShaderCache/6/6f4839968d1fc893a2f89f384cb9e618.bin
+	new file:   UnityTutorial/TouchScreen/New Unity Project/Library/ShaderCache/6/6f6558a3779df4899c5657aee70fafcc.bin
+	new file:   UnityTutorial/TouchScreen/New Unity Project/Library/ShaderCache/7/7000cb64968126cbd2864f7fe04ce506.bin
+	new file:   UnityTutorial/TouchScreen/New Unity Project/Library/ShaderCache/7/7160987578093824688b448e45573416.bin
+	new file:   UnityTutorial/TouchScreen/New Unity Project/Library/ShaderCache/7/72520486170025a67e26537421d0038d.bin
+	new file:   UnityTutorial/TouchScreen/New Unity Project/Library/ShaderCache/7/73f2222471f9e151bac9c5f4132d2ba5.bin
+	new file:   UnityTutorial/TouchScreen/New Unity Project/Library/ShaderCache/7/7412fa2b5e493a1abbace9f2afff3df6.bin
+	new file:   UnityTutorial/TouchScreen/New Unity Project/Library/ShaderCache/7/74a36915b05f4c7ebef3bcc666d21531.bin
+	new file:   UnityTutorial/TouchScreen/New Unity Project/Library/ShaderCache/7/74a5f16b511bcf5f38c553ff5881f349.bin
+	new file:   UnityTutorial/TouchScreen/New Unity Project/Library/ShaderCache/7/74c87ccf820a6e4490973a3004551309.bin
+	new file:   UnityTutorial/TouchScreen/New Unity Project/Library/ShaderCache/7/7534bba4788ca0841d0b3a7a3250d914.bin
+	new file:   UnityTutorial/TouchScreen/New Unity Project/Library/ShaderCache/7/761bbb6b1bcb9a07c142a932005e3089.bin
+	new file:   UnityTutorial/TouchScreen/New Unity Project/Library/ShaderCache/7/76408312b04d89b0e056d8a6b30eda5f.bin
+	new file:   UnityTutorial/TouchScreen/New Unity Project/Library/ShaderCache/7/769a0e8b779fb7aa396214bbfb54ba60.bin
+	new file:   UnityTutorial/TouchScreen/New Unity Project/Library/ShaderCache/7/76ca1d62af8a4ea2d948d958157d1094.bin
+	new file:   UnityTutorial/TouchScreen/New Unity Project/Library/ShaderCache/7/7778b7a6b5b3a025199d84785d8fb080.bin
+	new file:   UnityTutorial/TouchScreen/New Unity Project/Library/ShaderCache/7/780e334102a0ce4236adfc48d63e3df3.bin
+	new file:   UnityTutorial/TouchScreen/New Unity Project/Library/ShaderCache/7/7819aeafd52409cbbcbe513cd2313351.bin
+	new file:   UnityTutorial/TouchScreen/New Unity Project/Library/ShaderCache/7/787fdf998a5380d620c3a722fc5cbdeb.bin
+	new file:   UnityTutorial/TouchScreen/New Unity Project/Library/ShaderCache/7/78b3ca17ce5852b8bc5dbc9ef2640343.bin
+	new file:   UnityTutorial/TouchScreen/New Unity Project/Library/ShaderCache/7/7960908f249d24220052304bbfdd374a.bin
+	new file:   UnityTutorial/TouchScreen/New Unity Project/Library/ShaderCache/7/7979c15a202759ea6bc7c14e653e1609.bin
+	new file:   UnityTutorial/TouchScreen/New Unity Project/Library/ShaderCache/7/79d17500b6607c2628131eb35e5a420f.bin
+	new file:   UnityTutorial/TouchScreen/New Unity Project/Library/ShaderCache/7/7a56a4dbf177fd545185824658807cfb.bin
+	new file:   UnityTutorial/TouchScreen/New Unity Project/Library/ShaderCache/7/7a69848a5fb977cd42186e6f6c735d34.bin
+	new file:   UnityTutorial/TouchScreen/New Unity Project/Library/ShaderCache/7/7acae8649154d7b397910c8b1075990f.bin
+	new file:   UnityTutorial/TouchScreen/New Unity Project/Library/ShaderCache/7/7ae07a3281d6c946b8f6f1f070141508.bin
+	new file:   UnityTutorial/TouchScreen/New Unity Project/Library/ShaderCache/7/7b0f676e368556c7daedfc02ead9e4c0.bin
+	new file:   UnityTutorial/TouchScreen/New Unity Project/Library/ShaderCache/7/7bd9ea00ab85eed43fe282b3aa904ee6.bin
+	new file:   UnityTutorial/TouchScreen/New Unity Project/Library/ShaderCache/7/7bf29d6685eb37233c21afe14a5c590a.bin
+	new file:   UnityTutorial/TouchScreen/New Unity Project/Library/ShaderCache/7/7c6674068971d0cb5097f3eaf4b6485a.bin
+	new file:   UnityTutorial/TouchScreen/New Unity Project/Library/ShaderCache/7/7ce20e7a7c20e22aa27f5cb856b1f886.bin
+	new file:   UnityTutorial/TouchScreen/New Unity Project/Library/ShaderCache/7/7e167a77c5af4759394236173446edbd.bin
+	new file:   UnityTutorial/TouchScreen/New Unity Project/Library/ShaderCache/7/7e5fb9abd6ead01ce0035d6a32d47331.bin
+	new file:   UnityTutorial/TouchScreen/New Unity Project/Library/ShaderCache/7/7eb882363407bf2f9cd1005503388bee.bin
+	new file:   UnityTutorial/TouchScreen/New Unity Project/Library/ShaderCache/7/7eccc90b4e57ec4e03c6da60f7797ebe.bin
+	new file:   UnityTutorial/TouchScreen/New Unity Project/Library/ShaderCache/7/7ecfc21b27439042798244dbae3a0c85.bin
+	new file:   UnityTutorial/TouchScreen/New Unity Project/Library/ShaderCache/7/7f3a0634db1ef93bc1dd4b90041e0d00.bin
+	new file:   UnityTutorial/TouchScreen/New Unity Project/Library/ShaderCache/7/7fde7ad8e00b47b82eacb85b9e8d8a47.bin
+	new file:   UnityTutorial/TouchScreen/New Unity Project/Library/ShaderCache/8/80a32ecd5e33d5884ebd94aa6bd88e0e.bin
+	new file:   UnityTutorial/TouchScreen/New Unity Project/Library/ShaderCache/8/80b2d97e1bff2cce3f4923f507a82866.bin
+	new file:   UnityTutorial/TouchScreen/New Unity Project/Library/ShaderCache/8/80c309602290d31203f0a7e6ed176a7d.bin
+	new file:   UnityTutorial/TouchScreen/New Unity Project/Library/ShaderCache/8/80c56eff899e00eae2738c06227642d7.bin
+	new file:   UnityTutorial/TouchScreen/New Unity Project/Library/ShaderCache/8/819ee809f14dd73d7eb0b9a51879af6d.bin
+	new file:   UnityTutorial/TouchScreen/New Unity Project/Library/ShaderCache/8/81de09076361ac4a3be9e25dc1d5d2db.bin
+	new file:   UnityTutorial/TouchScreen/New Unity Project/Library/ShaderCache/8/8218242a9c6becf97eecdd00871d7bc4.bin
+	new file:   UnityTutorial/TouchScreen/New Unity Project/Library/ShaderCache/8/8223bf7a4fdf7c18c5c70389961b234a.bin
+	new file:   UnityTutorial/TouchScreen/New Unity Project/Library/ShaderCache/8/826c72f9f77f12be4d523ffa2d347888.bin
+	new file:   UnityTutorial/TouchScreen/New Unity Project/Library/ShaderCache/8/84389267a7352667e860c4c44440bb59.bin
+	new file:   UnityTutorial/TouchScreen/New Unity Project/Library/ShaderCache/8/84a64990e3aff145dd050022594c86f9.bin
+	new file:   UnityTutorial/TouchScreen/New Unity Project/Library/ShaderCache/8/84b5415e0c065c3d7022d00921051b80.bin
+	new file:   UnityTutorial/TouchScreen/New Unity Project/Library/ShaderCache/8/84c9b79efeb7fecfacdf4503e042f01a.bin
+	new file:   UnityTutorial/TouchScreen/New Unity Project/Library/ShaderCache/8/8537b3e90425ca09cd4441c5a56784b9.bin
+	new file:   UnityTutorial/TouchScreen/New Unity Project/Library/ShaderCache/8/85d6e95a7763eb03f68270404f72cee7.bin
+	new file:   UnityTutorial/TouchScreen/New Unity Project/Library/ShaderCache/8/8607f543cee7b8009edd3b2d7640046f.bin
+	new file:   UnityTutorial/TouchScreen/New Unity Project/Library/ShaderCache/8/869624c0f13f77c282e52efd8f25ef3d.bin
+	new file:   UnityTutorial/TouchScreen/New Unity Project/Library/ShaderCache/8/872bdd3dd422461d16202e40df5cad25.bin
+	new file:   UnityTutorial/TouchScreen/New Unity Project/Library/ShaderCache/8/87341bcf2e8a47a72085310ebb8c9d6b.bin
+	new file:   UnityTutorial/TouchScreen/New Unity Project/Library/ShaderCache/8/8765b5826703995a2c530fbed5598de1.bin
+	new file:   UnityTutorial/TouchScreen/New Unity Project/Library/ShaderCache/8/885f39219ebbfb441e642ebedcb78a76.bin
+	new file:   UnityTutorial/TouchScreen/New Unity Project/Library/ShaderCache/8/886c59298d935304738a02c6391bdd77.bin
+	new file:   UnityTutorial/TouchScreen/New Unity Project/Library/ShaderCache/8/88b63fbf9b85c5099f883798c97ef4d4.bin
+	new file:   UnityTutorial/TouchScreen/New Unity Project/Library/ShaderCache/8/88ece659babcdafb3aba43dc9cf5c442.bin
+	new file:   UnityTutorial/TouchScreen/New Unity Project/Library/ShaderCache/8/8a1a4003523345f1f0005e4f7bd71cdc.bin
+	new file:   UnityTutorial/TouchScreen/New Unity Project/Library/ShaderCache/8/8a841c9d2b9413ecfeed5086d5a67d3a.bin
+	new file:   UnityTutorial/TouchScreen/New Unity Project/Library/ShaderCache/8/8ab6109676e4dce3d88de5bcd1e93cdf.bin
+	new file:   UnityTutorial/TouchScreen/New Unity Project/Library/ShaderCache/8/8adcc5c78c17dd7b0eba46841400101f.bin
+	new file:   UnityTutorial/TouchScreen/New Unity Project/Library/ShaderCache/8/8af118187ba348263f3ef3b6e2707cb9.bin
+	new file:   UnityTutorial/TouchScreen/New Unity Project/Library/ShaderCache/8/8afd168124b87b943167b44a02c9d8b7.bin
+	new file:   UnityTutorial/TouchScreen/New Unity Project/Library/ShaderCache/8/8b01e9a3d02c0f9452e6562144b3d917.bin
+	new file:   UnityTutorial/TouchScreen/New Unity Project/Library/ShaderCache/8/8b0f8d99d2ba9fc169e4433b0439fdec.bin
+	new file:   UnityTutorial/TouchScreen/New Unity Project/Library/ShaderCache/8/8b12fdc66593d67f04d2675b63c0cf00.bin
+	new file:   UnityTutorial/TouchScreen/New Unity Project/Library/ShaderCache/8/8b1542adab881ce67e774582d237840e.bin
+	new file:   UnityTutorial/TouchScreen/New Unity Project/Library/ShaderCache/8/8b7ae94586fde2f98a71dfe38e9000ae.bin
+	new file:   UnityTutorial/TouchScreen/New Unity Project/Library/ShaderCache/8/8b8c513f1903712543399c8bdee14fc9.bin
+	new file:   UnityTutorial/TouchScreen/New Unity Project/Library/ShaderCache/8/8c9020c5b196d0e26a4482e3127d52c0.bin
+	new file:   UnityTutorial/TouchScreen/New Unity Project/Library/ShaderCache/8/8dcb8ea1edacf29d9cadd7b0602106e5.bin
+	new file:   UnityTutorial/TouchScreen/New Unity Project/Library/ShaderCache/8/8e25c819e481ea97d2a82166887ba567.bin
+	new file:   UnityTutorial/TouchScreen/New Unity Project/Library/ShaderCache/8/8ed26708b5dfc60e4813cd09af0bad1f.bin
+	new file:   UnityTutorial/TouchScreen/New Unity Project/Library/ShaderCache/8/8f03c855d2556a636838def886781969.bin
+	new file:   UnityTutorial/TouchScreen/New Unity Project/Library/ShaderCache/9/90821da280649ecd359672b666d21b0e.bin
+	new file:   UnityTutorial/TouchScreen/New Unity Project/Library/ShaderCache/9/909ac5ea2b6d8cfc9351ff76a7f88dad.bin
+	new file:   UnityTutorial/TouchScreen/New Unity Project/Library/ShaderCache/9/912207599b158c1245ec2f9ff4491bc6.bin
+	new file:   UnityTutorial/TouchScreen/New Unity Project/Library/ShaderCache/9/912ca19147306a0e8b4f8dbdc81e7fd3.bin
+	new file:   UnityTutorial/TouchScreen/New Unity Project/Library/ShaderCache/9/9411315f81fe093333e359470f322bdb.bin
+	new file:   UnityTutorial/TouchScreen/New Unity Project/Library/ShaderCache/9/942222dd63c6ff982eb123154c23ab40.bin
+	new file:   UnityTutorial/TouchScreen/New Unity Project/Library/ShaderCache/9/94ae0d31d77aeabb3c5764c4d1b669b0.bin
+	new file:   UnityTutorial/TouchScreen/New Unity Project/Library/ShaderCache/9/94f0747e4074fd301de4570ac06320e6.bin
+	new file:   UnityTutorial/TouchScreen/New Unity Project/Library/ShaderCache/9/95eea3f3afab9a043c8637671e2a681c.bin
+	new file:   UnityTutorial/TouchScreen/New Unity Project/Library/ShaderCache/9/96b1db3472b854723a6ef2203fd3890e.bin
+	new file:   UnityTutorial/TouchScreen/New Unity Project/Library/ShaderCache/9/9714331c018f5017bd5293cc6d597bf7.bin
+	new file:   UnityTutorial/TouchScreen/New Unity Project/Library/ShaderCache/9/97e1b8521240c210addaea367295c34c.bin
+	new file:   UnityTutorial/TouchScreen/New Unity Project/Library/ShaderCache/9/9870072c3bddbd4584f080c517fb0883.bin
+	new file:   UnityTutorial/TouchScreen/New Unity Project/Library/ShaderCache/9/98c53e077cc3d26bf8dab831964dea60.bin
+	new file:   UnityTutorial/TouchScreen/New Unity Project/Library/ShaderCache/9/98db0301c74c05e5cfe442f8d22be596.bin
+	new file:   UnityTutorial/TouchScreen/New Unity Project/Library/ShaderCache/9/990d99cb0afc02b31bb7de79b372a2d5.bin
+	new file:   UnityTutorial/TouchScreen/New Unity Project/Library/ShaderCache/9/99afecec2dcaf77bc261ea64707e03e8.bin
+	new file:   UnityTutorial/TouchScreen/New Unity Project/Library/ShaderCache/9/99c888ae2b5a12be4acea637518f02ec.bin
+	new file:   UnityTutorial/TouchScreen/New Unity Project/Library/ShaderCache/9/9b6ee59aca5bbc30ddc38a202a68ab81.bin
+	new file:   UnityTutorial/TouchScreen/New Unity Project/Library/ShaderCache/9/9bfb7fda951a490c2a758f5d10df8960.bin
+	new file:   UnityTutorial/TouchScreen/New Unity Project/Library/ShaderCache/9/9c7e1cb07ced58f8a2aa64f8ee2f1f10.bin
+	new file:   UnityTutorial/TouchScreen/New Unity Project/Library/ShaderCache/9/9cdaa1d33d1041d4cfebcb66d5a05b8f.bin
+	new file:   UnityTutorial/TouchScreen/New Unity Project/Library/ShaderCache/9/9e288200120400d4af136066c12289cd.bin
+	new file:   UnityTutorial/TouchScreen/New Unity Project/Library/ShaderCache/9/9e5608fbf55e14564ce03a46bb700fec.bin
+	new file:   UnityTutorial/TouchScreen/New Unity Project/Library/ShaderCache/9/9e7a4f477fcfe29e4363c03ea4e5510e.bin
+	new file:   UnityTutorial/TouchScreen/New Unity Project/Library/ShaderCache/9/9f4c3ccf7b6d6cea2133f83d7af301d5.bin
+	new file:   UnityTutorial/TouchScreen/New Unity Project/Library/ShaderCache/9/9fbcaf9f6bc881105fd4479a34be3364.bin
+	new file:   UnityTutorial/TouchScreen/New Unity Project/Library/ShaderCache/9/9ff425843abd70bbf74bf87e6981bdbe.bin
+	new file:   UnityTutorial/TouchScreen/New Unity Project/Library/ShaderCache/a/a0348b92ffa7cb7d2ae5a3b627159c4b.bin
+	new file:   UnityTutorial/TouchScreen/New Unity Project/Library/ShaderCache/a/a0492352d2fc4b949c4485ac095e683c.bin
+	new file:   UnityTutorial/TouchScreen/New Unity Project/Library/ShaderCache/a/a0a1b31a5ba2b5b0619c241ecee44dab.bin
+	new file:   UnityTutorial/TouchScreen/New Unity Project/Library/ShaderCache/a/a0c7944f3866d8d697559c798796c255.bin
+	new file:   UnityTutorial/TouchScreen/New Unity Project/Library/ShaderCache/a/a1586ad30e70df639c510dcd3061348b.bin
+	new file:   UnityTutorial/TouchScreen/New Unity Project/Library/ShaderCache/a/a15c6c3ef8113b362d0c73c5abe5478c.bin
+	new file:   UnityTutorial/TouchScreen/New Unity Project/Library/ShaderCache/a/a1d9a1bf982c046fd211f0bc03941f22.bin
+	new file:   UnityTutorial/TouchScreen/New Unity Project/Library/ShaderCache/a/a1e0137096895e1d8a6c7525f944c74c.bin
+	new file:   UnityTutorial/TouchScreen/New Unity Project/Library/ShaderCache/a/a2ca9aba15f7d069c7ad9c61dedc9db1.bin
+	new file:   UnityTutorial/TouchScreen/New Unity Project/Library/ShaderCache/a/a396b04a8e7e98b9c97027a218dcc0d3.bin
+	new file:   UnityTutorial/TouchScreen/New Unity Project/Library/ShaderCache/a/a3c01ad8e482e1f6b6d3fa3caf03049e.bin
+	new file:   UnityTutorial/TouchScreen/New Unity Project/Library/ShaderCache/a/a40a316cb5c6709a8727b836cf0f7750.bin
+	new file:   UnityTutorial/TouchScreen/New Unity Project/Library/ShaderCache/a/a49cca4913629882f576b654259dae8d.bin
+	new file:   UnityTutorial/TouchScreen/New Unity Project/Library/ShaderCache/a/a4efc60f142ecf4712cd3038e7763ad4.bin
+	new file:   UnityTutorial/TouchScreen/New Unity Project/Library/ShaderCache/a/a55ebf0a5726b24c5b73910fc1924276.bin
+	new file:   UnityTutorial/TouchScreen/New Unity Project/Library/ShaderCache/a/a5719b1ca82d0ad7617ca7d839f97db9.bin
+	new file:   UnityTutorial/TouchScreen/New Unity Project/Library/ShaderCache/a/a6708d318dad4848e77e8671da93fe3f.bin
+	new file:   UnityTutorial/TouchScreen/New Unity Project/Library/ShaderCache/a/a6c5f168bd6993b02d131adbd889c97c.bin
+	new file:   UnityTutorial/TouchScreen/New Unity Project/Library/ShaderCache/a/a724e64b665de17a93ec74832e88537d.bin
+	new file:   UnityTutorial/TouchScreen/New Unity Project/Library/ShaderCache/a/a78676c38b61e37c046d3808eb725ed7.bin
+	new file:   UnityTutorial/TouchScreen/New Unity Project/Library/ShaderCache/a/a78ba4a2db5967504a8f9b8902fa5ce2.bin
+	new file:   UnityTutorial/TouchScreen/New Unity Project/Library/ShaderCache/a/a7cce7b758b58766fea076633aee5a8b.bin
+	new file:   UnityTutorial/TouchScreen/New Unity Project/Library/ShaderCache/a/a7d70c766a919ca0be5b979ca697ea8c.bin
+	new file:   UnityTutorial/TouchScreen/New Unity Project/Library/ShaderCache/a/a815638d063c75ef4a4beda3e11a882b.bin
+	new file:   UnityTutorial/TouchScreen/New Unity Project/Library/ShaderCache/a/a912fe11e37ee5740401da2177ce6cfc.bin
+	new file:   UnityTutorial/TouchScreen/New Unity Project/Library/ShaderCache/a/a94ea8279539cd107e63ef510f5b5a3b.bin
+	new file:   UnityTutorial/TouchScreen/New Unity Project/Library/ShaderCache/a/a993e5e7c2ec965331b32e7feed05de4.bin
+	new file:   UnityTutorial/TouchScreen/New Unity Project/Library/ShaderCache/a/a9e8a90c36cbb99a1c05d3609ab0f5f8.bin
+	new file:   UnityTutorial/TouchScreen/New Unity Project/Library/ShaderCache/a/aa889b3c72f2e04f5b3be4a2305355b5.bin
+	new file:   UnityTutorial/TouchScreen/New Unity Project/Library/ShaderCache/a/ac0824dc9625730bf53a8e911160292b.bin
+	new file:   UnityTutorial/TouchScreen/New Unity Project/Library/ShaderCache/a/ac5de4963b89b58fe8aa4f9c28e8be13.bin
+	new file:   UnityTutorial/TouchScreen/New Unity Project/Library/ShaderCache/a/ac892a2a6900f9538598b15f5041542b.bin
+	new file:   UnityTutorial/TouchScreen/New Unity Project/Library/ShaderCache/a/ad21dfe7980512d20cde5ee70ab5c36f.bin
+	new file:   UnityTutorial/TouchScreen/New Unity Project/Library/ShaderCache/a/ad4033c289b58700068fdfccf92d8274.bin
+	new file:   UnityTutorial/TouchScreen/New Unity Project/Library/ShaderCache/a/ad7e73424cb291b681051864825990da.bin
+	new file:   UnityTutorial/TouchScreen/New Unity Project/Library/ShaderCache/a/ae1492f0400e4d0bec8604e5ee4fbf6e.bin
+	new file:   UnityTutorial/TouchScreen/New Unity Project/Library/ShaderCache/a/ae5039d2778df2d5a1ca1598f0272055.bin
+	new file:   UnityTutorial/TouchScreen/New Unity Project/Library/ShaderCache/a/ae65c122944807635c07ae79c9fb8441.bin
+	new file:   UnityTutorial/TouchScreen/New Unity Project/Library/ShaderCache/b/b0ba4f7b0b504aa3b989ff6552fb245d.bin
+	new file:   UnityTutorial/TouchScreen/New Unity Project/Library/ShaderCache/b/b12e4a8f193e8e317a9e0e6a7bff187b.bin
+	new file:   UnityTutorial/TouchScreen/New Unity Project/Library/ShaderCache/b/b13c817881de34eb936d8fa6c1a4a6b6.bin
+	new file:   UnityTutorial/TouchScreen/New Unity Project/Library/ShaderCache/b/b14c51c07b39c6fef31724765bb12e8d.bin
+	new file:   UnityTutorial/TouchScreen/New Unity Project/Library/ShaderCache/b/b1cb861ca4ba7740e8f0470b0f0d6c08.bin
+	new file:   UnityTutorial/TouchScreen/New Unity Project/Library/ShaderCache/b/b2085bfe2a07a21e2c57085f695cc330.bin
+	new file:   UnityTutorial/TouchScreen/New Unity Project/Library/ShaderCache/b/b2bc66fd6862de9f0a545b0e80cd8e45.bin
+	new file:   UnityTutorial/TouchScreen/New Unity Project/Library/ShaderCache/b/b485d3c89d83203a4525ab16a2df9fba.bin
+	new file:   UnityTutorial/TouchScreen/New Unity Project/Library/ShaderCache/b/b612a15c4ce59cbbf12522a0105d6d46.bin
+	new file:   UnityTutorial/TouchScreen/New Unity Project/Library/ShaderCache/b/b616e8f38f47104cf3be7f51feb1e86b.bin
+	new file:   UnityTutorial/TouchScreen/New Unity Project/Library/ShaderCache/b/b618bb40e8697551b2033e811a4b2ce6.bin
+	new file:   UnityTutorial/TouchScreen/New Unity Project/Library/ShaderCache/b/b6b838d0492ad1eddaf194f75807eea5.bin
+	new file:   UnityTutorial/TouchScreen/New Unity Project/Library/ShaderCache/b/b6cb8ba4ca7ca6d04eacab555e844d21.bin
+	new file:   UnityTutorial/TouchScreen/New Unity Project/Library/ShaderCache/b/b743a8f701b791b31d49129449823af9.bin
+	new file:   UnityTutorial/TouchScreen/New Unity Project/Library/ShaderCache/b/b7f162750ec8548e701c97038e61e36f.bin
+	new file:   UnityTutorial/TouchScreen/New Unity Project/Library/ShaderCache/b/baa64895da7ff2e9766842612730242b.bin
+	new file:   UnityTutorial/TouchScreen/New Unity Project/Library/ShaderCache/b/baec097e496ecf80653ad1bbadc83a7f.bin
+	new file:   UnityTutorial/TouchScreen/New Unity Project/Library/ShaderCache/b/baf02b0c2862dd696d39ef14c8e8bf7d.bin
+	new file:   UnityTutorial/TouchScreen/New Unity Project/Library/ShaderCache/b/bbc8a99ef248169a5a9a3c5a27a3c46d.bin
+	new file:   UnityTutorial/TouchScreen/New Unity Project/Library/ShaderCache/b/bbecda3a8fd14f1f8599ac7619a9d5c1.bin
+	new file:   UnityTutorial/TouchScreen/New Unity Project/Library/ShaderCache/b/bc9b653f1929c1f3ee4b58511035b49b.bin
+	new file:   UnityTutorial/TouchScreen/New Unity Project/Library/ShaderCache/b/bcdc7e944f7ee906c989e0d13beb188d.bin
+	new file:   UnityTutorial/TouchScreen/New Unity Project/Library/ShaderCache/b/bd0ef4e534871d5f432c2663cb82aff6.bin
+	new file:   UnityTutorial/TouchScreen/New Unity Project/Library/ShaderCache/b/bd4b2ed211004804869f37073ece6c5b.bin
+	new file:   UnityTutorial/TouchScreen/New Unity Project/Library/ShaderCache/b/bd70702f8562ab31d90371b3aae9c40b.bin
+	new file:   UnityTutorial/TouchScreen/New Unity Project/Library/ShaderCache/b/bdf89a6264c8559b3cf8b23b84021fc6.bin
+	new file:   UnityTutorial/TouchScreen/New Unity Project/Library/ShaderCache/b/be17278a0aaf5f3ba9f88a6771b5100b.bin
+	new file:   UnityTutorial/TouchScreen/New Unity Project/Library/ShaderCache/b/bf14b5132776c470b02664497ed0c0ce.bin
+	new file:   UnityTutorial/TouchScreen/New Unity Project/Library/ShaderCache/b/bf1904bbe3ef5ef7dec95d6e660a2c14.bin
+	new file:   UnityTutorial/TouchScreen/New Unity Project/Library/ShaderCache/c/c05ce5feb6b36f7509e35b9fad00389c.bin
+	new file:   UnityTutorial/TouchScreen/New Unity Project/Library/ShaderCache/c/c0b9d31aef5562c27c00c04f9d433b73.bin
+	new file:   UnityTutorial/TouchScreen/New Unity Project/Library/ShaderCache/c/c168b72805eaecb60014c0842904f4c9.bin
+	new file:   UnityTutorial/TouchScreen/New Unity Project/Library/ShaderCache/c/c17538ca82dad4b2735375884a6e02ed.bin
+	new file:   UnityTutorial/TouchScreen/New Unity Project/Library/ShaderCache/c/c1d3fdf9c07309e814f02a21dc21da98.bin
+	new file:   UnityTutorial/TouchScreen/New Unity Project/Library/ShaderCache/c/c244b5e5c743c0fbfc841b75f1c4c96b.bin
+	new file:   UnityTutorial/TouchScreen/New Unity Project/Library/ShaderCache/c/c25a3bcda007d280b7e6bba1513d03b8.bin
+	new file:   UnityTutorial/TouchScreen/New Unity Project/Library/ShaderCache/c/c25d37c8d0c1e6d7d3392b6414b47fa0.bin
+	new file:   UnityTutorial/TouchScreen/New Unity Project/Library/ShaderCache/c/c5a8a1392a4dc21529debdbe97225895.bin
+	new file:   UnityTutorial/TouchScreen/New Unity Project/Library/ShaderCache/c/c5dfcc44707368e503a53ffdd310397b.bin
+	new file:   UnityTutorial/TouchScreen/New Unity Project/Library/ShaderCache/c/c71265998b1f0dc89844cc03b2fa396c.bin
+	new file:   UnityTutorial/TouchScreen/New Unity Project/Library/ShaderCache/c/c7beeb183013a92a529375fc84785087.bin
+	new file:   UnityTutorial/TouchScreen/New Unity Project/Library/ShaderCache/c/c82c403fd402fa1bd646063c2207edfa.bin
+	new file:   UnityTutorial/TouchScreen/New Unity Project/Library/ShaderCache/c/c8895a4e8957c5f46703e7144815f79f.bin
+	new file:   UnityTutorial/TouchScreen/New Unity Project/Library/ShaderCache/c/c8f6bc6c929e85ba1d51b4a74b2ac7c2.bin
+	new file:   UnityTutorial/TouchScreen/New Unity Project/Library/ShaderCache/c/c8ffd7956b066d0f8cd2565256c8fd04.bin
+	new file:   UnityTutorial/TouchScreen/New Unity Project/Library/ShaderCache/c/c92e21173261ffb076eab20c895c621d.bin
+	new file:   UnityTutorial/TouchScreen/New Unity Project/Library/ShaderCache/c/c9cac40a566fd59519e4e58b102b8122.bin
+	new file:   UnityTutorial/TouchScreen/New Unity Project/Library/ShaderCache/c/c9cd9e7cefd7ab72c8ca632d79fe29c5.bin
+	new file:   UnityTutorial/TouchScreen/New Unity Project/Library/ShaderCache/c/ca18e1940d3c4fbf20033f2e82e10ebb.bin
+	new file:   UnityTutorial/TouchScreen/New Unity Project/Library/ShaderCache/c/ca1fe24fccda0071d40fa7547630d64f.bin
+	new file:   UnityTutorial/TouchScreen/New Unity Project/Library/ShaderCache/c/ca910d8dcf38662c0cc6f2c1bc9eb556.bin
+	new file:   UnityTutorial/TouchScreen/New Unity Project/Library/ShaderCache/c/cab321bde6b7afa0831e827fa8c15f0e.bin
+	new file:   UnityTutorial/TouchScreen/New Unity Project/Library/ShaderCache/c/caba975e7e90e62b5c5d192d883d2fc6.bin
+	new file:   UnityTutorial/TouchScreen/New Unity Project/Library/ShaderCache/c/cb48e94c77b72bd3c53f9041e5e8cde4.bin
+	new file:   UnityTutorial/TouchScreen/New Unity Project/Library/ShaderCache/c/cbda71c16be0ae1c6899f2aeb6403e38.bin
+	new file:   UnityTutorial/TouchScreen/New Unity Project/Library/ShaderCache/c/cbeb89e5d416009d4f4a8b1a8a43db09.bin
+	new file:   UnityTutorial/TouchScreen/New Unity Project/Library/ShaderCache/c/cc21dd304ed04433915d9ebfb39cf885.bin
+	new file:   UnityTutorial/TouchScreen/New Unity Project/Library/ShaderCache/c/cd63b028d1c10f47f7bfed99e2ff0212.bin
+	new file:   UnityTutorial/TouchScreen/New Unity Project/Library/ShaderCache/c/cdecf7d97657f2ab84454cffcdd966e7.bin
+	new file:   UnityTutorial/TouchScreen/New Unity Project/Library/ShaderCache/c/ce93c9d9e4dcfb3a3c8de4d65be03acb.bin
+	new file:   UnityTutorial/TouchScreen/New Unity Project/Library/ShaderCache/c/ceb899b4a5fbee0bf6bc8e1fb0548999.bin
+	new file:   UnityTutorial/TouchScreen/New Unity Project/Library/ShaderCache/c/cfec2535ebb92f0103e2276c3bbc5bd5.bin
+	new file:   UnityTutorial/TouchScreen/New Unity Project/Library/ShaderCache/d/d1079cc7674488715c4028e742b406fc.bin
+	new file:   UnityTutorial/TouchScreen/New Unity Project/Library/ShaderCache/d/d11caadab289464abd09bfb541759886.bin
+	new file:   UnityTutorial/TouchScreen/New Unity Project/Library/ShaderCache/d/d19a066a22c3d6876dd08c70d02513b9.bin
+	new file:   UnityTutorial/TouchScreen/New Unity Project/Library/ShaderCache/d/d262b794044d7016a83c25d22ca69511.bin
+	new file:   UnityTutorial/TouchScreen/New Unity Project/Library/ShaderCache/d/d27ce38c4e6091f8795470a756f69887.bin
+	new file:   UnityTutorial/TouchScreen/New Unity Project/Library/ShaderCache/d/d351863a606e218c907190dc8fda779d.bin
+	new file:   UnityTutorial/TouchScreen/New Unity Project/Library/ShaderCache/d/d3fd11a02680ead62feb2c5006619a78.bin
+	new file:   UnityTutorial/TouchScreen/New Unity Project/Library/ShaderCache/d/d52181569587e0007bce28f78e78bcd5.bin
+	new file:   UnityTutorial/TouchScreen/New Unity Project/Library/ShaderCache/d/d522d48152dec819cc99a4b7db4f4c32.bin
+	new file:   UnityTutorial/TouchScreen/New Unity Project/Library/ShaderCache/d/d598194c5fd3e9cb1e2c38bfe3b4d1b5.bin
+	new file:   UnityTutorial/TouchScreen/New Unity Project/Library/ShaderCache/d/d5d4d8904df9e45b7c89e00891e938d4.bin
+	new file:   UnityTutorial/TouchScreen/New Unity Project/Library/ShaderCache/d/d6a0a0f3e4652790ee3f2d72eb7a87de.bin
+	new file:   UnityTutorial/TouchScreen/New Unity Project/Library/ShaderCache/d/d6ee6ccda70a40d280de5618388c38b4.bin
+	new file:   UnityTutorial/TouchScreen/New Unity Project/Library/ShaderCache/d/d705116fd1122efcf4955aff99887031.bin
+	new file:   UnityTutorial/TouchScreen/New Unity Project/Library/ShaderCache/d/d7423ccc1651294ea3cadea43becf167.bin
+	new file:   UnityTutorial/TouchScreen/New Unity Project/Library/ShaderCache/d/d76fc945cffc587ba67de46e9bf09f57.bin
+	new file:   UnityTutorial/TouchScreen/New Unity Project/Library/ShaderCache/d/d7c347b392d51b47f5051665141fec8b.bin
+	new file:   UnityTutorial/TouchScreen/New Unity Project/Library/ShaderCache/d/d84fb1897039e99aa3cd8e992addb09b.bin
+	new file:   UnityTutorial/TouchScreen/New Unity Project/Library/ShaderCache/d/d9415a5a634995cc9ae27c323eead34a.bin
+	new file:   UnityTutorial/TouchScreen/New Unity Project/Library/ShaderCache/d/d9a0ec3abd26c51c9eea3c1ad2c7ed89.bin
+	new file:   UnityTutorial/TouchScreen/New Unity Project/Library/ShaderCache/d/da397f872e1035b91cefe77741204326.bin
+	new file:   UnityTutorial/TouchScreen/New Unity Project/Library/ShaderCache/d/da89626d9b7428b6e4a8544606c9d402.bin
+	new file:   UnityTutorial/TouchScreen/New Unity Project/Library/ShaderCache/d/da9a09850a17817da08c3b7ba36c11f3.bin
+	new file:   UnityTutorial/TouchScreen/New Unity Project/Library/ShaderCache/d/db4cfd5fa95f9712f624a901b077a782.bin
+	new file:   UnityTutorial/TouchScreen/New Unity Project/Library/ShaderCache/d/db88845d109980d1d746b41d12e8602e.bin
+	new file:   UnityTutorial/TouchScreen/New Unity Project/Library/ShaderCache/d/dced5310a239db5198fcef02ec4178a6.bin
+	new file:   UnityTutorial/TouchScreen/New Unity Project/Library/ShaderCache/d/dd497700ea482d99d766400c56d4cf95.bin
+	new file:   UnityTutorial/TouchScreen/New Unity Project/Library/ShaderCache/d/dd9c59fb22a5c7385a90516b85f00b0b.bin
+	new file:   UnityTutorial/TouchScreen/New Unity Project/Library/ShaderCache/d/de4e054922330cd40a6132bb1e817c79.bin
+	new file:   UnityTutorial/TouchScreen/New Unity Project/Library/ShaderCache/d/de6ef34c7037c837271716b6ecd553f6.bin
+	new file:   UnityTutorial/TouchScreen/New Unity Project/Library/ShaderCache/d/de7b5b39b9e8ab387776c0cb7619db04.bin
+	new file:   UnityTutorial/TouchScreen/New Unity Project/Library/ShaderCache/d/df8122ac86d0629882619208bcca16c3.bin
+	new file:   UnityTutorial/TouchScreen/New Unity Project/Library/ShaderCache/e/e09f1ea96a6ffcc79f7c6c73237cab3a.bin
+	new file:   UnityTutorial/TouchScreen/New Unity Project/Library/ShaderCache/e/e0c38014fa317899474d035b39aa3fb3.bin
+	new file:   UnityTutorial/TouchScreen/New Unity Project/Library/ShaderCache/e/e105ea3805822de9acb94e120d335622.bin
+	new file:   UnityTutorial/TouchScreen/New Unity Project/Library/ShaderCache/e/e12a3541908882e7d411d3c7be3d71e5.bin
+	new file:   UnityTutorial/TouchScreen/New Unity Project/Library/ShaderCache/e/e17c2d8c3bda0437d86aefd0e2c08b98.bin
+	new file:   UnityTutorial/TouchScreen/New Unity Project/Library/ShaderCache/e/e1cd3f0a0dfac459ccdc04969cc44892.bin
+	new file:   UnityTutorial/TouchScreen/New Unity Project/Library/ShaderCache/e/e1cd8e9ce4955a0e7c0f4a293ebdd131.bin
+	new file:   UnityTutorial/TouchScreen/New Unity Project/Library/ShaderCache/e/e20d5f9d1e4125b3f4f2f3d1780158b6.bin
+	new file:   UnityTutorial/TouchScreen/New Unity Project/Library/ShaderCache/e/e2a777002583d4fef4cb7012eb1c3e5b.bin
+	new file:   UnityTutorial/TouchScreen/New Unity Project/Library/ShaderCache/e/e2ae74bf972bff71d4a32e3c246cdb85.bin
+	new file:   UnityTutorial/TouchScreen/New Unity Project/Library/ShaderCache/e/e3613230a944c312179774891b0bd341.bin
+	new file:   UnityTutorial/TouchScreen/New Unity Project/Library/ShaderCache/e/e3866c572e9a7e9547ece920b96a1fc6.bin
+	new file:   UnityTutorial/TouchScreen/New Unity Project/Library/ShaderCache/e/e4862ed59bbba37c6d5b6bc0d13faf3f.bin
+	new file:   UnityTutorial/TouchScreen/New Unity Project/Library/ShaderCache/e/e48f9b1f452faee7ee4f533cc88e1544.bin
+	new file:   UnityTutorial/TouchScreen/New Unity Project/Library/ShaderCache/e/e4a27f7117040ee61293d70f6717a383.bin
+	new file:   UnityTutorial/TouchScreen/New Unity Project/Library/ShaderCache/e/e4c74b24c0359886c8d116ce9770e599.bin
+	new file:   UnityTutorial/TouchScreen/New Unity Project/Library/ShaderCache/e/e51dee1339db48f5ebaf7b5b5c22f3bf.bin
+	new file:   UnityTutorial/TouchScreen/New Unity Project/Library/ShaderCache/e/e6293c7614b874bb7ac5343832118416.bin
+	new file:   UnityTutorial/TouchScreen/New Unity Project/Library/ShaderCache/e/e82e0c6a7214563b65172104c0130ca5.bin
+	new file:   UnityTutorial/TouchScreen/New Unity Project/Library/ShaderCache/e/e887a548164e137c2e7458e23d969268.bin
+	new file:   UnityTutorial/TouchScreen/New Unity Project/Library/ShaderCache/e/e9b0c43975d4781f891940ec808ddd8c.bin
+	new file:   UnityTutorial/TouchScreen/New Unity Project/Library/ShaderCache/e/eac1736d2c66e3812cd1a1f5bbc90aec.bin
+	new file:   UnityTutorial/TouchScreen/New Unity Project/Library/ShaderCache/e/ebc050c1c578ef421da03dbb8940eb84.bin
+	new file:   UnityTutorial/TouchScreen/New Unity Project/Library/ShaderCache/e/ebd282214fe8b722951773af72636dbc.bin
+	new file:   UnityTutorial/TouchScreen/New Unity Project/Library/ShaderCache/e/ec0a503e24e6d2bde209fdb79128430f.bin
+	new file:   UnityTutorial/TouchScreen/New Unity Project/Library/ShaderCache/e/ecc1be1d8fd2911e416035cf10e4d8c8.bin
+	new file:   UnityTutorial/TouchScreen/New Unity Project/Library/ShaderCache/e/ecdacdf78ed6f42ccecc16e5dc5c6951.bin
+	new file:   UnityTutorial/TouchScreen/New Unity Project/Library/ShaderCache/e/ede04b455b7871d63b94236e4ee3e484.bin
+	new file:   UnityTutorial/TouchScreen/New Unity Project/Library/ShaderCache/e/eec90077a4f37308d1ee392a16dcac48.bin
+	new file:   UnityTutorial/TouchScreen/New Unity Project/Library/ShaderCache/e/eef901ee5f8da2ac49728b4faad90409.bin
+	new file:   UnityTutorial/TouchScreen/New Unity Project/Library/ShaderCache/f/f0ed6cfa6e1ec85667f8e833a7299d9f.bin
+	new file:   UnityTutorial/TouchScreen/New Unity Project/Library/ShaderCache/f/f1a576eafa149b37008f8558b2611620.bin
+	new file:   UnityTutorial/TouchScreen/New Unity Project/Library/ShaderCache/f/f272be69ceb346f2ac71a32aff4301a7.bin
+	new file:   UnityTutorial/TouchScreen/New Unity Project/Library/ShaderCache/f/f2c3216e8ec27041dd7e4ff4bc35ec46.bin
+	new file:   UnityTutorial/TouchScreen/New Unity Project/Library/ShaderCache/f/f2cd3f58f38bfb4ccc4cd785d5cd378b.bin
+	new file:   UnityTutorial/TouchScreen/New Unity Project/Library/ShaderCache/f/f38f0dc3f2324972f0b5422f207e1d3f.bin
+	new file:   UnityTutorial/TouchScreen/New Unity Project/Library/ShaderCache/f/f3ce705bd50cb3ac4a2c9c0db624d70d.bin
+	new file:   UnityTutorial/TouchScreen/New Unity Project/Library/ShaderCache/f/f3fa1958e76ad9967411f5d5117d983f.bin
+	new file:   UnityTutorial/TouchScreen/New Unity Project/Library/ShaderCache/f/f4210b1bb89080857bc1e5cb40468fe5.bin
+	new file:   UnityTutorial/TouchScreen/New Unity Project/Library/ShaderCache/f/f4e3bb00d4488b9bea05e013c92482e1.bin
+	new file:   UnityTutorial/TouchScreen/New Unity Project/Library/ShaderCache/f/f51b359e0b1da4f187c624483d1b49e0.bin
+	new file:   UnityTutorial/TouchScreen/New Unity Project/Library/ShaderCache/f/f5389be90eb65e3697205d776552762e.bin
+	new file:   UnityTutorial/TouchScreen/New Unity Project/Library/ShaderCache/f/f6a81892d3145b8c26ecda8e58a24ee8.bin
+	new file:   UnityTutorial/TouchScreen/New Unity Project/Library/ShaderCache/f/f6c0f32cb04bb6626ee051b03b783bab.bin
+	new file:   UnityTutorial/TouchScreen/New Unity Project/Library/ShaderCache/f/f7abba04007ccff6837cef18d95193fe.bin
+	new file:   UnityTutorial/TouchScreen/New Unity Project/Library/ShaderCache/f/f7fe1f0b7fac29ca86dccb53f5959fed.bin
+	new file:   UnityTutorial/TouchScreen/New Unity Project/Library/ShaderCache/f/fa4ee33756760b1eb60be31744b0c74a.bin
+	new file:   UnityTutorial/TouchScreen/New Unity Project/Library/ShaderCache/f/fa59d92134495b6c307fdbfc8c189ccf.bin
+	new file:   UnityTutorial/TouchScreen/New Unity Project/Library/ShaderCache/f/fa5c92be328c265f00172a83bb5633a4.bin
+	new file:   UnityTutorial/TouchScreen/New Unity Project/Library/ShaderCache/f/faebc67ec28754e2aad39da048de8893.bin
+	new file:   UnityTutorial/TouchScreen/New Unity Project/Library/ShaderCache/f/fb845c0d1e7066a88f86220d05c786d8.bin
+	new file:   UnityTutorial/TouchScreen/New Unity Project/Library/ShaderCache/f/fbd9ef683b17de40a8bfd2de3f72ac8d.bin
+	new file:   UnityTutorial/TouchScreen/New Unity Project/Library/ShaderCache/f/fc05501a58f2a45c445b03f6dd6a10eb.bin
+	new file:   UnityTutorial/TouchScreen/New Unity Project/Library/ShaderCache/f/fce46147d520591884855174bc9bfdd0.bin
+	new file:   UnityTutorial/TouchScreen/New Unity Project/Library/ShaderCache/f/fdd7d7bb830a02a343de8e11324f3acf.bin
+	new file:   UnityTutorial/TouchScreen/New Unity Project/Library/ShaderCache/f/ff31662adc005c5797cba50e453058c2.bin
+	new file:   UnityTutorial/TouchScreen/New Unity Project/Library/ShaderCache/f/ff6fe2e3da6b937e3de61957e31886d0.bin
+	new file:   UnityTutorial/TouchScreen/New Unity Project/Library/assetDatabase3
+	new file:   UnityTutorial/TouchScreen/New Unity Project/Library/expandedItems
+	new file:   UnityTutorial/TouchScreen/New Unity Project/Library/metadata/00/00000000000000001000000000000000
+	new file:   UnityTutorial/TouchScreen/New Unity Project/Library/metadata/00/00000000000000001000000000000000.info
+	new file:   UnityTutorial/TouchScreen/New Unity Project/Library/metadata/00/00000000000000002000000000000000
+	new file:   UnityTutorial/TouchScreen/New Unity Project/Library/metadata/00/00000000000000002000000000000000.info
+	new file:   UnityTutorial/TouchScreen/New Unity Project/Library/metadata/00/00000000000000003000000000000000
+	new file:   UnityTutorial/TouchScreen/New Unity Project/Library/metadata/00/00000000000000003000000000000000.info
+	new file:   UnityTutorial/TouchScreen/New Unity Project/Library/metadata/00/00000000000000004000000000000000
+	new file:   UnityTutorial/TouchScreen/New Unity Project/Library/metadata/00/00000000000000004000000000000000.info
+	new file:   UnityTutorial/TouchScreen/New Unity Project/Library/metadata/00/00000000000000004100000000000000
+	new file:   UnityTutorial/TouchScreen/New Unity Project/Library/metadata/00/00000000000000004100000000000000.info
+	new file:   UnityTutorial/TouchScreen/New Unity Project/Library/metadata/00/00000000000000005000000000000000
+	new file:   UnityTutorial/TouchScreen/New Unity Project/Library/metadata/00/00000000000000005000000000000000.info
+	new file:   UnityTutorial/TouchScreen/New Unity Project/Library/metadata/00/00000000000000005100000000000000
+	new file:   UnityTutorial/TouchScreen/New Unity Project/Library/metadata/00/00000000000000005100000000000000.info
+	new file:   UnityTutorial/TouchScreen/New Unity Project/Library/metadata/00/00000000000000006000000000000000
+	new file:   UnityTutorial/TouchScreen/New Unity Project/Library/metadata/00/00000000000000006000000000000000.info
+	new file:   UnityTutorial/TouchScreen/New Unity Project/Library/metadata/00/00000000000000006100000000000000
+	new file:   UnityTutorial/TouchScreen/New Unity Project/Library/metadata/00/00000000000000006100000000000000.info
+	new file:   UnityTutorial/TouchScreen/New Unity Project/Library/metadata/00/00000000000000007000000000000000
+	new file:   UnityTutorial/TouchScreen/New Unity Project/Library/metadata/00/00000000000000007000000000000000.info
+	new file:   UnityTutorial/TouchScreen/New Unity Project/Library/metadata/00/00000000000000008000000000000000
+	new file:   UnityTutorial/TouchScreen/New Unity Project/Library/metadata/00/00000000000000008000000000000000.info
+	new file:   UnityTutorial/TouchScreen/New Unity Project/Library/metadata/00/00000000000000008100000000000000
+	new file:   UnityTutorial/TouchScreen/New Unity Project/Library/metadata/00/00000000000000008100000000000000.info
+	new file:   UnityTutorial/TouchScreen/New Unity Project/Library/metadata/00/00000000000000009000000000000000
+	new file:   UnityTutorial/TouchScreen/New Unity Project/Library/metadata/00/00000000000000009000000000000000.info
+	new file:   UnityTutorial/TouchScreen/New Unity Project/Library/metadata/00/00000000000000009100000000000000
+	new file:   UnityTutorial/TouchScreen/New Unity Project/Library/metadata/00/00000000000000009100000000000000.info
+	new file:   UnityTutorial/TouchScreen/New Unity Project/Library/metadata/00/0000000000000000a000000000000000
+	new file:   UnityTutorial/TouchScreen/New Unity Project/Library/metadata/00/0000000000000000a000000000000000.info
+	new file:   UnityTutorial/TouchScreen/New Unity Project/Library/metadata/00/0000000000000000b000000000000000
+	new file:   UnityTutorial/TouchScreen/New Unity Project/Library/metadata/00/0000000000000000b000000000000000.info
+	new file:   UnityTutorial/TouchScreen/New Unity Project/Library/metadata/00/0000000000000000c000000000000000
+	new file:   UnityTutorial/TouchScreen/New Unity Project/Library/metadata/00/0000000000000000c000000000000000.info
+	new file:   UnityTutorial/TouchScreen/New Unity Project/Library/metadata/4b/4bacd22383b25094bb940ecb0340074f
+	new file:   UnityTutorial/TouchScreen/New Unity Project/Library/metadata/4b/4bacd22383b25094bb940ecb0340074f.info
+	new file:   UnityTutorial/TouchScreen/New Unity Project/Library/metadata/5f/5f32cd94baa94578a686d4b9d6b660f7
+	new file:   UnityTutorial/TouchScreen/New Unity Project/Library/metadata/5f/5f32cd94baa94578a686d4b9d6b660f7.info
+	new file:   UnityTutorial/TouchScreen/New Unity Project/Library/metadata/73/739bbd9f364b4268874f9fd86ab3beef
+	new file:   UnityTutorial/TouchScreen/New Unity Project/Library/metadata/73/739bbd9f364b4268874f9fd86ab3beef.info
+	new file:   UnityTutorial/TouchScreen/New Unity Project/Library/metadata/80/80a3616ca19596e4da0f10f14d241e9f
+	new file:   UnityTutorial/TouchScreen/New Unity Project/Library/metadata/80/80a3616ca19596e4da0f10f14d241e9f.info
+	new file:   UnityTutorial/TouchScreen/New Unity Project/Library/metadata/85/852e56802eb941638acbb491814497b0
+	new file:   UnityTutorial/TouchScreen/New Unity Project/Library/metadata/85/852e56802eb941638acbb491814497b0.info
+	new file:   UnityTutorial/TouchScreen/New Unity Project/Library/metadata/87/870353891bb340e2b2a9c8707e7419ba
+	new file:   UnityTutorial/TouchScreen/New Unity Project/Library/metadata/87/870353891bb340e2b2a9c8707e7419ba.info
+	new file:   UnityTutorial/TouchScreen/New Unity Project/Library/metadata/97/97decbdab0634cdd991f8d23ddf0dead
+	new file:   UnityTutorial/TouchScreen/New Unity Project/Library/metadata/97/97decbdab0634cdd991f8d23ddf0dead.info
+	new file:   UnityTutorial/TouchScreen/New Unity Project/Library/metadata/e5/e597ac61f6e921b42b578da0a56b283b
+	new file:   UnityTutorial/TouchScreen/New Unity Project/Library/metadata/e5/e597ac61f6e921b42b578da0a56b283b.info
+	new file:   UnityTutorial/TouchScreen/New Unity Project/Library/metadata/e9/e92bf17a96305694d8e72eab5d5d18d4
+	new file:   UnityTutorial/TouchScreen/New Unity Project/Library/metadata/e9/e92bf17a96305694d8e72eab5d5d18d4.info
+	new file:   UnityTutorial/TouchScreen/New Unity Project/Library/metadata/f5/f5f67c52d1564df4a8936ccd202a3bd8
+	new file:   UnityTutorial/TouchScreen/New Unity Project/Library/metadata/f5/f5f67c52d1564df4a8936ccd202a3bd8.info
+	new file:   UnityTutorial/TouchScreen/New Unity Project/Library/metadata/ff/ffbc7be4deb7684498cb411f285b7d4d
+	new file:   UnityTutorial/TouchScreen/New Unity Project/Library/metadata/ff/ffbc7be4deb7684498cb411f285b7d4d.info
+	new file:   UnityTutorial/TouchScreen/New Unity Project/Library/shadercompiler-32bit-1.log
+	new file:   UnityTutorial/TouchScreen/New Unity Project/Library/shadercompiler-32bit-2.log
+	new file:   UnityTutorial/TouchScreen/New Unity Project/Library/shadercompiler-64bit-1.log
+	new file:   UnityTutorial/TouchScreen/New Unity Project/Library/shadercompiler-64bit-2.log
+	new file:   UnityTutorial/TouchScreen/New Unity Project/New Unity Project.sln
+	new file:   UnityTutorial/TouchScreen/New Unity Project/New Unity Project.userprefs
+	new file:   UnityTutorial/TouchScreen/New Unity Project/ProjectSettings/AudioManager.asset
+	new file:   UnityTutorial/TouchScreen/New Unity Project/ProjectSettings/DynamicsManager.asset
+	new file:   UnityTutorial/TouchScreen/New Unity Project/ProjectSettings/EditorBuildSettings.asset
+	new file:   UnityTutorial/TouchScreen/New Unity Project/ProjectSettings/EditorSettings.asset
+	new file:   UnityTutorial/TouchScreen/New Unity Project/ProjectSettings/GraphicsSettings.asset
+	new file:   UnityTutorial/TouchScreen/New Unity Project/ProjectSettings/InputManager.asset
+	new file:   UnityTutorial/TouchScreen/New Unity Project/ProjectSettings/NavMeshAreas.asset
+	new file:   UnityTutorial/TouchScreen/New Unity Project/ProjectSettings/NetworkManager.asset
+	new file:   UnityTutorial/TouchScreen/New Unity Project/ProjectSettings/Physics2DSettings.asset
+	new file:   UnityTutorial/TouchScreen/New Unity Project/ProjectSettings/ProjectSettings.asset
+	new file:   UnityTutorial/TouchScreen/New Unity Project/ProjectSettings/ProjectVersion.txt
+	new file:   UnityTutorial/TouchScreen/New Unity Project/ProjectSettings/QualitySettings.asset
+	new file:   UnityTutorial/TouchScreen/New Unity Project/ProjectSettings/TagManager.asset
+	new file:   UnityTutorial/TouchScreen/New Unity Project/ProjectSettings/TimeManager.asset
+	new file:   UnityTutorial/TouchScreen/New Unity Project/ProjectSettings/UnityAdsSettings.asset
+	new file:   UnityTutorial/TouchScreen/New Unity Project/ProjectSettings/UnityAnalyticsManager.asset
+	new file:   UnityTutorial/TouchScreen/New Unity Project/TouchScreenTutorial.apk
+	new file:   readme.txt
+
+
