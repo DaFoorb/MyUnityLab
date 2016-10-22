@@ -15,7 +15,7 @@ public class CameraBehavior : MonoBehaviour {
 
 	public GameObject go_mainCharacter ;
 	public GameObject go_level ;
-	public Text t_text ;
+	//public Text t_text ;
 
 	// Use this for initialization
 	void Start () {
@@ -58,7 +58,7 @@ public class CameraBehavior : MonoBehaviour {
 				go_mainCharacter.transform.position.z - posZ
 			);
 
-			t_text.text = "Camera mode 1 : Follow behind";
+			//t_text.text = "Camera mode 1 : Follow behind";
 
 			break ;
 		case 2:
@@ -68,7 +68,7 @@ public class CameraBehavior : MonoBehaviour {
 				go_mainCharacter.transform.position.y + posY,
 				go_mainCharacter.transform.position.z - posZ
 			);
-			t_text.text = "Camera mode 2 : Turn around";
+			//t_text.text = "Camera mode 2 : Turn around";
 			break ;
 		case 3:
 			break ;
