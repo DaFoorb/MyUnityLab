@@ -1,6 +1,10 @@
 ﻿using UnityEngine;
 using System.Collections;
 
+/************************************
+ * CODE POUR PLATEFORME MOBILE
+ ************************************/
+
 public class QTE : MonoBehaviour {
 
 	enum en_stateQTE {
@@ -49,17 +53,18 @@ public class QTE : MonoBehaviour {
 	
 	// Update is called once per frame
 	void Update () {
-		if (b_isQTEStarted) {
+		if (b_isQTEStarted)
+		{
 			stateQTEHandle () ;
 			resultQTEHandle () ;
 
 			f_countdown-= Time.deltaTime ;
-		} else {
+		} else
+		{
 			f_timeBeforeQTE-= Time.deltaTime ;
 
-			if (f_timeBeforeQTE < 0.0f) {
+			if (f_timeBeforeQTE < 0.0f)
 				b_isQTEStarted= true ;
-			}
 		}
 	}
 
@@ -67,13 +72,13 @@ public class QTE : MonoBehaviour {
 	// Trigger during OnTouchDown
 	void OnTouchDown () {
 		if(currentState == en_stateQTE.Start) {
-		   	if (Input.touchCount == 1) {
+		   	if (Input.touchCount == 1)
 				b_isPlayerPressed= true ;
-			} else if (Input.touchCount > 1) {
+			else if (Input.touchCount > 1)
+			{
 				b_isPlayerPressedBefore= true ;
 				b_isPlayerPressed= false ;
 			}
-
 		}
 	}
 
@@ -83,11 +88,10 @@ public class QTE : MonoBehaviour {
 	void stateQTEHandle () {
 
 		// SLEEP
-		if (currentState == en_stateQTE.Sleep) {
-
-			if (b_isQTEStarted) {
+		if (currentState == en_stateQTE.Sleep)
+		{
+			if (b_isQTEStarted)
 				currentState= en_stateQTE.Start ;
-			}
 		}
 
 		// START
@@ -95,23 +99,22 @@ public class QTE : MonoBehaviour {
 
 			mat.color= QTEColor ;
 			if (b_isPlayerPressed 
-			    && !b_isPlayerPressedBefore) {
-
-				if (f_countdown > 0.0f) {
-
+			    && !b_isPlayerPressedBefore)
+			{
+				if (f_countdown > 0.0f)
+				{
 					currentState= en_stateQTE.End ;
 					currentResult= en_resultQTE.Successuf ;
 				} 
-			} else if (f_countdown <= 0.0f) {
-				
+			} else if (f_countdown <= 0.0f)
 				currentState= en_stateQTE.End ;
-			}
 		}
 
 		// END
 		if (currentState == en_stateQTE.End) {
 
-			if (currentResult == en_resultQTE.NoResult) {
+			if (currentResult == en_resultQTE.NoResult)
+			{
 				currentResult= en_resultQTE.Failure ;
 				b_isQTEStarted= false ;
 			}
@@ -123,12 +126,10 @@ public class QTE : MonoBehaviour {
 	// Gestion du résultat du QTE
 	void resultQTEHandle () {
 
-		if (currentResult == en_resultQTE.Successuf) {
+		if (currentResult == en_resultQTE.Successuf)
 			mat.color= successColor ;
-		}
 
-		if (currentResult == en_resultQTE.Failure) {
+		if (currentResult == en_resultQTE.Failure)
 			mat.color= failColor ;	
-		}
 	}
 }
