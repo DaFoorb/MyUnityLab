@@ -2,8 +2,6 @@
 using System.Collections;
 
 
-
-
 public class Controller : MonoBehaviour {
 
 	public int i_vitesse ;
@@ -22,13 +20,14 @@ public class Controller : MonoBehaviour {
 	/// Handle movement of the charactere (square).
 	void Move ()
 	{
-		if (Input.GetKey ("right")) {
+		if (Input.GetKey ("right"))
+		{
 			this.transform.position = new Vector3 (this.transform.position.x + i_vitesse * Time.deltaTime, 
 				this.transform.position.y, 
 				this.transform.position.z);
 			go_player.GetComponent<Player> ().setDirectionCourrante (Direction.DIRECTION_DROITE);
-		} else if (Input.GetKey ("left")) {
-
+		} else if (Input.GetKey ("left"))
+		{
 			this.transform.position = new Vector3 (this.transform.position.x - i_vitesse * Time.deltaTime, 
 				this.transform.position.y, 
 				this.transform.position.z);
@@ -38,6 +37,14 @@ public class Controller : MonoBehaviour {
 			go_player.GetComponent<Player> ().setDirectionCourrante (Direction.DIRECTION_INDEFINIE);
 		}
 			
+	}
+
+
+	public
+	int 
+	getVitesse()
+	{
+		return i_vitesse;
 	}
 
 }

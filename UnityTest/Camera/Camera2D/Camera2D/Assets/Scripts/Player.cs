@@ -1,9 +1,8 @@
 ﻿using UnityEngine;
 using System.Collections;
 
-// [RequireComponent(typeof(Controller2D))]
-
-public enum Direction {
+public enum Direction
+{
 	DIRECTION_INDEFINIE,
 	DIRECTION_DROITE, 
 	DIRECTION_GAUCHE
@@ -11,14 +10,18 @@ public enum Direction {
 
 public class Player : MonoBehaviour {
 
+	/*** Variables membres ***/
 	Direction m_eDirectionCourrante ;
 
+	/*** Fonctions ***/
 	void Start()
 	{
 		m_eDirectionCourrante = Direction.DIRECTION_INDEFINIE;
 	}
 		
 	/*** Getters/Setters ***/
+
+	// Met à jour la direction du personnage
 	public
 	void
 	setDirectionCourrante(Direction p_nouvelleDirection)
@@ -26,24 +29,11 @@ public class Player : MonoBehaviour {
 		m_eDirectionCourrante = p_nouvelleDirection;
 	}
 
+	// Récupère la direction courrante du personnage
 	public
 	Direction
 	getDirectionCourrante()
 	{
 		return m_eDirectionCourrante;
 	}
-
-	/*** Controle ***/
-//	void InputPC()
-//	{
-//		if (Input.GetKey("left"))
-//		{
-//			GetComponent<Rigidbody>().AddForce (-Vector3.forward);
-//		}
-//		else if (Input.GetKey("right"))
-//		{
-//			GetComponent<Rigidbody>().AddForce (Vector3.forward);
-//		}
-//	}
-
 }

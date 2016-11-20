@@ -5,29 +5,32 @@ using System.Collections;
 public class CameraBehavior : MonoBehaviour {
 
 	/*** Publique ***/
-	public int m_iVitesse;
+	public float m_fDistanceCentreBord ; // Définit la distance entre le centre de l'écran et les bords qui seront "push" par le joueur
+	public float m_fDistanceJoueurEnZ ; // Définir la distance entre la caméra et le joueur (profondeur).
+	public float m_fDistanceJoueurEnY ; // Définir la distance entre la caméra et le joueur (hauteur).
 
 	/*** Privée ***/
 	GameObject go_player ;
-	float m_fDistanceJoueurEnZ ;
-	float m_fDistanceCentreBord ;
+	GameObject go_toLookAt ;
+
+	int m_iVitesse ;
+
 	Vector3 m_v3CentreCamera ;
 	Vector3 m_v3LimiteDroite ;
 	Vector3 m_v3LimiteGauche ;
 
 	/***********************************************************/
-
 	/*** Fonctions***/
 	// Use this for initialization
 	void
 	Start ()
 	{
-		m_iVitesse = 8;
 		go_player= GameObject.FindGameObjectWithTag ("Player") ;
+		go_toLookAt= GameObject.FindGameObjectWithTag ("toLookat") ;
 
-		m_fDistanceJoueurEnZ = 15.0f;
-		m_fDistanceCentreBord = 3.0f;
+		m_iVitesse= go_player.GetComponent<Controller>().getVitesse();
 
+		initialiserPositionToLookAt ();
 		initialiserPositionCamera ();
 	}
 	
@@ -35,8 +38,13 @@ public class CameraBehavior : MonoBehaviour {
 	void 
 	Update ()
 	{
-		miseAJourSpeedupPushZoneBords ();
+		test_positionCamera ();
+
 		m_v3CentreCamera = new Vector3(this.transform.position.x, this.transform.position.y, this.transform.position.z + m_fDistanceJoueurEnZ);
+		transform.LookAt(go_toLookAt.transform);
+
+		mettreAJourPositionToLookAt ();
+		setSpeedupPushZoneBords ();
 		speedup_push_zone () ;
 	}
 		
@@ -49,15 +57,33 @@ public class CameraBehavior : MonoBehaviour {
 		transform.rotation = new Quaternion(0, 0, 0, 1.0f);
 	}
 
-	void miseAJourSpeedupPushZoneBords ()
+	// Initialise la position de l'objet à "look at"
+	void 
+	initialiserPositionToLookAt()
+	{
+		go_toLookAt.transform.position= new Vector3(this.transform.position.x, 
+			1, 
+			this.transform.position.z + m_fDistanceJoueurEnZ);
+	}
+
+	void
+	mettreAJourPositionToLookAt()
+	{
+		go_toLookAt.transform.position= new Vector3(go_toLookAt.transform.position.y + m_iVitesse * Time.deltaTime, 
+			go_toLookAt.transform.position.y, 
+			go_toLookAt.transform.position.z + m_fDistanceJoueurEnZ);
+	}
+
+	// Met à jour les bords pour le speedup push
+	void 
+	setSpeedupPushZoneBords ()
 	{
 		m_v3LimiteDroite = m_v3CentreCamera + new Vector3 (m_fDistanceCentreBord, 0.0f, 0.0f);
 		m_v3LimiteGauche = m_v3CentreCamera + new Vector3 (-m_fDistanceCentreBord, 0.0f, 0.0f);
 	}
 
-	/// <summary>
+
 	/// une zone est définie par un bord. Le côté de droite fait bouger la camera lorsque le personnage la touche.
-	/// </summary>
 	void 
 	speedup_push_zone ()
 	{
@@ -97,6 +123,15 @@ public class CameraBehavior : MonoBehaviour {
 				// TO DO
 			}
 		} 
+	}
+
+	/*** Fonctions de tests ***/
+	void
+	test_positionCamera ()
+	{
+		transform.position = new Vector3 (transform.position.x,
+			m_fDistanceJoueurEnY,
+			-m_fDistanceJoueurEnZ);
 	}
 
 	/*** Debug ***/
