@@ -1,4 +1,0 @@
-sceneSetups:
-- path: Assets/cmaera2d.unity
-  isLoaded: 1
-  isActive: 1
