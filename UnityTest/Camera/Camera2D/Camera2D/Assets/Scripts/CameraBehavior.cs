@@ -38,14 +38,16 @@ public class CameraBehavior : MonoBehaviour {
 	void 
 	Update ()
 	{
-		test_positionCamera ();
+		/******/
+		// A supprimer une fois la vitesse définie après nos tests.
+		if (m_iVitesse != go_player.GetComponent<Controller> ().getVitesse ())
+			m_iVitesse = go_player.GetComponent<Controller> ().getVitesse ();
 
 		m_v3CentreCamera = new Vector3(this.transform.position.x, this.transform.position.y, this.transform.position.z + m_fDistanceJoueurEnZ);
-		transform.LookAt(go_toLookAt.transform);
 
-		mettreAJourPositionToLookAt ();
 		setSpeedupPushZoneBords ();
 		speedup_push_zone () ;
+		transform.LookAt(go_toLookAt.transform);
 	}
 		
 	/*** Gestion Camera ***/
@@ -53,25 +55,34 @@ public class CameraBehavior : MonoBehaviour {
 	void
 	initialiserPositionCamera ()
 	{
-		transform.position = new Vector3 (0.1f, 3.0f, go_player.transform.position.z - m_fDistanceJoueurEnZ);
+		transform.position = new Vector3 (0.1f, m_fDistanceJoueurEnY, go_player.transform.position.z - m_fDistanceJoueurEnZ);
 		transform.rotation = new Quaternion(0, 0, 0, 1.0f);
 	}
 
 	// Initialise la position de l'objet à "look at"
 	void 
-	initialiserPositionToLookAt()
+	initialiserPositionToLookAt ()
 	{
-		go_toLookAt.transform.position= new Vector3(this.transform.position.x, 
+		go_toLookAt.transform.position= new Vector3(go_player.transform.position.x, 
 			1, 
-			this.transform.position.z + m_fDistanceJoueurEnZ);
+			go_player.transform.position.z);
 	}
 
+
+	// Met à jour la position en Z de la camera
+	public 
 	void
-	mettreAJourPositionToLookAt()
+	mettreAJourPositionCameraZ(Vector3 p_v3)
 	{
-		go_toLookAt.transform.position= new Vector3(go_toLookAt.transform.position.y + m_iVitesse * Time.deltaTime, 
+		transform.position+= p_v3;
+	}
+	// Met à jour la position de l'objet "toLookAt" 
+	void
+	mettreAJourPositionToLookAt (int p_iDirection)
+	{
+		go_toLookAt.transform.position= new Vector3(go_toLookAt.transform.position.x + m_iVitesse * Time.deltaTime * p_iDirection, 
 			go_toLookAt.transform.position.y, 
-			go_toLookAt.transform.position.z + m_fDistanceJoueurEnZ);
+			go_toLookAt.transform.position.z);
 	}
 
 	// Met à jour les bords pour le speedup push
@@ -96,15 +107,14 @@ public class CameraBehavior : MonoBehaviour {
 		{
 			if (Direction.DIRECTION_DROITE == directionCourrante)
 			{
+				mettreAJourPositionToLookAt (1);
+				
 				this.transform.position =
 					new Vector3 (this.transform.position.x + m_iVitesse * Time.deltaTime, 
-						this.transform.position.y,
-						this.transform.position.z);
-			}
-			// Si le joueur se trouve au bord du niveau
-			else if (Direction.DIRECTION_GAUCHE == directionCourrante)
-			{
-				// TO DO
+						m_fDistanceJoueurEnY,
+						go_player.transform.position.z - m_fDistanceJoueurEnZ);
+
+				//this.transform.LookAt (go_toLookAt.transform);
 			}
 		}
 
@@ -112,26 +122,14 @@ public class CameraBehavior : MonoBehaviour {
 		{
 			if (Direction.DIRECTION_GAUCHE == directionCourrante)
 			{
+				mettreAJourPositionToLookAt (-1);
+
 				this.transform.position =
 					new Vector3 (this.transform.position.x - m_iVitesse * Time.deltaTime, 
-						this.transform.position.y,
-						this.transform.position.z);
+						m_fDistanceJoueurEnY,
+						go_player.transform.position.z - m_fDistanceJoueurEnZ);
 			} 
-			// Si le joueur se trouve au bord du niveau
-			else if (Direction.DIRECTION_DROITE == directionCourrante)
-			{
-				// TO DO
-			}
 		} 
-	}
-
-	/*** Fonctions de tests ***/
-	void
-	test_positionCamera ()
-	{
-		transform.position = new Vector3 (transform.position.x,
-			m_fDistanceJoueurEnY,
-			-m_fDistanceJoueurEnZ);
 	}
 
 	/*** Debug ***/

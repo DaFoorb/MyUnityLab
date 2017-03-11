@@ -36,4 +36,20 @@ public class Player : MonoBehaviour {
 	{
 		return m_eDirectionCourrante;
 	}
+
+	public
+	string
+	getDirectionText(Direction direction)
+	{
+		string tmp;
+		if (direction == Direction.DIRECTION_INDEFINIE)
+			tmp = "DIRECTION_INDEFINIE";
+		else if (direction == Direction.DIRECTION_DROITE)
+			tmp = "DIRECTION_DROITE";
+		else if (direction == Direction.DIRECTION_GAUCHE)
+			tmp = "DIRECTION_GAUCHE";
+		else
+			tmp = "NULL";
+		return tmp;
+	}
 }
